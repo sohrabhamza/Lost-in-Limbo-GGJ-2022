@@ -1,0 +1,75 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DevilController : MonoBehaviour
+{
+    [Header("Variables")]
+    [SerializeField] float speed;
+    [SerializeField] float jumpHeight;
+    [SerializeField] Vector2 ZBounds = new Vector2(-5, 5);
+    //Serializer Refs
+    [Header("References")]
+    [SerializeField] SpriteRenderer devilSprite;
+    //Private Refs
+    CharacterController controller;
+
+    //Private vars
+    float x, z;
+    bool grounded;
+    Vector3 moveDirection;
+    bool jumping;
+
+    private void Start()
+    {
+        controller = GetComponent<CharacterController>();
+    }
+
+    private void Update()
+    {
+        MyInput();
+        devilSprite.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
+    }
+
+    void MyInput()
+    {
+        x = Input.GetAxisRaw("Horizontal");
+        z = Input.GetAxisRaw("Vertical");
+
+        jumping = Input.GetKey(KeyCode.Space);
+
+        if (Input.GetAxisRaw("Horizontal") > 0)
+        {
+            devilSprite.flipX = false;
+        }
+        else if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            devilSprite.flipX = true;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        Movement();
+    }
+
+    void Movement()
+    {
+        if (grounded)   //If player is grounded
+        {
+            moveDirection = new Vector3(x * speed, -.75f, z * speed);   //Set movement vector based on input
+            moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
+
+            if (jumping)    //If jump button pressed
+            {
+                moveDirection.y = jumpHeight;       //Make the player jump
+            }
+        }
+
+        moveDirection.y -= 10 * Time.deltaTime;     //Gravity
+
+        grounded = (controller.Move(moveDirection * Time.deltaTime) & CollisionFlags.Below) != 0;   //Check if grounded
+
+        transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.Clamp(transform.position.z, ZBounds.x, ZBounds.y));
+    }
+}
