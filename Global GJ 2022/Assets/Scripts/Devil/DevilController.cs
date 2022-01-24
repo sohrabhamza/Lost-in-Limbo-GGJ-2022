@@ -51,6 +51,7 @@ public class DevilController : MonoBehaviour
 
         // if velocity squared is greater than zero, trigger running animation
         devilAnimator.SetBool("isRunning", x * x + z * z > 0);
+
     }
 
     private void FixedUpdate()
@@ -68,8 +69,12 @@ public class DevilController : MonoBehaviour
             if (jumping)    //If jump button pressed
             {
                 moveDirection.y = jumpHeight;       //Make the player jump
+                devilAnimator.SetTrigger("Jumping");
             }
         }
+
+        devilAnimator.SetBool("isGrounded", grounded);
+        devilAnimator.SetFloat("YVelocity", moveDirection.y);
 
         moveDirection.y -= 10 * Time.deltaTime;     //Gravity
 
