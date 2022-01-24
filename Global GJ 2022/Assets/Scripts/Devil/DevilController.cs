@@ -11,6 +11,7 @@ public class DevilController : MonoBehaviour
     //Serializer Refs
     [Header("References")]
     [SerializeField] SpriteRenderer devilSprite;
+    [SerializeField] Animator devilAnimator;
     //Private Refs
     CharacterController controller;
 
@@ -23,6 +24,7 @@ public class DevilController : MonoBehaviour
     private void Start()
     {
         controller = GetComponent<CharacterController>();
+        devilAnimator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -46,6 +48,9 @@ public class DevilController : MonoBehaviour
         {
             devilSprite.flipX = true;
         }
+
+        // if velocity squared is greater than zero, trigger running animation
+        devilAnimator.SetBool("isRunning", x * x + z * z > 0);
     }
 
     private void FixedUpdate()
