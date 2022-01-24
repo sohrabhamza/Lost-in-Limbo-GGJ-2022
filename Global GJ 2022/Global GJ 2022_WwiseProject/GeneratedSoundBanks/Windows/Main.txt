@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2981377429	ambiance			\Default Work Unit\ambiance	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	242059429	ambiance	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Ambience, Underground, Tonal Hum, Water Flow Through Pipe, Piping, Heating, Airy, Weird 2 SND36961_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ambiance		3765632
+
