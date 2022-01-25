@@ -83,8 +83,9 @@ public class SpriteController : MonoBehaviour
         // if velocity squared is greater than zero, trigger running animation
         // devilAnimator.SetBool("isRunning", x * x + z * z > 0);
 
-        //Just set either GetAxisRaw or GetAxis to the blend tree
-        devilAnimator.SetFloat("Horizontal", Mathf.Abs(Input.GetAxis("Horizontal")));
+        //Just set either GetAxisRaw or GetAxis to the blend tree. 
+        //Multiplying by 2 to speed up 
+        devilAnimator.SetFloat("Horizontal", Mathf.Abs(Mathf.Clamp(Input.GetAxis("Horizontal") * 2, -1, 1)));
 
     }
 
@@ -104,12 +105,12 @@ public class SpriteController : MonoBehaviour
                 moveDirection = new Vector3(x * speed, -.75f, /*z * speed*/ 0);   //Set movement vector based on input
                 moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
 
-                groundInput = new Vector2(x, z);
+                groundInput = new Vector2(x, z);    //Using a vector2 so I don't have to reword everything if we include up down movement again
                 StartCoroutine(ResetJump());
             }
             else if (!grounded && (floating || airControl))
             {
-                moveDirection.x = x * (Mathf.Sign(groundInput.x) == Mathf.Sign(x) && groundInput.x != 0 ? speed : airSpeed);
+                moveDirection.x = x * (Mathf.Sign(groundInput.x) == Mathf.Sign(x) && groundInput.x != 0 ? speed : airSpeed);    //Stop rapid movement direction changes in air
                 moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
 
                 coyoteTimeRN += Time.deltaTime;
