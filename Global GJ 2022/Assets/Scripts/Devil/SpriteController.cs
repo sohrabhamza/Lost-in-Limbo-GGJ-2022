@@ -55,6 +55,7 @@ public class SpriteController : MonoBehaviour
         if (!isEnabled)
         {
             point.intensity = Mathf.Lerp(point.intensity, 0, Time.deltaTime * 15);
+            devilAnimator.SetFloat("Horizontal", 0);
             return;
         }
         MyInput();
@@ -105,12 +106,11 @@ public class SpriteController : MonoBehaviour
                 moveDirection = new Vector3(x * speed, -.75f, /*z * speed*/ 0);   //Set movement vector based on input
                 moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
 
-                groundInput = new Vector2(x, z);    //Using a vector2 so I don't have to reword everything if we include up down movement again
-                StartCoroutine(ResetJump());
+                ResetJump();
             }
             else if (!grounded && (floating || airControl))
             {
-                moveDirection.x = x * (Mathf.Sign(groundInput.x) == Mathf.Sign(x) && groundInput.x != 0 ? speed : airSpeed);    //Stop rapid movement direction changes in air
+                moveDirection.x = x * (Mathf.Sign(groundInput.x) == Mathf.Sign(x) && groundInput.x != 0 && !floating ? speed : airSpeed);    //Stop rapid movement direction changes in air
                 moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
 
                 coyoteTimeRN += Time.deltaTime;
@@ -121,6 +121,7 @@ public class SpriteController : MonoBehaviour
                 readyToJump = false;
                 moveDirection.y = jumpHeight;       //Make the player jump
                 devilAnimator.SetTrigger("Jumping");
+                groundInput = new Vector2(x, z);    //Using a vector2 so I don't have to reword everything if we include up down movement again
             }
 
             if (grounded)
@@ -149,9 +150,8 @@ public class SpriteController : MonoBehaviour
 
     }
 
-    IEnumerator ResetJump()
+    void ResetJump()
     {
-        yield return new WaitForSeconds(0.05f);
         if (!jumping && grounded)
         {
             readyToJump = true;

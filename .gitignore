@@ -6,7 +6,8 @@
 [Oo]bj/
 [Ll]ogs/
 3rdParty/
-Builds/
+[Bb]uild/
+[Bb]uilds/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
