@@ -707,7 +707,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   jumpHeight: 10
-  ZBounds: {x: -2.5, y: 1.7}
+  airControl: 0
+  airSpeed: 3
+  useFloating: 1
+  normalGravity: 10
+  floatGravity: 2
   devilSprite: {fileID: 235115955}
   devilAnimator: {fileID: 0}
 --- !u!95 &808092783
