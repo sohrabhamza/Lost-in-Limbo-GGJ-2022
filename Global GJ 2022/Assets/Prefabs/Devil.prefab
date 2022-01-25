@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7093446143428877200}
   - component: {fileID: 7093446143428877202}
   - component: {fileID: 7093446143428877203}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Devil
   m_TagString: Player
   m_Icon: {fileID: 0}
