@@ -10,6 +10,7 @@ public class SpriteController : MonoBehaviour
     [SerializeField] float jumpHeight;
     [SerializeField] bool airControl;
     [SerializeField] float airSpeed = 3;
+    [SerializeField] float coyoteTime = 0.35f;
 
     [Header("Floating")]
     [SerializeField] bool useFloating;
@@ -32,7 +33,9 @@ public class SpriteController : MonoBehaviour
     bool jumping;
     bool readyToJump = true;
     bool floating;
+    Vector2 groundInput;
     float pointLightIntensity;
+    float coyoteTimeRN;
 
     private void Start()
     {
@@ -101,24 +104,33 @@ public class SpriteController : MonoBehaviour
                 moveDirection = new Vector3(x * speed, -.75f, /*z * speed*/ 0);   //Set movement vector based on input
                 moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
 
-                if (jumping && readyToJump)    //If jump button pressed
-                {
-                    readyToJump = false;
-                    moveDirection.y = jumpHeight;       //Make the player jump
-                    devilAnimator.SetTrigger("Jumping");
-                }
-
+                groundInput = new Vector2(x, z);
                 StartCoroutine(ResetJump());
             }
             else if (!grounded && (floating || airControl))
             {
-                moveDirection.x = x * airSpeed;
+                moveDirection.x = x * (Mathf.Sign(groundInput.x) == Mathf.Sign(x) && groundInput.x != 0 ? speed : airSpeed);
                 moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
+
+                coyoteTimeRN += Time.deltaTime;
+            }
+
+            if (jumping && readyToJump && coyoteTimeRN <= coyoteTime)    //If jump button pressed
+            {
+                readyToJump = false;
+                moveDirection.y = jumpHeight;       //Make the player jump
+                devilAnimator.SetTrigger("Jumping");
+            }
+
+            if (grounded)
+            {
+                coyoteTimeRN = 0;
             }
         }
         else if (grounded)  //must still inherit movement if not grounded 
         {
             moveDirection = new Vector3();  //If not done, y component will keep decreasing triggering the fall animation.
+            coyoteTimeRN = 0;
         }
 
         devilAnimator.SetBool("isGrounded", grounded);
