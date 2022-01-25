@@ -20,6 +20,7 @@ public class DevilController : MonoBehaviour
     bool grounded;
     Vector3 moveDirection;
     bool jumping;
+    bool readyToJump = true;
 
     private void Start()
     {
@@ -53,7 +54,9 @@ public class DevilController : MonoBehaviour
         }
 
         // if velocity squared is greater than zero, trigger running animation
-        devilAnimator.SetBool("isRunning", x * x + z * z > 0);
+        // devilAnimator.SetBool("isRunning", x * x + z * z > 0);
+
+        //Just set either GetAxisRaw or GetAxis to the blend tree
         devilAnimator.SetFloat("Horizontal", Mathf.Abs(Input.GetAxis("Horizontal")));
 
     }
@@ -70,20 +73,35 @@ public class DevilController : MonoBehaviour
             moveDirection = new Vector3(x * speed, -.75f, /*z * speed*/ 0);   //Set movement vector based on input
             moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
 
-            if (jumping)    //If jump button pressed
+            if (jumping && readyToJump)    //If jump button pressed
             {
+                readyToJump = false;
                 moveDirection.y = jumpHeight;       //Make the player jump
                 devilAnimator.SetTrigger("Jumping");
             }
+
+            StartCoroutine(ResetJump());
         }
 
         devilAnimator.SetBool("isGrounded", grounded);
         devilAnimator.SetFloat("YVelocity", moveDirection.y);
 
-        moveDirection.y -= 10 * Time.deltaTime;     //Gravity
+        //If falling and space button held, make character float
+        moveDirection.y -= (!grounded && moveDirection.y < 0 && jumping ? 2 : 10) * Time.deltaTime;     //Gravity
 
         grounded = (controller.Move(moveDirection * Time.deltaTime) & CollisionFlags.Below) != 0;   //Check if grounded
 
+        //up down movement removed
         // transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.Clamp(transform.position.z, ZBounds.x, ZBounds.y));
+
+    }
+
+    IEnumerator ResetJump()
+    {
+        yield return new WaitForSeconds(0.05f);
+        if (!jumping && grounded)
+        {
+            readyToJump = true;
+        }
     }
 }
