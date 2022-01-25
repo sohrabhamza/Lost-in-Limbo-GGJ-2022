@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{817BBDD8-2769-473D-AA18-1B90A2F64133}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{817BBDD8-2769-473D-AA18-1B90A2F64133}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{817BBDD8-2769-473D-AA18-1B90A2F64133}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ambiance" ID="{FF3D7737-CFC2-432A-A068-FBBB95F577BD}" ShortID="1027634793">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0930A509-FCCB-42E9-939D-27D196A29DE3}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Hall_Conversation" ID="{E2C3BD70-E5E4-46A5-BDA6-99A92FAAC1AC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ACAF91B4-E2ED-41E0-A926-F4C6DBD0AE39}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience, Underground, Tonal Hum, Water Flow Through Pipe, Piping, Heating, Airy, Weird 2 SND36961" ID="{DDA09A5B-CC6F-4E8D-BC51-BC16CE4AE0AD}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience, Underground, Tonal Hum, Water Flow Through Pipe, Piping, Heating, Airy, Weird 2 SND36961.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="112981680"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience, Underground, Tonal Hum, Water Flow Through Pipe, Piping, Heating, Airy, Weird 2 SND36961" ID="{DDA09A5B-CC6F-4E8D-BC51-BC16CE4AE0AD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
