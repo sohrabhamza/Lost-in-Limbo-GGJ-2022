@@ -115,11 +115,18 @@ public class SpriteController : MonoBehaviour
                 moveDirection.x = x * airSpeed;
                 moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
             }
-
-            devilAnimator.SetBool("isGrounded", grounded);
-            devilAnimator.SetFloat("YVelocity", moveDirection.y);
         }
+        else if (grounded)  //must still inherit movement if not grounded 
+        {
+            moveDirection = new Vector3();  //If not done, y component will keep decreasing triggering the fall animation.
+        }
+
+        devilAnimator.SetBool("isGrounded", grounded);
+        devilAnimator.SetFloat("YVelocity", moveDirection.y);
         //If falling and space button held, make character float
+
+        if (controller.collisionFlags == CollisionFlags.Above) { moveDirection.y = 0; } //Reset Jump if touching a platform above
+
         moveDirection.y -= (!grounded && floating ? floatGravity : normalGravity) * Time.deltaTime;     //Gravity
 
         grounded = (controller.Move(moveDirection * Time.deltaTime) & CollisionFlags.Below) != 0;   //Check if grounded
