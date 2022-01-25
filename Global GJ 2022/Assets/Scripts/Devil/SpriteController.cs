@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DevilController : MonoBehaviour
+public class SpriteController : MonoBehaviour
 {
+    public bool isEnabled = true;
     [Header("Movement")]
     [SerializeField] float speed;
     [SerializeField] float jumpHeight;
@@ -19,9 +20,10 @@ public class DevilController : MonoBehaviour
     //Serializer Refs
     [Header("References")]
     [SerializeField] SpriteRenderer devilSprite;
-    [SerializeField] Animator devilAnimator;
+    [SerializeField] Light point;
     //Private Refs
     CharacterController controller;
+    Animator devilAnimator;
 
     //Private vars
     float x, z;
@@ -30,17 +32,30 @@ public class DevilController : MonoBehaviour
     bool jumping;
     bool readyToJump = true;
     bool floating;
+    float pointLightIntensity;
 
     private void Start()
     {
         controller = GetComponent<CharacterController>();
         devilAnimator = GetComponent<Animator>();
+        devilSprite.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
+
+        pointLightIntensity = point.intensity;
     }
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            isEnabled = !isEnabled;
+        }
+        if (!isEnabled)
+        {
+            point.intensity = Mathf.Lerp(point.intensity, 0, Time.deltaTime * 15);
+            return;
+        }
         MyInput();
-        devilSprite.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
+        point.intensity = Mathf.Lerp(point.intensity, pointLightIntensity, Time.deltaTime * 15);    //Don't feel like stopping this when its near max; This should be fine. 
     }
 
     void MyInput()
@@ -77,31 +92,33 @@ public class DevilController : MonoBehaviour
 
     void Movement()
     {
-        floating = moveDirection.y < 0 && jumping ? true & useFloating : false;
-
-        if (grounded)   //If player is grounded
+        if (isEnabled)
         {
-            moveDirection = new Vector3(x * speed, -.75f, /*z * speed*/ 0);   //Set movement vector based on input
-            moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
+            floating = moveDirection.y < 0 && jumping ? true & useFloating : false;
 
-            if (jumping && readyToJump)    //If jump button pressed
+            if (grounded)   //If player is grounded
             {
-                readyToJump = false;
-                moveDirection.y = jumpHeight;       //Make the player jump
-                devilAnimator.SetTrigger("Jumping");
+                moveDirection = new Vector3(x * speed, -.75f, /*z * speed*/ 0);   //Set movement vector based on input
+                moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
+
+                if (jumping && readyToJump)    //If jump button pressed
+                {
+                    readyToJump = false;
+                    moveDirection.y = jumpHeight;       //Make the player jump
+                    devilAnimator.SetTrigger("Jumping");
+                }
+
+                StartCoroutine(ResetJump());
+            }
+            else if (!grounded && (floating || airControl))
+            {
+                moveDirection.x = x * airSpeed;
+                moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
             }
 
-            StartCoroutine(ResetJump());
+            devilAnimator.SetBool("isGrounded", grounded);
+            devilAnimator.SetFloat("YVelocity", moveDirection.y);
         }
-        else if (!grounded && (floating || airControl))
-        {
-            moveDirection.x = x * airSpeed;
-            moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
-        }
-
-        devilAnimator.SetBool("isGrounded", grounded);
-        devilAnimator.SetFloat("YVelocity", moveDirection.y);
-
         //If falling and space button held, make character float
         moveDirection.y -= (!grounded && floating ? floatGravity : normalGravity) * Time.deltaTime;     //Gravity
 
