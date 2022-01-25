@@ -5,6 +5,9 @@
     "m_Properties": [
         {
             "m_Id": "6c4c8b4b7b57433abf21e93a16ef3490"
+        },
+        {
+            "m_Id": "f4144ec0c30047699dc726d3ee9f55a7"
         }
     ],
     "m_Keywords": [],
@@ -710,10 +713,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -695.199951171875,
-            "y": 722.4000244140625,
-            "width": 121.60003662109375,
-            "height": 77.5999755859375
+            "x": -539.199951171875,
+            "y": 1096.0,
+            "width": 120.80001068115235,
+            "height": 77.59996795654297
         }
     },
     "m_Slots": [
@@ -846,7 +849,7 @@
     "m_Guid": {
         "m_GuidSerialized": "92a95e05-53b5-4746-8d95-84004aac7a01"
     },
-    "m_Name": "Texture2D",
+    "m_Name": "Sprite",
     "m_DefaultReferenceName": "Texture2D_6c4c8b4b7b57433abf21e93a16ef3490",
     "m_OverrideReferenceName": "_MainTex",
     "m_GeneratePropertyBlock": true,
@@ -855,7 +858,7 @@
     "hlslDeclarationOverride": 2,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"da18263a1b8b6524eae9c9f6df5d54ae\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_Modifiable": true,
@@ -1263,9 +1266,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -538.39990234375,
-            "y": 877.5999755859375,
-            "width": 131.19998168945313,
+            "x": -382.3999938964844,
+            "y": 1251.199951171875,
+            "width": 130.40000915527345,
             "height": 118.4000244140625
         }
     },
@@ -1523,9 +1526,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -376.7999572753906,
-            "y": 727.9999389648438,
-            "width": 175.20001220703126,
+            "x": -220.79998779296876,
+            "y": 1101.5999755859375,
+            "width": 174.39999389648438,
             "height": 142.4000244140625
         }
     },
@@ -1775,9 +1778,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -779.9999389648438,
-            "y": 826.4000854492188,
-            "width": 206.4000244140625,
+            "x": -623.9999389648438,
+            "y": 1200.0,
+            "width": 205.60000610351563,
             "height": 131.199951171875
         }
     },
@@ -1794,5 +1797,28 @@
         "m_SerializableColors": []
     },
     "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
+    "m_ObjectId": "f4144ec0c30047699dc726d3ee9f55a7",
+    "m_Guid": {
+        "m_GuidSerialized": "519ffafa-de8f-47b7-bff7-190c1f5e108d"
+    },
+    "m_Name": "Emission",
+    "m_DefaultReferenceName": "Texture2D_f4144ec0c30047699dc726d3ee9f55a7",
+    "m_OverrideReferenceName": "_Emmission",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"ea1922e2792a4574a9c43c8b918adf93\",\"type\":3}}",
+        "m_Guid": ""
+    },
+    "m_Modifiable": true,
+    "m_DefaultType": 0
 }
 
