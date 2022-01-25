@@ -36,21 +36,25 @@ public class DevilController : MonoBehaviour
     void MyInput()
     {
         x = Input.GetAxisRaw("Horizontal");
-        z = Input.GetAxisRaw("Vertical");
+        // z = Input.GetAxisRaw("Vertical");
 
         jumping = Input.GetKey(KeyCode.Space);
 
-        if (Input.GetAxisRaw("Horizontal") > 0)
+        if (grounded)
         {
-            devilSprite.flipX = false;
-        }
-        else if (Input.GetAxisRaw("Horizontal") < 0)
-        {
-            devilSprite.flipX = true;
+            if (x > 0)
+            {
+                devilSprite.flipX = false;
+            }
+            else if (x < 0)
+            {
+                devilSprite.flipX = true;
+            }
         }
 
         // if velocity squared is greater than zero, trigger running animation
         devilAnimator.SetBool("isRunning", x * x + z * z > 0);
+        devilAnimator.SetFloat("Horizontal", Mathf.Abs(Input.GetAxis("Horizontal")));
 
     }
 
@@ -63,7 +67,7 @@ public class DevilController : MonoBehaviour
     {
         if (grounded)   //If player is grounded
         {
-            moveDirection = new Vector3(x * speed, -.75f, z * speed);   //Set movement vector based on input
+            moveDirection = new Vector3(x * speed, -.75f, /*z * speed*/ 0);   //Set movement vector based on input
             moveDirection = transform.TransformDirection(moveDirection);    //convert to world space
 
             if (jumping)    //If jump button pressed
@@ -80,6 +84,6 @@ public class DevilController : MonoBehaviour
 
         grounded = (controller.Move(moveDirection * Time.deltaTime) & CollisionFlags.Below) != 0;   //Check if grounded
 
-        transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.Clamp(transform.position.z, ZBounds.x, ZBounds.y));
+        // transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.Clamp(transform.position.z, ZBounds.x, ZBounds.y));
     }
 }
