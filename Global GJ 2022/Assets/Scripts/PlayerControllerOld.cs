@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController2 : MonoBehaviour
+public class PlayerControllerOld : MonoBehaviour
 {
     public bool isEnabled = true;
     [Header("Movement")]

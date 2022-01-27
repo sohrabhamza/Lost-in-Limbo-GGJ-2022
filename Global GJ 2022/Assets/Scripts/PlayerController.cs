@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] SpriteRenderer sprite;
     [SerializeField] Transform[] groundChecks;
     [SerializeField] Transform[] ceilingChecks;
+    [SerializeField] Light2D point;
 
     [Header("Movement Properties")]
     [SerializeField] float groundSpeed;
@@ -35,6 +37,8 @@ public class PlayerController : MonoBehaviour
     float x;
     bool jumping;
     float groundX;
+    float pointLightIntensity;
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,9 +46,30 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
-        sprite.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.On;
+
+        pointLightIntensity = point.intensity;
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        PerformAnimation();
+        MyInput();
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            isEnabled = !isEnabled;
+        }
+        if (!isEnabled)
+        {
+            point.intensity = Mathf.Lerp(point.intensity, 0, Time.deltaTime * 15);
+            return;
+        }
+        if (x != 0.0f && isEnabled)
+        {
+            sprite.flipX = x < 0;
+        }
+        point.intensity = Mathf.Lerp(point.intensity, pointLightIntensity, Time.deltaTime * 15);    //Don't feel like stopping this when its near max; This should be fine. 
+    }
     // Called at fixed intervals
     void FixedUpdate()
     {
@@ -65,21 +90,6 @@ public class PlayerController : MonoBehaviour
         rb.velocity = movement;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        PerformAnimation();
-        MyInput();
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            isEnabled = !isEnabled;
-        }
-
-        if (x != 0.0f && isEnabled)
-        {
-            sprite.flipX = x < 0;
-        }
-    }
 
     void PerformAnimation()
     {
@@ -104,7 +114,6 @@ public class PlayerController : MonoBehaviour
 
     void Movement()
     {
-        // movement.x = Mathf.Lerp(movement.x, x * (isGrounded ? groundSpeed : airControl ? airSpeed : 0), 10.0f * Time.deltaTime);
         bool floating = Input.GetKey(KeyCode.F);
 
         // Cancels jump when ceiling hit
@@ -136,7 +145,8 @@ public class PlayerController : MonoBehaviour
                 readySecondJump = false;
             }
 
-            movement.x = Mathf.Lerp(movement.x, x * (Mathf.Sign(groundX) == Mathf.Sign(x) && groundX != 0 && !floating ? groundSpeed : airSpeed), 10.0f * Time.deltaTime);
+            if (airControl)
+            { movement.x = Mathf.Lerp(movement.x, x * (Mathf.Sign(groundX) == Mathf.Sign(x) && groundX != 0 && !floating ? groundSpeed : airSpeed), 10.0f * Time.deltaTime); }
 
             coyoteTimeRN += Time.deltaTime;
 
