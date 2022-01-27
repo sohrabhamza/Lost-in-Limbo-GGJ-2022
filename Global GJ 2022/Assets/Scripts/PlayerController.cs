@@ -19,15 +19,22 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpVelocity;
     [SerializeField] float coyoteTime = 0.35f;
     [SerializeField] float floatFactor = 0.6f;
+    [SerializeField] float djTime = 0.15f;
+    [SerializeField] bool airControl = true;
+    [SerializeField] bool allowFloating = true;
 
     // private fields
-    private Vector2 movement;
-    private bool isGrounded;
-    private bool ceilingHit;
-    private float gravity = 2 * 9.81f;
-    private bool airControl;
-    private float coyoteTimeRN = 0.0f;
-    private bool readyToJump;
+    Vector2 movement;
+    bool isGrounded;
+    bool ceilingHit;
+    float gravity = 2 * 9.81f;
+    float coyoteTimeRN = 0.0f;
+    float djTimer;
+    bool readyFirstJump;
+    bool readySecondJump;
+    float x;
+    bool jumping;
+    float groundX;
 
     // Start is called before the first frame update
     void Start()
@@ -39,84 +46,127 @@ public class PlayerController : MonoBehaviour
     }
 
     // Called at fixed intervals
-    void FixedUpdate() 
+    void FixedUpdate()
     {
         // Determines ground and ceiling collisions
         isGrounded = false;
         ceilingHit = false;
-        
-        foreach (Transform groundCheck in groundChecks) 
+
+        foreach (Transform groundCheck in groundChecks)
         {
             isGrounded |= Physics2D.Raycast(groundCheck.position, Vector2.down, 0.05f);
         }
-        
-        foreach (Transform ceilingCheck in ceilingChecks) 
+
+        foreach (Transform ceilingCheck in ceilingChecks)
         {
             ceilingHit |= Physics2D.Raycast(ceilingCheck.position, Vector2.up, 0.05f);
         }
-
-        if (isEnabled) 
-        {
-            Movement();
-        }
-
+        Movement();
         rb.velocity = movement;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (movement.x != 0.0f) 
+        PerformAnimation();
+        MyInput();
+        if (Input.GetKeyDown(KeyCode.X))
         {
-            sprite.flipX = movement.x < 0;
+            isEnabled = !isEnabled;
         }
 
-        animator.SetFloat("Horizontal", Mathf.Abs(movement.x));
-        animator.SetFloat("Vertical", movement.y);
+        if (x != 0.0f && isEnabled)
+        {
+            sprite.flipX = x < 0;
+        }
+    }
+
+    void PerformAnimation()
+    {
+        animator.SetFloat("Horizontal", Mathf.Abs(Mathf.Clamp(rb.velocity.x * 2, -1, 1)));
+        animator.SetFloat("Vertical", rb.velocity.y);
         animator.SetBool("isGrounded", isGrounded);
+    }
+
+    void MyInput()  //Input should be taken in update
+    {
+        if (isEnabled)
+        {
+            x = Input.GetAxisRaw("Horizontal");
+            jumping = Input.GetKey(KeyCode.Space);
+        }
+        else
+        {
+            x = 0;
+            jumping = false;
+        }
     }
 
     void Movement()
     {
-        // floating enabled when F pressed
-        airControl = Input.GetKey(KeyCode.F);
+        // movement.x = Mathf.Lerp(movement.x, x * (isGrounded ? groundSpeed : airControl ? airSpeed : 0), 10.0f * Time.deltaTime);
+        bool floating = Input.GetKey(KeyCode.F);
 
-        float x = Input.GetAxisRaw("Horizontal");
-        movement.x = Mathf.Lerp(movement.x, x * (isGrounded ? groundSpeed : airSpeed), 10.0f * Time.deltaTime);
-    
         // Cancels jump when ceiling hit
-        if (ceilingHit) 
+        if (ceilingHit)
         {
             movement.y = 0.0f;
         }
 
-        if (isGrounded) 
+        if (isGrounded)
         {
-            readyToJump = true;
+            ResetJump();
             coyoteTimeRN = 0.0f;
+            djTimer = 0;
 
-            if (Input.GetKey(KeyCode.Space)) 
-            {
-                animator.SetTrigger("Jump");
-                movement.y = jumpVelocity;
-            }
-            else
-            {
-                movement.y = 0.0f;
-            }
+            movement.x = Mathf.Lerp(movement.x, x * groundSpeed, 10.0f * Time.deltaTime);
+
+            movement.y = 0.0f;
         }
         else
         {
             // Double-jump / mid-air jump
-            if (Input.GetKey(KeyCode.Space) && readyToJump && coyoteTime < coyoteTimeRN)
+            if (jumping && djTime <= djTimer && readySecondJump)
             {
+                // Debug.Log("Second Jump");
                 animator.SetTrigger("Jump");
+
+                groundX = x;
                 movement.y = jumpVelocity;
-                readyToJump = false;
+                readySecondJump = false;
             }
 
+            movement.x = Mathf.Lerp(movement.x, x * (Mathf.Sign(groundX) == Mathf.Sign(x) && groundX != 0 && !floating ? groundSpeed : airSpeed), 10.0f * Time.deltaTime);
+
             coyoteTimeRN += Time.deltaTime;
-            movement.y -= (airControl && movement.y < 0 ? floatFactor : 1.0f) * gravity * Time.deltaTime;
+
+            if (!jumping && !readyFirstJump)//Do not allow double jump if first jump is available or if space is being pressed
+            {
+                djTimer += Time.deltaTime;
+            }
+
+            movement.y -= (floating && movement.y < 0 && allowFloating ? floatFactor : 1.0f) * gravity * Time.deltaTime;
+        }
+
+        //First jump
+        if (jumping && readyFirstJump && coyoteTime >= coyoteTimeRN)
+        {
+            // Debug.Log("First Jump");
+            animator.SetTrigger("Jump");
+
+            groundX = x;
+            movement.y = jumpVelocity;
+            coyoteTimeRN = coyoteTime;
+            readyFirstJump = false;
+        }
+    }
+
+    void ResetJump()
+    {
+        if (!jumping)
+        {
+            readyFirstJump = true;
+            readySecondJump = true;
         }
     }
 }
