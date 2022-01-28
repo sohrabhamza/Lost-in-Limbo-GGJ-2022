@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Transform[] ceilingChecks;
     [SerializeField] Light2D point;
     [SerializeField] LayerMask playerLayer; //Need to ignore player
+    [SerializeField] float groundCheckDistance = 0.15f;
 
     [Header("Movement Properties")]
     [SerializeField] float groundSpeed;
@@ -40,7 +41,8 @@ public class PlayerController : MonoBehaviour
     bool jumping;
     float groundX;
     float pointLightIntensity;
-
+    Collider2D myCollider;
+    float gravityModifier;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +52,8 @@ public class PlayerController : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
 
         pointLightIntensity = point.intensity;
+
+        myCollider = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
@@ -79,15 +83,23 @@ public class PlayerController : MonoBehaviour
         isGrounded = false;
         ceilingHit = false;
 
-        foreach (Transform groundCheck in groundChecks)
-        {
-            isGrounded |= Physics2D.Raycast(groundCheck.position, Vector2.down, 0.05f, playerLayer);
-        }
+        // foreach (Transform groundCheck in groundChecks)
+        // {
+        //     isGrounded |= Physics2D.Raycast(groundCheck.position, Vector2.down, 0.05f, playerLayer);
+        // }
 
         foreach (Transform ceilingCheck in ceilingChecks)
         {
             ceilingHit |= Physics2D.Raycast(ceilingCheck.position, Vector2.up, 0.05f, playerLayer);
         }
+
+        RaycastHit2D raycastHit2D = Physics2D.BoxCast(myCollider.bounds.center, new Vector3(myCollider.bounds.size.x - 0.1f, myCollider.bounds.size.y), 0f, Vector2.down, groundCheckDistance, playerLayer);
+        isGrounded = raycastHit2D.collider != null;
+
+        Debug.DrawRay(myCollider.bounds.center + new Vector3(myCollider.bounds.extents.x, 0), Vector3.down * (myCollider.bounds.extents.y + groundCheckDistance));
+        Debug.DrawRay(myCollider.bounds.center - new Vector3(myCollider.bounds.extents.x, 0), Vector3.down * (myCollider.bounds.extents.y + groundCheckDistance));
+        Debug.DrawRay(myCollider.bounds.center - new Vector3(myCollider.bounds.extents.x, myCollider.bounds.extents.y + groundCheckDistance), Vector3.right * (myCollider.bounds.extents.x * 2));
+
         Movement();
         rb.velocity = movement;
     }
@@ -133,6 +145,8 @@ public class PlayerController : MonoBehaviour
             movement.x = Mathf.Lerp(movement.x, x * groundSpeed, 10.0f * Time.deltaTime);
 
             movement.y = 0.0f;
+
+            gravityModifier = 1;
         }
         else
         {
@@ -157,8 +171,11 @@ public class PlayerController : MonoBehaviour
                 djTimer += Time.deltaTime;
             }
 
-            movement.y -= (floating && movement.y < 0 && allowFloating ? floatFactor : 1.0f) * gravity * Time.deltaTime;
+            gravityModifier = floating && movement.y < 0 && allowFloating ? floatFactor : 1.0f;
+            // movement.y -= (floating && movement.y < 0 && allowFloating ? floatFactor : 1.0f) * gravity * Time.deltaTime;
         }
+
+        movement.y -= gravityModifier * gravity * Time.deltaTime;
 
         //First jump
         if (jumping && readyFirstJump && coyoteTime >= coyoteTimeRN)
