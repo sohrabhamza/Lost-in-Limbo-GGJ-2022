@@ -274,7 +274,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2715309582271592664}
   - component: {fileID: 2715309582271592665}
-  - component: {fileID: 2715309582271592666}
   - component: {fileID: 2715309582271592667}
   - component: {fileID: 2715309582271592671}
   m_Layer: 7
@@ -324,6 +323,9 @@ MonoBehaviour:
   - {fileID: 2715309582565132016}
   - {fileID: 2715309582201220034}
   point: {fileID: 2715309582011037019}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 55
   groundSpeed: 4
   airSpeed: 2.5
   jumpVelocity: 8
@@ -331,33 +333,8 @@ MonoBehaviour:
   floatFactor: 0.05
   djTime: 0.15
   airControl: 1
+  allowDoubleJump: 1
   allowFloating: 1
---- !u!61 &2715309582271592666
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2715309582271592660}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.028076887, y: 0.50912094}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.95}
-  m_EdgeRadius: 0
 --- !u!50 &2715309582271592667
 Rigidbody2D:
   serializedVersion: 4

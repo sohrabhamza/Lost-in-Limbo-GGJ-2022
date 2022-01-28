@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Transform[] groundChecks;
     [SerializeField] Transform[] ceilingChecks;
     [SerializeField] Light2D point;
+    [SerializeField] LayerMask playerLayer; //Need to ignore player
 
     [Header("Movement Properties")]
     [SerializeField] float groundSpeed;
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float floatFactor = 0.6f;
     [SerializeField] float djTime = 0.15f;
     [SerializeField] bool airControl = true;
+    [SerializeField] bool allowDoubleJump = false;
     [SerializeField] bool allowFloating = true;
 
     // private fields
@@ -79,12 +81,12 @@ public class PlayerController : MonoBehaviour
 
         foreach (Transform groundCheck in groundChecks)
         {
-            isGrounded |= Physics2D.Raycast(groundCheck.position, Vector2.down, 0.05f);
+            isGrounded |= Physics2D.Raycast(groundCheck.position, Vector2.down, 0.05f, playerLayer);
         }
 
         foreach (Transform ceilingCheck in ceilingChecks)
         {
-            ceilingHit |= Physics2D.Raycast(ceilingCheck.position, Vector2.up, 0.05f);
+            ceilingHit |= Physics2D.Raycast(ceilingCheck.position, Vector2.up, 0.05f, playerLayer);
         }
         Movement();
         rb.velocity = movement;
@@ -135,7 +137,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             // Double-jump / mid-air jump
-            if (jumping && djTime <= djTimer && readySecondJump)
+            if (jumping && djTime <= djTimer && readySecondJump && allowDoubleJump)
             {
                 // Debug.Log("Second Jump");
                 animator.SetTrigger("Jump");
@@ -150,7 +152,7 @@ public class PlayerController : MonoBehaviour
 
             coyoteTimeRN += Time.deltaTime;
 
-            if (!jumping && !readyFirstJump)//Do not allow double jump if first jump is available or if space is being pressed
+            if (!jumping && !readyFirstJump && allowDoubleJump)//Do not allow double jump if first jump is available or if space is being pressed
             {
                 djTimer += Time.deltaTime;
             }
