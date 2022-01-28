@@ -6,20 +6,12 @@
 				<SoundcasterSession Name="Main" ID="{FEB749B9-3576-4925-BC98-A32042E96512}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_MusicMain" ID="{E1E3FA7C-09E5-494A-91A1-A60D4DCE7A2A}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="PlatformWood_Crumble" ID="{E3D3366D-3CD1-4A16-999B-5202C0ADC957}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Player_DoubleJump" ID="{CB3344BB-A4D6-4BEF-A4D5-B412F2287673}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
 							<Position X="0" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Player_Footsteps" ID="{7E50EFC5-1C48-43AC-B7C2-C37665D1C0C2}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
-							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="FireBurning" ID="{B219AFA7-21A8-42C0-A8B2-564E2021505E}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
