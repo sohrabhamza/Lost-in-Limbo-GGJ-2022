@@ -19,6 +19,9 @@
 						<Event Name="PlayerDeath" ID="{106F14FE-0968-475D-9472-0D3008AEF605}">
 							<ChildrenList>
 								<Action Name="" ID="{EE1BA868-C422-4F46-901E-8B400BC23941}" ShortID="972599311">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Player_DeathCry" ID="{182EDA50-CE2D-467C-93A8-F618EF40A95D}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
