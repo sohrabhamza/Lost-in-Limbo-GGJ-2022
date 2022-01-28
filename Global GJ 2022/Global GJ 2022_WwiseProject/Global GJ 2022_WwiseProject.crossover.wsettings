@@ -4,6 +4,8 @@
 		<UserProjectSettings Name="" ID="{4C8F7FAD-10B0-4CFE-8AA8-9184AE1D1D8B}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\GGJ\Music\Bounces\Bridge\"/>
+				<Property Name="Event Action List\{CFB114DD-DC26-431B-88E5-36A0B032FD0C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E1E3FA7C-09E5-494A-91A1-A60D4DCE7A2A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -22,7 +24,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="hon3taJx90yDeTMA9MAWbhBiuGiWvBVDqPE3+1b1zqU="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="hKspE6e950yGnjdGGwlkXA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="hKspE6e950yGnjdGGwlkXPJPgYJg+lRHjXk7cayc9Nk="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="fn9SRzxaDUmHSzMOrnXe3wEnWAD/////A4c7crP6gUGCWaALEefbTwEnWAD/////"/>
 				<Property Name="Interactive Music\x64_{0536D0DE-904D-4EB8-A5EE-4A7669D3E178} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPyLZEZfHtEZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>

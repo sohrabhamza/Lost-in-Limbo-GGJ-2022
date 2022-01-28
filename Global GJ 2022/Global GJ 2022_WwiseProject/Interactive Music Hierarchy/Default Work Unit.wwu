@@ -1789,181 +1789,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Intro" ID="{ACD15516-1838-4D6E-B20A-B0026819EFE7}" ShortID="1005980707">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="23190.7894736842"/>
-								<Property Name="Tempo" Type="Real64" Value="152"/>
-								<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="GGJ_PianoLead01_152bpm3-4_L16M-P01" ID="{53C43C0B-24C5-404B-9FCF-A2D560868692}" ShortID="597262221">
-									<PropertyList>
-										<Property Name="MusicTrackType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="GGJ_PianoLead01_152bpm3-4_L16M-P01" ID="{A98BF574-8353-4C2B-9961-3D1832E5D826}">
-											<Language>SFX</Language>
-											<AudioFile>Body\GGJ_PianoLead01_152bpm3-4_L16M-P01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="672208551"/>
-											</MediaIDList>
-										</AudioFileSource>
-										<AudioFileSource Name="GGJ_PianoLead02_152bpm_L16M-P01" ID="{D8C0947E-366D-4078-AB30-B7EE6BD533E0}">
-											<Language>SFX</Language>
-											<AudioFile>Body\GGJ_PianoLead02_152bpm_L16M-P01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="967243924"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="Level" ID="{5E7111DD-DF69-45A0-B901-28D4740FC843}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Level_3" ID="{8B8EA5A2-F5B9-4444-B158-91AA96DD650F}"/>
-												<CustomState Name="" ID="{8E39D977-921C-4CC5-A37C-25D1234696C9}" ShortID="1039911303"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Level_4" ID="{7CB12223-8656-4CED-9860-52FBCD82D037}"/>
-												<CustomState Name="" ID="{9850AF9E-B032-4EAD-AF9D-7F0B5BE0893F}" ShortID="855607877"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Level_1" ID="{7234C539-A2FA-4DA2-B560-F0B63C793985}"/>
-												<CustomState Name="" ID="{F4C65B91-9FE8-48D9-9547-F73A9E9E543D}" ShortID="724734531"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Level_2" ID="{5D64A04E-FF59-4FBB-88D9-304340F86DEC}"/>
-												<CustomState Name="" ID="{CD0344C2-012F-42DF-A1AA-7E5DF9432996}" ShortID="267163965"/>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{DF69F341-5DCF-4F98-9FCC-6C04D12D761B}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{E9BD7157-A8B9-4D81-905B-33DC85964277}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="GGJ_PianoLead01_152bpm3-4_L16M-P01" ID="{F5EDD912-20BC-4246-9C70-DA7F7251992C}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="21315.7916666667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="GGJ_PianoLead01_152bpm3-4_L16M-P01" ID="{A98BF574-8353-4C2B-9961-3D1832E5D826}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{F8322E3A-7369-4876-94AA-79C4BDE41EFB}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="GGJ_PianoLead02_152bpm_L16M-P01" ID="{E9F8535E-7258-42E4-8971-BDA30474C43B}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="21315.7916666667"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="GGJ_PianoLead02_152bpm_L16M-P01" ID="{D8C0947E-366D-4078-AB30-B7EE6BD533E0}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="Level" ID="{5E7111DD-DF69-45A0-B901-28D4740FC843}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Level_3" ID="{8B8EA5A2-F5B9-4444-B158-91AA96DD650F}"/>
-										<CustomState Name="" ID="{CFC22446-B6A4-4B3B-B0B4-88C6743C210C}" ShortID="944767278"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Level_4" ID="{7CB12223-8656-4CED-9860-52FBCD82D037}"/>
-										<CustomState Name="" ID="{AB4B97A8-46E8-48E2-8D89-8C6DCCC2B44E}" ShortID="950123950"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Level_1" ID="{7234C539-A2FA-4DA2-B560-F0B63C793985}"/>
-										<CustomState Name="" ID="{38488A05-D166-46BF-9EA9-4C62DB67CF8F}" ShortID="129674222"/>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Level_2" ID="{5D64A04E-FF59-4FBB-88D9-304340F86DEC}"/>
-										<CustomState Name="" ID="{CB5546E9-EACE-4FB5-B5DA-6F66FCE5B203}" ShortID="518034798"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ObjectLists>
-								<ObjectList Name="Cues">
-									<Reference>
-										<Local>
-											<MusicCue Name="Entry Cue" ID="{5E8151E6-0C26-4C0E-A9CB-D1E3731FB457}">
-												<PropertyList>
-													<Property Name="TimeMs" Type="Real64" Value="1085.52631578947"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Exit Cue" ID="{780C7ACC-901B-476D-ADB1-4DE281D4B4E3}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="21217.1052631579"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</MusicSegment>
 						<MusicSegment Name="Body" ID="{FFA8B731-6637-4452-96F8-98F12E4DA989}" ShortID="409373698">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="25697.8604080578"/>
@@ -3565,13 +3390,11 @@
 					<ObjectLists/>
 					<Playlist>
 						<MusicPlaylistItem Name="" ID="{5B9B8861-2BB7-4A20-A9F4-49D5979F7049}" ShortID="51509219">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{7B2A0A10-0813-457B-B99A-DE5A8DFF6837}" ShortID="251755475">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="Intro" ID="{ACD15516-1838-4D6E-B20A-B0026819EFE7}"/>
-								</MusicPlaylistItem>
 								<MusicPlaylistItem Name="" ID="{38D7332F-716F-4F40-95A5-67F2A5D77ABA}" ShortID="595030093">
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
@@ -3607,6 +3430,181 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicSegment Name="Intro" ID="{ACD15516-1838-4D6E-B20A-B0026819EFE7}" ShortID="1005980707">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="23190.7894736842"/>
+						<Property Name="Tempo" Type="Real64" Value="152"/>
+						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="GGJ_PianoLead01_152bpm3-4_L16M-P01" ID="{53C43C0B-24C5-404B-9FCF-A2D560868692}" ShortID="597262221">
+							<PropertyList>
+								<Property Name="MusicTrackType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GGJ_PianoLead01_152bpm3-4_L16M-P01" ID="{A98BF574-8353-4C2B-9961-3D1832E5D826}">
+									<Language>SFX</Language>
+									<AudioFile>Body\GGJ_PianoLead01_152bpm3-4_L16M-P01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="672208551"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="GGJ_PianoLead02_152bpm_L16M-P01" ID="{D8C0947E-366D-4078-AB30-B7EE6BD533E0}">
+									<Language>SFX</Language>
+									<AudioFile>Body\GGJ_PianoLead02_152bpm_L16M-P01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="967243924"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Level" ID="{5E7111DD-DF69-45A0-B901-28D4740FC843}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Level_3" ID="{8B8EA5A2-F5B9-4444-B158-91AA96DD650F}"/>
+										<CustomState Name="" ID="{8E39D977-921C-4CC5-A37C-25D1234696C9}" ShortID="1039911303"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Level_4" ID="{7CB12223-8656-4CED-9860-52FBCD82D037}"/>
+										<CustomState Name="" ID="{9850AF9E-B032-4EAD-AF9D-7F0B5BE0893F}" ShortID="855607877"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Level_1" ID="{7234C539-A2FA-4DA2-B560-F0B63C793985}"/>
+										<CustomState Name="" ID="{F4C65B91-9FE8-48D9-9547-F73A9E9E543D}" ShortID="724734531"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Level_2" ID="{5D64A04E-FF59-4FBB-88D9-304340F86DEC}"/>
+										<CustomState Name="" ID="{CD0344C2-012F-42DF-A1AA-7E5DF9432996}" ShortID="267163965"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{DF69F341-5DCF-4F98-9FCC-6C04D12D761B}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{E9BD7157-A8B9-4D81-905B-33DC85964277}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="GGJ_PianoLead01_152bpm3-4_L16M-P01" ID="{F5EDD912-20BC-4246-9C70-DA7F7251992C}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="21315.7916666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="GGJ_PianoLead01_152bpm3-4_L16M-P01" ID="{A98BF574-8353-4C2B-9961-3D1832E5D826}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{F8322E3A-7369-4876-94AA-79C4BDE41EFB}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="GGJ_PianoLead02_152bpm_L16M-P01" ID="{E9F8535E-7258-42E4-8971-BDA30474C43B}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="21315.7916666667"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="GGJ_PianoLead02_152bpm_L16M-P01" ID="{D8C0947E-366D-4078-AB30-B7EE6BD533E0}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Level" ID="{5E7111DD-DF69-45A0-B901-28D4740FC843}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Level_3" ID="{8B8EA5A2-F5B9-4444-B158-91AA96DD650F}"/>
+								<CustomState Name="" ID="{CFC22446-B6A4-4B3B-B0B4-88C6743C210C}" ShortID="944767278"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Level_4" ID="{7CB12223-8656-4CED-9860-52FBCD82D037}"/>
+								<CustomState Name="" ID="{AB4B97A8-46E8-48E2-8D89-8C6DCCC2B44E}" ShortID="950123950"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Level_1" ID="{7234C539-A2FA-4DA2-B560-F0B63C793985}"/>
+								<CustomState Name="" ID="{38488A05-D166-46BF-9EA9-4C62DB67CF8F}" ShortID="129674222"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Level_2" ID="{5D64A04E-FF59-4FBB-88D9-304340F86DEC}"/>
+								<CustomState Name="" ID="{CB5546E9-EACE-4FB5-B5DA-6F66FCE5B203}" ShortID="518034798"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{5E8151E6-0C26-4C0E-A9CB-D1E3731FB457}">
+										<PropertyList>
+											<Property Name="TimeMs" Type="Real64" Value="1085.52631578947"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{780C7ACC-901B-476D-ADB1-4DE281D4B4E3}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="21217.1052631579"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
