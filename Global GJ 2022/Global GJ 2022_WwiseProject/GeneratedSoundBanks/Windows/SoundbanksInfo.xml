@@ -11,10 +11,190 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3644366777">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1077138683">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="1076858416">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3170845728" Name="Play_MusicMain" ObjectPath="\Events\Default Work Unit\Play_MusicMain" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="14346433" Language="SFX">
+							<ShortName>GGJ_Bridge_Cello_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_Cello_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="22852564" Language="SFX">
+							<ShortName>Body\GGJ_Bass_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Bass_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="144884349" Language="SFX">
+							<ShortName>GGJ_Bridge_PianoRev_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_PianoRev_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="184830448" Language="SFX">
+							<ShortName>Body\GGJ_Pad01_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Pad01_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="215158237" Language="SFX">
+							<ShortName>Body\GGJ_PianoRev_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_PianoRev_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="282705852" Language="SFX">
+							<ShortName>Body\GGJ_Pad03_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Pad03_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="304715205" Language="SFX">
+							<ShortName>Body\GGJ_CelloLead01_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_CelloLead01_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="507371710" Language="SFX">
+							<ShortName>GGJ_Bridge_Violin_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_Violin_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="599729071" Language="SFX">
+							<ShortName>Body\GGJ_StringHarmony_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_StringHarmony_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="605849824" Language="SFX">
+							<ShortName>Body\GGJ_ViolinLead02_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_ViolinLead02_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="613957003" Language="SFX">
+							<ShortName>Body\GGJ_MarimbaDrive_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_MarimbaDrive_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="625217078" Language="SFX">
+							<ShortName>GGJ_Bridge_PianoHigh_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_PianoHigh_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="657542550" Language="SFX">
+							<ShortName>Body\GGJ_ViolinLead01_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_ViolinLead01_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="659052858" Language="SFX">
+							<ShortName>Body\GGJ_CelloLead02_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_CelloLead02_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="672208551" Language="SFX">
+							<ShortName>Body\GGJ_PianoLead01_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_PianoLead01_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="705071718" Language="SFX">
+							<ShortName>GGJ_Bridge_Bass_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_Bass_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="725864645" Language="SFX">
+							<ShortName>GGJ_Bridge_Piano_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_Piano_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="783101560" Language="SFX">
+							<ShortName>Body\GGJ_Pad02_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Pad02_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="967243924" Language="SFX">
+							<ShortName>Body\GGJ_PianoLead02_152bpm_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_PianoLead02_152bpm_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1066116757" Language="SFX">
+							<ShortName>Body\GGJ_Marimba_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Marimba_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3221870102" Name="Play_MusicMenu" ObjectPath="\Events\Default Work Unit\Play_MusicMenu" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="14346433" Language="SFX">
+							<ShortName>GGJ_Bridge_Cello_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_Cello_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="22852564" Language="SFX">
+							<ShortName>Body\GGJ_Bass_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Bass_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="144884349" Language="SFX">
+							<ShortName>GGJ_Bridge_PianoRev_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_PianoRev_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="184830448" Language="SFX">
+							<ShortName>Body\GGJ_Pad01_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Pad01_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="215158237" Language="SFX">
+							<ShortName>Body\GGJ_PianoRev_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_PianoRev_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="282705852" Language="SFX">
+							<ShortName>Body\GGJ_Pad03_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Pad03_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="304715205" Language="SFX">
+							<ShortName>Body\GGJ_CelloLead01_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_CelloLead01_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="507371710" Language="SFX">
+							<ShortName>GGJ_Bridge_Violin_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_Violin_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="599729071" Language="SFX">
+							<ShortName>Body\GGJ_StringHarmony_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_StringHarmony_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="605849824" Language="SFX">
+							<ShortName>Body\GGJ_ViolinLead02_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_ViolinLead02_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="613957003" Language="SFX">
+							<ShortName>Body\GGJ_MarimbaDrive_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_MarimbaDrive_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="625217078" Language="SFX">
+							<ShortName>GGJ_Bridge_PianoHigh_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_PianoHigh_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="657542550" Language="SFX">
+							<ShortName>Body\GGJ_ViolinLead01_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_ViolinLead01_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="659052858" Language="SFX">
+							<ShortName>Body\GGJ_CelloLead02_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_CelloLead02_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="672208551" Language="SFX">
+							<ShortName>Body\GGJ_PianoLead01_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_PianoLead01_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="705071718" Language="SFX">
+							<ShortName>GGJ_Bridge_Bass_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_Bass_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="725864645" Language="SFX">
+							<ShortName>GGJ_Bridge_Piano_152bpm_L4M-P01.wav</ShortName>
+							<Path>SFX/GGJ_Bridge_Piano_152bpm_L4M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="783101560" Language="SFX">
+							<ShortName>Body\GGJ_Pad02_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Pad02_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="967243924" Language="SFX">
+							<ShortName>Body\GGJ_PianoLead02_152bpm_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_PianoLead02_152bpm_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1066116757" Language="SFX">
+							<ShortName>Body\GGJ_Marimba_152bpm3-4_L16M-P01.wav</ShortName>
+							<Path>SFX/Body/GGJ_Marimba_152bpm3-4_L16M-P01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

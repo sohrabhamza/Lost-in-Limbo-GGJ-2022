@@ -1,0 +1,57 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3170845728	Play_MusicMain			\Default Work Unit\Play_MusicMain	
+	3221870102	Play_MusicMenu			\Default Work Unit\Play_MusicMenu	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2782712965	Level			\Default Work Unit\Level	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Level			
+	1290008369	Level_1	Level			
+	1290008370	Level_2	Level			
+	1290008371	Level_3	Level			
+	1290008372	Level_4	Level			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	18025882	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_StringHarmony_152bpm3-4_L16M-P01		
+	63755692	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_MarimbaDrive_152bpm3-4_L16M-P01		
+	106189226	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Bass_152bpm_L4M-P01		
+	144984960	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Violin_152bpm_L4M-P01		
+	205122650	Level_2	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_MarimbaDrive_152bpm3-4_L16M-P01		
+	248461247	Level_2	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_ViolinLead01_152bpm3-4_L16M-P01		
+	253505172	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_Pad01_152bpm3-4_L16M-P01		
+	258398437	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_Marimba_152bpm3-4_L16M-P01		
+	338522179	Level_2	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_CelloLead01_152bpm3-4_L16M-P01		
+	376486094	Level_3	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Violin_152bpm_L4M-P01		
+	392341447	Level_2	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Violin_152bpm_L4M-P01		
+	492302306	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Cello_152bpm_L4M-P01		
+	549918548	Level_2	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Cello_152bpm_L4M-P01		
+	563729876	Level_2	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_StringHarmony_152bpm3-4_L16M-P01		
+	651683962	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_ViolinLead01_152bpm3-4_L16M-P01		
+	658642014	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_Bass_152bpm3-4_L16M-P01		
+	864041660	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_CelloLead01_152bpm3-4_L16M-P01		
+	908094562	Level_1	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Piano_152bpm_L4M-P01		
+	985877309	Level_3	Level	\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_ViolinLead01_152bpm3-4_L16M-P01		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	14346433	GGJ_Bridge_Cello_152bpm_L4M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\GGJ_Bridge_Cello_152bpm_L4M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Cello_152bpm_L4M-P01		1136984
+	22852564	GGJ_Bass_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_Bass_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_Bass_152bpm3-4_L16M-P01		4092776
+	144884349	GGJ_Bridge_PianoRev_152bpm_L4M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\GGJ_Bridge_PianoRev_152bpm_L4M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_PianoRev_152bpm_L4M-P01		1136984
+	184830448	GGJ_Pad01_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_Pad01_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_Pad01_152bpm3-4_L16M-P01		4092776
+	215158237	GGJ_PianoRev_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_PianoRev_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_PianoRev_152bpm3-4_L16M-P01		4092776
+	282705852	GGJ_Pad01_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_Pad03_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_Pad01_152bpm3-4_L16M-P01		4092776
+	304715205	GGJ_CelloLead01_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_CelloLead01_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_CelloLead01_152bpm3-4_L16M-P01		4092776
+	507371710	GGJ_Bridge_Violin_152bpm_L4M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\GGJ_Bridge_Violin_152bpm_L4M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Violin_152bpm_L4M-P01		1136984
+	599729071	GGJ_StringHarmony_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_StringHarmony_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_StringHarmony_152bpm3-4_L16M-P01		4092776
+	605849824	GGJ_ViolinLead01_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_ViolinLead02_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_ViolinLead01_152bpm3-4_L16M-P01		4092776
+	613957003	GGJ_MarimbaDrive_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_MarimbaDrive_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_MarimbaDrive_152bpm3-4_L16M-P01		4092776
+	625217078	GGJ_Bridge_PianoHigh_152bpm_L4M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\GGJ_Bridge_PianoHigh_152bpm_L4M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_PianoHigh_152bpm_L4M-P01		1136984
+	657542550	GGJ_ViolinLead01_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_ViolinLead01_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_ViolinLead01_152bpm3-4_L16M-P01		4092776
+	659052858	GGJ_CelloLead01_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_CelloLead02_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_CelloLead01_152bpm3-4_L16M-P01		4092776
+	672208551	GGJ_PianoLead01_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_PianoLead01_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_PianoLead01_152bpm3-4_L16M-P01		4092776
+	705071718	GGJ_Bridge_Bass_152bpm_L4M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\GGJ_Bridge_Bass_152bpm_L4M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Bass_152bpm_L4M-P01		1136984
+	725864645	GGJ_Bridge_Piano_152bpm_L4M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\GGJ_Bridge_Piano_152bpm_L4M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Bridge\GGJ_Bridge_Piano_152bpm_L4M-P01		1136984
+	783101560	GGJ_Pad01_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_Pad02_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_Pad01_152bpm3-4_L16M-P01		4092776
+	967243924	GGJ_PianoLead01_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_PianoLead02_152bpm_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_PianoLead01_152bpm3-4_L16M-P01		4092776
+	1066116757	GGJ_Marimba_152bpm3-4_L16M-P01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Body\GGJ_Marimba_152bpm3-4_L16M-P01_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Main_01\Body\GGJ_Marimba_152bpm3-4_L16M-P01		4092776
+
