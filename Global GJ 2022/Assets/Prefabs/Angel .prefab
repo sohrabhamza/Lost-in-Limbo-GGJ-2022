@@ -326,6 +326,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 55
+  groundCheckDistance: 0.03
   groundSpeed: 4
   airSpeed: 2.5
   jumpVelocity: 8
