@@ -13,8 +13,24 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BOX_LAND = 2261947276U;
+        static const AkUniqueID BOX_MOVE = 336764500U;
+        static const AkUniqueID BOX_STOP = 3174681903U;
+        static const AkUniqueID FIRE_EXTINGUISHED = 3462152551U;
+        static const AkUniqueID FIREBURNING = 1892682730U;
+        static const AkUniqueID LEVER_ACTIVATE = 3680590521U;
+        static const AkUniqueID LEVER_ENGAGED = 280814033U;
         static const AkUniqueID PLAY_MUSICMAIN = 3170845728U;
         static const AkUniqueID PLAY_MUSICMENU = 3221870102U;
+        static const AkUniqueID PLAYER_DOUBLEJUMP = 979951458U;
+        static const AkUniqueID PLAYER_FOOTSTEPS = 1730208058U;
+        static const AkUniqueID PLAYER_JUMP = 1305133589U;
+        static const AkUniqueID PLAYERDEATH = 1656947812U;
+        static const AkUniqueID PLAYERLAND = 846198821U;
+        static const AkUniqueID PLAYERTARGET = 390724373U;
+        static const AkUniqueID WATER_BOXMOVE = 1959652875U;
+        static const AkUniqueID WATER_DRAIN = 4271172065U;
+        static const AkUniqueID WATER_DRAINSTOP = 1354171449U;
     } // namespace EVENTS
 
     namespace STATES
@@ -33,7 +49,37 @@ namespace AK
             } // namespace STATE
         } // namespace LEVEL
 
+        namespace PLAYER
+        {
+            static const AkUniqueID GROUP = 1069431850U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ANGEL = 954941472U;
+                static const AkUniqueID DEVIL = 697508553U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace PLAYER
+
     } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace MATERIAL
+        {
+            static const AkUniqueID GROUP = 3865314626U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID FIRE = 2678880713U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID WATER = 2654748154U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace MATERIAL
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

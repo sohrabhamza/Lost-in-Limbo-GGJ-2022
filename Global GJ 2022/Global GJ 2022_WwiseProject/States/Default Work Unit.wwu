@@ -12,6 +12,13 @@
 						<State Name="Level_4" ID="{7CB12223-8656-4CED-9860-52FBCD82D037}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Player" ID="{D88583AC-D134-4408-99E4-4CC126D8C829}">
+					<ChildrenList>
+						<State Name="None" ID="{BD16D4EE-888D-4B63-9E1D-5DC7E033A318}"/>
+						<State Name="Angel" ID="{FFE2399F-FE7B-48B5-A492-8BCFFF5B5CAC}"/>
+						<State Name="Devil" ID="{41869962-DA1E-4284-A8B6-C8147334E94E}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
