@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F043F945-47D3-4116-9BB1-B348B3F8109D}" SchemaVersion="103">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{F043F945-47D3-4116-9BB1-B348B3F8109D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F043F945-47D3-4116-9BB1-B348B3F8109D}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Main" ID="{CE28F654-898E-449A-A318-C92585F76DA6}">
+					<ObjectList>
+						<ObjectRef Name="Ambience" ID="{4DCB7C60-8636-473B-84A9-0736F76C40A0}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+						<ObjectRef Name="Music" ID="{0801287B-11A5-402E-A864-D6827FD26A25}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+						<ObjectRef Name="Objects" ID="{03374B3D-B4E6-40A8-AF8E-AF68E9C15A9F}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+						<ObjectRef Name="Player" ID="{1FBCF292-EC68-49D9-A2FC-EA7D2EEED016}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

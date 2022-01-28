@@ -9,6 +9,52 @@
 							<ObjectRef Name="System" ID="{A44598DB-910D-4DA6-8DAA-45559DB84EC6}" WorkUnitID="{69EFC030-BB68-4616-B40E-6021F3C85CB0}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Objects" ID="{03374B3D-B4E6-40A8-AF8E-AF68E9C15A9F}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Player" ID="{1FBCF292-EC68-49D9-A2FC-EA7D2EEED016}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Ambience" ID="{4DCB7C60-8636-473B-84A9-0736F76C40A0}"/>
+									<DuckingParam>
+										<Volume>-10</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Music" ID="{0801287B-11A5-402E-A864-D6827FD26A25}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Ambience" ID="{4DCB7C60-8636-473B-84A9-0736F76C40A0}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>
