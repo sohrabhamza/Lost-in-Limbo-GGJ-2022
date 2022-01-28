@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_MusicMenu" ID="{CFB114DD-DC26-431B-88E5-36A0B032FD0C}">
+					<ChildrenList>
+						<Action Name="" ID="{5BB26871-CF0A-4876-AA61-2CE6D693EAAF}" ShortID="1044366787">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main_01" ID="{1E179D9B-8B32-48B5-AE0D-57F68936EC84}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{71F8767B-F315-41F4-80D0-9B22D750ADFC}" ShortID="668697937">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main_01" ID="{1E179D9B-8B32-48B5-AE0D-57F68936EC84}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MusicMain" ID="{E1E3FA7C-09E5-494A-91A1-A60D4DCE7A2A}">
+					<ChildrenList>
+						<Action Name="" ID="{A37E34EA-F301-4174-9385-D2DA62830FE1}" ShortID="252675375">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro" ID="{ACD15516-1838-4D6E-B20A-B0026819EFE7}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5475C741-61AB-4AA7-94C5-734445101CF7}" ShortID="882433954">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main_01" ID="{1E179D9B-8B32-48B5-AE0D-57F68936EC84}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
