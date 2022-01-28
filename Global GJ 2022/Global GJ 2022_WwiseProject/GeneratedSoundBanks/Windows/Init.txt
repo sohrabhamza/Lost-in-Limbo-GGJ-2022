@@ -1,7 +1,11 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	1069431850	Player			\Default Work Unit\Player	
 	2782712965	Level			\Default Work Unit\Level	
 
 State	ID	Name	State Group			Notes
+	697508553	Devil	Player			
+	748895195	None	Player			
+	954941472	Angel	Player			
 	748895195	None	Level			
 	1290008369	Level_1	Level			
 	1290008370	Level_2	Level			
