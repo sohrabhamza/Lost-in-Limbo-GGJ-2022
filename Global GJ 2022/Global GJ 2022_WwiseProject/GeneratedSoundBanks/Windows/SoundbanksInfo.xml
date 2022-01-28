@@ -11,16 +11,32 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1119323840">
+		<SoundBank Id="1355168291" Language="SFX" Hash="4205041052">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="994486029">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3065066399">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3597471619" Name="Ambience_Cave" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Cave" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="409593732" Language="SFX">
+							<ShortName>Ambiance_Cave.wav</ShortName>
+							<Path>SFX/Ambiance_Cave_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1481642983" Name="Ambience_Forest" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Forest" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="733703928" Language="SFX">
+							<ShortName>Ambiance_DarkForest.wav</ShortName>
+							<Path>SFX/Ambiance_DarkForest_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2261947276" Name="Box_Land" ObjectPath="\Events\Default Work Unit\World Object\Box\Box_Land" MaxAttenuation="10." DurationType="OneShot" DurationMin="0.625" DurationMax="0.625">
 					<IncludedMemoryFiles>
 						<File Id="480945929" Language="SFX">
@@ -41,7 +57,7 @@
 					<IncludedMemoryFiles>
 						<File Id="414548511" Language="SFX">
 							<ShortName>Object\Box_DragStop.wav</ShortName>
-							<Path>SFX/Object/Box_DragStop_B5071B7F.wem</Path>
+							<Path>SFX/Object/Box_DragStop_89F84D3D.wem</Path>
 						</File>
 						<File Id="1005851960" Language="SFX">
 							<ShortName>Object\Box_Drag.wav</ShortName>
@@ -49,23 +65,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3174681903" Name="Box_Stop" ObjectPath="\Events\Default Work Unit\World Object\Box\Box_Stop" DurationType="OneShot" DurationMin="0.220453" DurationMax="0.220453">
+				<Event Id="3174681903" Name="Box_Stop" ObjectPath="\Events\Default Work Unit\World Object\Box\Box_Stop" DurationType="OneShot" DurationMin="0.287549" DurationMax="0.287549">
 					<IncludedMemoryFiles>
 						<File Id="1057836965" Language="SFX">
 							<ShortName>Object\Box_DragStop.wav</ShortName>
-							<Path>SFX/Object/Box_DragStop_D7C233D5.wem</Path>
+							<Path>SFX/Object/Box_DragStop_BD2C9612.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3462152551" Name="Fire_Extinguished" ObjectPath="\Events\Default Work Unit\World Object\Fire\Fire_Extinguished" DurationType="OneShot" DurationMin="1.790104" DurationMax="1.790104">
+				<Event Id="3462152551" Name="Fire_Extinguished" ObjectPath="\Events\Default Work Unit\World Object\Fire\Fire_Extinguished" MaxAttenuation="10." DurationType="OneShot" DurationMin="1.790104" DurationMax="1.790104">
 					<IncludedMemoryFiles>
 						<File Id="452080405" Language="SFX">
 							<ShortName>Object\Fire_Extinguish.wav</ShortName>
 							<Path>SFX/Object/Fire_Extinguish_10C4C929.wem</Path>
-						</File>
-						<File Id="772736499" Language="SFX">
-							<ShortName>Object\Fire.wav</ShortName>
-							<Path>SFX/Object/Fire_8C653A59.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -90,6 +102,22 @@
 						<File Id="23537241" Language="SFX">
 							<ShortName>Object\LeverPushEnd.wav</ShortName>
 							<Path>SFX/Object/LeverPushEnd_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1015853698" Name="PlatformStone_Crumble" ObjectPath="\Events\Default Work Unit\World Object\Platform\PlatformStone_Crumble" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.636387" DurationMax="3.13521">
+					<IncludedMemoryFiles>
+						<File Id="159671737" Language="SFX">
+							<ShortName>Object\Platform_Stone_Crumble.wav</ShortName>
+							<Path>SFX/Object/Platform_Stone_Crumble_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1203897778" Name="PlatformWood_Crumble" ObjectPath="\Events\Default Work Unit\World Object\Platform\PlatformWood_Crumble" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.678882" DurationMax="2.678882">
+					<IncludedMemoryFiles>
+						<File Id="26705603" Language="SFX">
+							<ShortName>Object\Platform_Wood_Crumble_1.wav</ShortName>
+							<Path>SFX/Object/Platform_Wood_Crumble_1_753F3983.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -125,11 +153,11 @@
 					<IncludedMemoryFiles>
 						<File Id="83448871" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Fire01.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire01_6DEFE369.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire01_1883D32B.wem</Path>
 						</File>
 						<File Id="109428132" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Water02.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Water02_B17161A5.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Water02_259D6D5C.wem</Path>
 						</File>
 						<File Id="122933092" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Wood03.wav</ShortName>
@@ -149,7 +177,7 @@
 						</File>
 						<File Id="371435255" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Fire03.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire03_CBC12C67.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire03_B87BF4DB.wem</Path>
 						</File>
 						<File Id="407521923" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Grass01.wav</ShortName>
@@ -161,7 +189,7 @@
 						</File>
 						<File Id="768539150" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Fire02.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire02_088B0A72.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire02_50F30B8A.wem</Path>
 						</File>
 						<File Id="785083429" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Grass02.wav</ShortName>
@@ -177,11 +205,11 @@
 						</File>
 						<File Id="866944144" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Water01.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Water01_779B78C8.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Water01_30F1C52F.wem</Path>
 						</File>
 						<File Id="1061244245" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Water03.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Water03_898ECC3B.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Water03_4C2379E6.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -189,15 +217,15 @@
 					<IncludedMemoryFiles>
 						<File Id="229704442" Language="SFX">
 							<ShortName>Character\Jump\Player_Jump03.wav</ShortName>
-							<Path>SFX/Character/Jump/Player_Jump03_A34A0D14.wem</Path>
+							<Path>SFX/Character/Jump/Player_Jump03_010FE536.wem</Path>
 						</File>
 						<File Id="565194462" Language="SFX">
 							<ShortName>Character\Jump\Player_Jump01.wav</ShortName>
-							<Path>SFX/Character/Jump/Player_Jump01_07014C8C.wem</Path>
+							<Path>SFX/Character/Jump/Player_Jump01_7BF06642.wem</Path>
 						</File>
 						<File Id="731794385" Language="SFX">
 							<ShortName>Character\Jump\Player_Jump02.wav</ShortName>
-							<Path>SFX/Character/Jump/Player_Jump02_33B5C1BA.wem</Path>
+							<Path>SFX/Character/Jump/Player_Jump02_B0394654.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -221,11 +249,11 @@
 						</File>
 						<File Id="523477761" Language="SFX">
 							<ShortName>Character\Voice\Player_AngelDeathCry.wav</ShortName>
-							<Path>SFX/Character/Voice/Player_AngelDeathCry_6B8A5AE2.wem</Path>
+							<Path>SFX/Character/Voice/Player_AngelDeathCry_895F02AF.wem</Path>
 						</File>
 						<File Id="560798157" Language="SFX">
 							<ShortName>Character\Voice\Player_DevilDeathCry.wav</ShortName>
-							<Path>SFX/Character/Voice/Player_DevilDeathCry_0C81FF0C.wem</Path>
+							<Path>SFX/Character/Voice/Player_DevilDeathCry_441A87D3.wem</Path>
 						</File>
 						<File Id="703289118" Language="SFX">
 							<ShortName>Character\Death Scenario\Player_Stabbed03.wav</ShortName>
@@ -296,11 +324,11 @@
 					<IncludedMemoryFiles>
 						<File Id="83448871" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Fire01.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire01_6DEFE369.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire01_1883D32B.wem</Path>
 						</File>
 						<File Id="109428132" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Water02.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Water02_B17161A5.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Water02_259D6D5C.wem</Path>
 						</File>
 						<File Id="122933092" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Wood03.wav</ShortName>
@@ -320,7 +348,7 @@
 						</File>
 						<File Id="371435255" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Fire03.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire03_CBC12C67.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire03_B87BF4DB.wem</Path>
 						</File>
 						<File Id="407521923" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Grass01.wav</ShortName>
@@ -332,7 +360,7 @@
 						</File>
 						<File Id="768539150" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Fire02.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire02_088B0A72.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire02_50F30B8A.wem</Path>
 						</File>
 						<File Id="785083429" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Grass02.wav</ShortName>
@@ -348,11 +376,11 @@
 						</File>
 						<File Id="866944144" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Water01.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Water01_779B78C8.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Water01_30F1C52F.wem</Path>
 						</File>
 						<File Id="1061244245" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Water03.wav</ShortName>
-							<Path>SFX/Character/Footsteps/Player_Footsteps_Water03_898ECC3B.wem</Path>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Water03_4C2379E6.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{0A5983F1-5C50-4EC8-BB07-8B82C2278B5A}</DefaultSwitchValue>
@@ -427,7 +455,7 @@
 						</File>
 						<File Id="414548511" Language="SFX">
 							<ShortName>Object\Box_DragStop.wav</ShortName>
-							<Path>SFX/Object/Box_DragStop_B5071B7F.wem</Path>
+							<Path>SFX/Object/Box_DragStop_89F84D3D.wem</Path>
 						</File>
 						<File Id="1005851960" Language="SFX">
 							<ShortName>Object\Box_Drag.wav</ShortName>
@@ -473,7 +501,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3305247556">
+		<SoundBank Id="3991942870" Language="SFX" Hash="4085584745">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
