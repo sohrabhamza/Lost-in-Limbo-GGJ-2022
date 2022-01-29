@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 2715309582131434220}
   - component: {fileID: 2715309582131434221}
   m_Layer: 0
-  m_Name: Devil Sprite
+  m_Name: Angel Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,7 +241,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -207258453142006085, guid: da18263a1b8b6524eae9c9f6df5d54ae, type: 3}
+  m_Sprite: {fileID: 7637639724863290454, guid: 7f6afb45c8dee0949a4c5099cc5ca256, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -262,7 +262,7 @@ Animator:
   m_GameObject: {fileID: 2715309582131434223}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c3cc1f9fcdd01ef41a8d35b17c2bddd7, type: 2}
+  m_Controller: {fileID: 9100000, guid: bfd7eab9f1ff1e0498dd4006212fdf95, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
