@@ -14,16 +14,18 @@
 						<ObjectRef Name="Player_Footsteps" ID="{7E50EFC5-1C48-43AC-B7C2-C37665D1C0C2}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlatformStone_Crumble" ID="{3FD0B311-F12B-44CD-8AC8-F2B3091650C5}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Box_Move" ID="{DD095DB7-896B-4646-A49D-136E7A797A57}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayerDeath" ID="{106F14FE-0968-475D-9472-0D3008AEF605}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerDeath_Angel" ID="{106F14FE-0968-475D-9472-0D3008AEF605}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lever_Engaged" ID="{5BA89BDA-8435-47BE-807F-34675FDDE39F}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerDeath_Devil" ID="{94428FF8-1556-4909-BF07-57AE8A41549E}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Water_DrainStop" ID="{0801DBA7-8E1C-499A-A6DD-9C116E3198A5}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Water_Drain" ID="{A6469F9B-A5E7-49E6-B6ED-19144DD440B2}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlatformWood_Crumble" ID="{E3D3366D-3CD1-4A16-999B-5202C0ADC957}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_TargetAngel" ID="{7BAD7656-0A35-4A2E-A076-7E1C7930189F}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_TargetDevil" ID="{718C96EB-8E5E-4B0E-9AA2-6E509207884A}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Box_Stop" ID="{8F3399F4-7C46-4B6C-960C-65DB4FDA4959}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_DoubleJump" ID="{CB3344BB-A4D6-4BEF-A4D5-B412F2287673}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Water_BoxMove" ID="{A3888277-AE05-4C40-A669-59C78E1878B5}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Jump" ID="{B96055B6-7A0B-4CDD-A682-AC60CEE58F7E}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayerTarget" ID="{F61851B2-1A22-4F40-B072-067B1BE9F8E7}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Extinguished" ID="{AC79D8FF-7CB1-4FB6-9FAF-91313D01189D}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

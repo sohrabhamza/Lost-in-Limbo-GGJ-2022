@@ -160,10 +160,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7079746449634245851, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
       propertyPath: midPoint
       value: 
       objectReference: {fileID: 65421331}
+    - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
+      propertyPath: Cry.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 2761a1f9eb2fb4c1d867a85a6ec96540, type: 2}
+    - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
+      propertyPath: Jump.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f0fb15024edf54f14970679cad509c36, type: 2}
+    - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
+      propertyPath: Death.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 8c39d14f41b1347cabca1704f0672e3d, type: 2}
+    - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
+      propertyPath: Landing.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 49f712df2ae6146718d7caab4e2de79f, type: 2}
+    - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
+      propertyPath: myFootstep.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: ee346fe3cc6d1402c95584d49896d327, type: 2}
     - target: {fileID: 8029495831828941596, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
       propertyPath: m_RootOrder
       value: 4

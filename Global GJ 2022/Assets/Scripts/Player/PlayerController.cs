@@ -28,6 +28,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool allowDoubleJump = false;
     [SerializeField] bool allowFloating = true;
 
+    [Header ("Wwise Events")]
+    public AK.Wwise.Event myFootstep;
+    public AK.Wwise.Event Jump;
+    public AK.Wwise.Event Landing;
+    public AK.Wwise.Event Death;
+    public AK.Wwise.Event Cry;
+
     // private fields
     Vector2 movement;
     bool isGrounded;
