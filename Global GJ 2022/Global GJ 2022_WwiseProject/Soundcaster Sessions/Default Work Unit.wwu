@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{71314CBC-F248-4E9F-87E9-38598FD77FA9}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{71314CBC-F248-4E9F-87E9-38598FD77FA9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{71314CBC-F248-4E9F-87E9-38598FD77FA9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Main" ID="{FEB749B9-3576-4925-BC98-A32042E96512}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlatformWood_Crumble" ID="{E3D3366D-3CD1-4A16-999B-5202C0ADC957}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_DoubleJump" ID="{CB3344BB-A4D6-4BEF-A4D5-B412F2287673}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FireBurning" ID="{B219AFA7-21A8-42C0-A8B2-564E2021505E}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Water_Drain" ID="{A6469F9B-A5E7-49E6-B6ED-19144DD440B2}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambience_Cave" ID="{9B940964-760A-41F5-ADF4-706B9B1A4C59}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lever_Activate" ID="{CE45F8BF-4BCE-42CE-89B3-CAA7C87EB139}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Water_DrainStop" ID="{0801DBA7-8E1C-499A-A6DD-9C116E3198A5}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Lever_Engaged" ID="{5BA89BDA-8435-47BE-807F-34675FDDE39F}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlatformStone_Crumble" ID="{3FD0B311-F12B-44CD-8AC8-F2B3091650C5}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_Extinguished" ID="{AC79D8FF-7CB1-4FB6-9FAF-91313D01189D}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{BD16D4EE-888D-4B63-9E1D-5DC7E033A318}"/>
+						<CurrentStateRef Name="None" ID="{22ACCD30-DB98-41F7-8485-0285D03F9784}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Grass" ID="{21789B18-5A52-4655-A05B-EC43E36CA4B2}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
