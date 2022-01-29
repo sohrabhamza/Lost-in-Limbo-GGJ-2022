@@ -95,9 +95,9 @@ public class PlayerController : MonoBehaviour
         point.intensity = Mathf.Lerp(point.intensity, pointLightIntensity, Time.deltaTime * 15);    //Don't feel like stopping this when its near max; This should be fine. 
     }
 
-    public void PlayFootstepSound()
+    void Anim_myFootstep()
     {
-        //play footstep sound through events
+        myFootstep.Post(gameObject);
     }
 
     // Called at fixed intervals
