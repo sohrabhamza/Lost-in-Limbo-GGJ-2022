@@ -8,9 +8,9 @@ public class PlayerController : MonoBehaviour
     public bool isEnabled = true;
 
     [Header("References")]
-    [SerializeField] Rigidbody2D rb;
-    [SerializeField] Animator animator;
-    [SerializeField] SpriteRenderer sprite;
+    Rigidbody2D rb;
+    Animator animator;
+    SpriteRenderer sprite;
     [SerializeField] Transform[] groundChecks;
     [SerializeField] Transform[] ceilingChecks;
     [SerializeField] Light2D point;
@@ -33,7 +33,9 @@ public class PlayerController : MonoBehaviour
     public AK.Wwise.Event myJump;
     public AK.Wwise.Event myLanding;
     public AK.Wwise.Event myDeath;
-    public AK.Wwise.Event myCry;
+    public AK.Wwise.Event myDevilCry;
+    public AK.Wwise.Event myAngelCry;
+    public AK.Wwise.Event myDoubleJump;
 
     // private fields
     Vector2 movement;
@@ -74,11 +76,11 @@ public class PlayerController : MonoBehaviour
             isEnabled = !isEnabled;
             if (isEnabled && allowDoubleJump)
             {
-                //play angel switch sound
+                myAngelCry.Post(gameObject);
             }
             else if (isEnabled && !allowDoubleJump)
             {
-                //play devil switch sound
+                myDevilCry.Post(gameObject);
             }
         }
         if (!isEnabled)
@@ -120,7 +122,7 @@ public class PlayerController : MonoBehaviour
 
         if (isGrounded != lastFrameGrounded && isGrounded)
         {
-            myJump.Post(gameObject);
+            myLanding.Post(gameObject);
             Debug.Log("landed");
         }
         lastFrameGrounded = isGrounded;
@@ -189,7 +191,7 @@ public class PlayerController : MonoBehaviour
                 movement.y = jumpVelocity;
                 readySecondJump = false;
 
-                //Jump Sound
+                myDoubleJump.Post(gameObject);
             }
 
             if (airControl)
@@ -219,7 +221,7 @@ public class PlayerController : MonoBehaviour
             coyoteTimeRN = coyoteTime;
             readyFirstJump = false;
 
-           // play jump
+           myJump.Post(gameObject);
         }
     }
 

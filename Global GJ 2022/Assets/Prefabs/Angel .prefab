@@ -381,9 +381,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEnabled: 0
-  rb: {fileID: 0}
-  animator: {fileID: 0}
-  sprite: {fileID: 0}
   groundChecks:
   - {fileID: 2715309581617245912}
   - {fileID: 2715309582204056074}
@@ -404,6 +401,34 @@ MonoBehaviour:
   airControl: 1
   allowDoubleJump: 1
   allowFloating: 1
+  myFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ad69d4ecdd644475da9c44482287ade6, type: 2}
+  myJump:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a9892ee8701b6492bad389d6fa19452d, type: 2}
+  myLanding:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c1b8b2563a590450fb508b98ace34ec2, type: 2}
+  myDeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aa51da42fe63c46d9921974e4f2cf3b2, type: 2}
+  myDevilCry:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2761a1f9eb2fb4c1d867a85a6ec96540, type: 2}
+  myAngelCry:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f0fadd262b6d44347ba8193e484700ef, type: 2}
+  myDoubleJump:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c3f4fc97e3aec40858fcc4652103eb2e, type: 2}
 --- !u!50 &2715309582271592667
 Rigidbody2D:
   serializedVersion: 4

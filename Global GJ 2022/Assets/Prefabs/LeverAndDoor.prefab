@@ -231,6 +231,14 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  LeverPushed:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dab464ce76c924ce488892e9822806a8, type: 2}
+  LeverEngaged:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2b55d102264914e76a192e0d2d0710fc, type: 2}
 --- !u!1 &8453513050591119680
 GameObject:
   m_ObjectHideFlags: 0

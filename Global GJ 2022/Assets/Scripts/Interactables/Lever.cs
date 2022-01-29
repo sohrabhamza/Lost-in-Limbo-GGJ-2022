@@ -10,6 +10,10 @@ public class Lever : MonoBehaviour
     [SerializeField] UnityEvent onEvent;
     [SerializeField] UnityEvent changeEvent;
 
+    [Header("Wwise Events")]
+    public AK.Wwise.Event LeverPushed;
+    public AK.Wwise.Event LeverEngaged;
+
     HingeJoint2D hinge;
     float motorSpeed;
     bool state;
@@ -53,7 +57,7 @@ public class Lever : MonoBehaviour
         {
             if (state) onEvent.Invoke(); else offEvent.Invoke();
             changeEvent.Invoke();
-            //Play sound on engage
+            LeverEngaged.Post(gameObject);
         }
 
         lastState = state;
@@ -63,7 +67,7 @@ public class Lever : MonoBehaviour
     {
         if (other.collider.tag == "Player")
         {
-            //play touch sound
+            LeverPushed.Post(gameObject);
         }
     }
 }
