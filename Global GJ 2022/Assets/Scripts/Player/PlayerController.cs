@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool allowDoubleJump = false;
     [SerializeField] bool allowFloating = true;
 
-    [Header ("Wwise Events")]
+    [Header("Wwise Events")]
     public AK.Wwise.Event myFootstep;
     public AK.Wwise.Event Jump;
     public AK.Wwise.Event Landing;
@@ -50,6 +50,7 @@ public class PlayerController : MonoBehaviour
     float pointLightIntensity;
     Collider2D myCollider;
     float gravityModifier;
+    bool lastFrameGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -71,6 +72,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             isEnabled = !isEnabled;
+            if (isEnabled && allowDoubleJump)
+            {
+                //play angel switch sound
+            }
+            else if (isEnabled && !allowDoubleJump)
+            {
+                //play devil switch sound
+            }
         }
         if (!isEnabled)
         {
@@ -83,12 +92,18 @@ public class PlayerController : MonoBehaviour
         }
         point.intensity = Mathf.Lerp(point.intensity, pointLightIntensity, Time.deltaTime * 15);    //Don't feel like stopping this when its near max; This should be fine. 
     }
+
+    public void PlayFootstepSound()
+    {
+        //play footstep sound through events
+    }
+
     // Called at fixed intervals
     void FixedUpdate()
     {
         // Determines ground and ceiling collisions
-        isGrounded = false;
-        ceilingHit = false;
+        // isGrounded = false;
+        // ceilingHit = false;
 
         // foreach (Transform groundCheck in groundChecks)
         // {
@@ -102,6 +117,12 @@ public class PlayerController : MonoBehaviour
 
         RaycastHit2D raycastHit2D = Physics2D.BoxCast(myCollider.bounds.center, new Vector3(myCollider.bounds.size.x - 0.1f, myCollider.bounds.size.y), 0f, Vector2.down, groundCheckDistance, playerLayer);
         isGrounded = raycastHit2D.collider != null;
+
+        if (isGrounded != lastFrameGrounded && isGrounded == false)
+        {
+            //play landing sound
+        }
+        lastFrameGrounded = isGrounded;
 
         Debug.DrawRay(myCollider.bounds.center + new Vector3(myCollider.bounds.extents.x, 0), Vector3.down * (myCollider.bounds.extents.y + groundCheckDistance));
         Debug.DrawRay(myCollider.bounds.center - new Vector3(myCollider.bounds.extents.x, 0), Vector3.down * (myCollider.bounds.extents.y + groundCheckDistance));
@@ -166,6 +187,8 @@ public class PlayerController : MonoBehaviour
                 groundX = x;
                 movement.y = jumpVelocity;
                 readySecondJump = false;
+
+                //Jump Sound
             }
 
             if (airControl)
@@ -194,6 +217,8 @@ public class PlayerController : MonoBehaviour
             movement.y = jumpVelocity;
             coyoteTimeRN = coyoteTime;
             readyFirstJump = false;
+
+            //Jump sound
         }
     }
 

@@ -17,6 +17,7 @@ public class KillWall : MonoBehaviour
         if ((other.gameObject.layer == 6 && killDevilOrAngel == KillDevilOrAngel.devil) || (other.gameObject.layer == 7 && killDevilOrAngel == KillDevilOrAngel.angel))
         {
             Destroy(other.gameObject);
+            //Play death sound
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }

@@ -53,8 +53,17 @@ public class Lever : MonoBehaviour
         {
             if (state) onEvent.Invoke(); else offEvent.Invoke();
             changeEvent.Invoke();
+            //Play sound on engage
         }
 
         lastState = state;
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.collider.tag == "Player")
+        {
+            //play touch sound
+        }
     }
 }
