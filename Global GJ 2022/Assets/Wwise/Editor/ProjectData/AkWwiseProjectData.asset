@@ -275,9 +275,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: ba9aa457d67743439625e749376cf8be
       Path: Events/Default Work Unit/World Object/Box/Box_Land
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 10
+      maxDuration: 0.625
+      minDuration: 0.625
     - name: Box_Move
       guid: b75d09dd6b894646a49d136e7a797a57
       id: 336764500
@@ -322,8 +322,8 @@ MonoBehaviour:
         guid: f499338f467c6c4b960c65db4fda4959
       Path: Events/Default Work Unit/World Object/Box/Box_Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.287549
+      minDuration: 0.287549
     - name: Fire
       guid: 8a17fdb77704b44783a2220c0514ca52
       id: 2678880713
@@ -364,9 +364,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: ffd879acb17cb64f9faf91313d01189d
       Path: Events/Default Work Unit/World Object/Fire/Fire_Extinguished
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 10
+      maxDuration: 1.790104
+      minDuration: 1.790104
     - name: FireBurning
       guid: a7af19b2a821c042a8b2564e2021505e
       id: 1892682730
@@ -387,7 +387,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a7af19b2a821c042a8b2564e2021505e
       Path: Events/Default Work Unit/World Object/Fire/FireBurning
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Lever
@@ -431,8 +431,8 @@ MonoBehaviour:
         guid: bff845cece4bce4289b3caa7c87eb139
       Path: Events/Default Work Unit/World Object/Lever/Lever_Activate
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.385262
+      minDuration: 0.305782
     - name: Lever_Engaged
       guid: da9ba85b3584be47807f34675fdde39f
       id: 280814033
@@ -454,8 +454,8 @@ MonoBehaviour:
         guid: da9ba85b3584be47807f34675fdde39f
       Path: Events/Default Work Unit/World Object/Lever/Lever_Engaged
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.387494
+      minDuration: 0.305782
     - name: Music
       guid: 9aa085bee45ee046a951b0da473404d6
       id: 3991942870
@@ -513,9 +513,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 11b3d03f2bf1cd448ac8f2b3091650c5
       Path: Events/Default Work Unit/World Object/Platform/PlatformStone_Crumble
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 10
+      maxDuration: 3.13521
+      minDuration: 2.636387
     - name: PlatformWood_Crumble
       guid: 6d36d3e3d13c164a999b5202c0adc957
       id: 1203897778
@@ -536,9 +536,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6d36d3e3d13c164a999b5202c0adc957
       Path: Events/Default Work Unit/World Object/Platform/PlatformWood_Crumble
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 10
+      maxDuration: 2.678882
+      minDuration: 2.678882
     - name: Play_MusicMain
       guid: 7cfae3e1e5094a4991a1a60d4dce7a2a
       id: 3170845728
@@ -577,8 +577,8 @@ MonoBehaviour:
         guid: dd14b1cf26dc1b4388e536a0b032fd0c
       Path: Events/Default Work Unit/Music/Play_MusicMenu
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 21.31579
+      minDuration: 21.31579
     - name: Player
       guid: 873d0e3c5a49fb448b01bc6edbe84cda
       id: 1069431850
@@ -614,8 +614,8 @@ MonoBehaviour:
         guid: bb4433cbd6a4ef4ba4d5b412f2287673
       Path: Events/Default Work Unit/Player/Player_DoubleJump
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.102431
+      minDuration: 0.879536
     - name: Player_Footsteps
       guid: c5ef507e481cac43b7c2c37665d1c0c2
       id: 1730208058
@@ -634,8 +634,8 @@ MonoBehaviour:
         guid: c5ef507e481cac43b7c2c37665d1c0c2
       Path: Events/Default Work Unit/Player/Player_Footsteps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.787451
+      minDuration: 0.256681
     - name: Player_Jump
       guid: b65560b90b7add4ca682ac60cee58f7e
       id: 1305133589
@@ -654,8 +654,8 @@ MonoBehaviour:
         guid: b65560b90b7add4ca682ac60cee58f7e
       Path: Events/Default Work Unit/Player/Player_Jump
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.981032
+      minDuration: 0.618012
     - name: Player_TargetAngel
       guid: 5676ad7b350a2e4aa0767e1c7930189f
       id: 2573493753
@@ -674,8 +674,8 @@ MonoBehaviour:
         guid: 5676ad7b350a2e4aa0767e1c7930189f
       Path: Events/Default Work Unit/Player/Player_TargetAngel
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.5
+      minDuration: 1.5
     - name: Player_TargetDevil
       guid: eb968c715e8e0e4b9aa26e509207884a
       id: 3504896480
@@ -694,8 +694,8 @@ MonoBehaviour:
         guid: eb968c715e8e0e4b9aa26e509207884a
       Path: Events/Default Work Unit/Player/Player_TargetDevil
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.5
+      minDuration: 1.5
     - name: PlayerDeath_Angel
       guid: fe146f1068095d4794720d3008aef605
       id: 2251509474
@@ -714,8 +714,8 @@ MonoBehaviour:
         guid: fe146f1068095d4794720d3008aef605
       Path: Events/Default Work Unit/Player/PlayerDeath_Angel
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.55779
+      minDuration: 1.55779
     - name: PlayerDeath_Devil
       guid: f88f429456150949bf0757ae8a41549e
       id: 3955923815
@@ -734,8 +734,8 @@ MonoBehaviour:
         guid: f88f429456150949bf0757ae8a41549e
       Path: Events/Default Work Unit/Player/PlayerDeath_Devil
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.552326
+      minDuration: 1.447101
     - name: PlayerLand
       guid: faf2e1a10e5d4f41923c680d8b9ea561
       id: 846198821
@@ -754,8 +754,8 @@ MonoBehaviour:
         guid: faf2e1a10e5d4f41923c680d8b9ea561
       Path: Events/Default Work Unit/Player/PlayerLand
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.867451
+      minDuration: 0.336681
     - name: Water
       guid: 49784e0128e5e8488b314ed3b05b04f2
       id: 2654748154
@@ -819,7 +819,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9b9f46a6e7a5e649b6ed19144dd440b2
       Path: Events/Default Work Unit/World Object/Water/Water_Drain
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Water_DrainStop
@@ -842,9 +842,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: a7db01081c8e9a49a6dd9c116e3198a5
       Path: Events/Default Work Unit/World Object/Water/Water_DrainStop
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 10
+      maxDuration: 3
+      minDuration: 3
     - name: World Object
       guid: f9255fa84f6b844a9e676cb29c9ce2a1
       id: 1345980972
@@ -1181,7 +1181,7 @@ MonoBehaviour:
     m_lastTime: -8585582988864775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000002b000000
+  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000a0000000b0000000c0000000f00000010000000130000001400000016000000180000002b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
