@@ -175,7 +175,7 @@ PrefabInstance:
     - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
       propertyPath: Jump.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: f0fb15024edf54f14970679cad509c36, type: 2}
+      objectReference: {fileID: 11400000, guid: a9892ee8701b6492bad389d6fa19452d, type: 2}
     - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
       propertyPath: Death.WwiseObjectReference
       value: 
@@ -183,11 +183,15 @@ PrefabInstance:
     - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
       propertyPath: Landing.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 49f712df2ae6146718d7caab4e2de79f, type: 2}
+      objectReference: {fileID: 11400000, guid: c1b8b2563a590450fb508b98ace34ec2, type: 2}
+    - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
+      propertyPath: myLanding.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: c1b8b2563a590450fb508b98ace34ec2, type: 2}
     - target: {fileID: 8029495831828941586, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
       propertyPath: myFootstep.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: ee346fe3cc6d1402c95584d49896d327, type: 2}
+      objectReference: {fileID: 11400000, guid: ad69d4ecdd644475da9c44482287ade6, type: 2}
     - target: {fileID: 8029495831828941596, guid: 6371be873b4a56c4189ed056cc8b7280, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -670,6 +674,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1850681412}
   - component: {fileID: 1850681411}
+  - component: {fileID: 1850681413}
+  - component: {fileID: 1850681414}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -716,3 +722,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1850681413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850681410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b7dd584d3fc44138ba7c3474bd11ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d98512bfde81b48c0ab8966e02fdabbd, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1850681414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850681410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b7dd584d3fc44138ba7c3474bd11ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d92f8921eb3ed42dc9569dd0ee78bee0, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 

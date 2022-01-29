@@ -30,10 +30,10 @@ public class PlayerController : MonoBehaviour
 
     [Header("Wwise Events")]
     public AK.Wwise.Event myFootstep;
-    public AK.Wwise.Event Jump;
-    public AK.Wwise.Event Landing;
-    public AK.Wwise.Event Death;
-    public AK.Wwise.Event Cry;
+    public AK.Wwise.Event myJump;
+    public AK.Wwise.Event myLanding;
+    public AK.Wwise.Event myDeath;
+    public AK.Wwise.Event myCry;
 
     // private fields
     Vector2 movement;
@@ -118,9 +118,10 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D raycastHit2D = Physics2D.BoxCast(myCollider.bounds.center, new Vector3(myCollider.bounds.size.x - 0.1f, myCollider.bounds.size.y), 0f, Vector2.down, groundCheckDistance, playerLayer);
         isGrounded = raycastHit2D.collider != null;
 
-        if (isGrounded != lastFrameGrounded && isGrounded == false)
+        if (isGrounded != lastFrameGrounded && isGrounded)
         {
-            //play landing sound
+            myJump.Post(gameObject);
+            Debug.Log("landed");
         }
         lastFrameGrounded = isGrounded;
 
@@ -218,7 +219,7 @@ public class PlayerController : MonoBehaviour
             coyoteTimeRN = coyoteTime;
             readyFirstJump = false;
 
-            //Jump sound
+           // play jump
         }
     }
 
