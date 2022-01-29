@@ -11,10 +11,14 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Objects" ID="{03374B3D-B4E6-40A8-AF8E-AF68E9C15A9F}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Player" ID="{1FBCF292-EC68-49D9-A2FC-EA7D2EEED016}">
 							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>5</Value>
@@ -46,12 +50,21 @@
 						</Bus>
 						<Bus Name="Ambience" ID="{4DCB7C60-8636-473B-84A9-0736F76C40A0}">
 							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Reverbs" ID="{B7D356F7-CDF1-4369-99FD-F2F911389BF0}">
+							<ChildrenList>
+								<AuxBus Name="Cave" ID="{15283CC5-6242-4070-BD7B-BABE2BA5FA3F}">
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
 					</ChildrenList>

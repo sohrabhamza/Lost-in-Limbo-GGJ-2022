@@ -101,7 +101,13 @@ namespace AK
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID OBJECTS = 1695690031U;
         static const AkUniqueID PLAYER = 1069431850U;
+        static const AkUniqueID REVERBS = 3545700988U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID CAVE = 4122393694U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {
