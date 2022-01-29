@@ -29,9 +29,11 @@ namespace AK
         static const AkUniqueID PLAYER_DOUBLEJUMP = 979951458U;
         static const AkUniqueID PLAYER_FOOTSTEPS = 1730208058U;
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
-        static const AkUniqueID PLAYERDEATH = 1656947812U;
+        static const AkUniqueID PLAYER_TARGETANGEL = 2573493753U;
+        static const AkUniqueID PLAYER_TARGETDEVIL = 3504896480U;
+        static const AkUniqueID PLAYERDEATH_ANGEL = 2251509474U;
+        static const AkUniqueID PLAYERDEATH_DEVIL = 3955923815U;
         static const AkUniqueID PLAYERLAND = 846198821U;
-        static const AkUniqueID PLAYERTARGET = 390724373U;
         static const AkUniqueID WATER_BOXMOVE = 1959652875U;
         static const AkUniqueID WATER_DRAIN = 4271172065U;
         static const AkUniqueID WATER_DRAINSTOP = 1354171449U;

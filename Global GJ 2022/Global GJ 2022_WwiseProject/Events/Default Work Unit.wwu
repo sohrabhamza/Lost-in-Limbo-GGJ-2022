@@ -16,7 +16,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="PlayerDeath" ID="{106F14FE-0968-475D-9472-0D3008AEF605}">
+						<Event Name="PlayerDeath_Angel" ID="{106F14FE-0968-475D-9472-0D3008AEF605}">
 							<ChildrenList>
 								<Action Name="" ID="{EE1BA868-C422-4F46-901E-8B400BC23941}" ShortID="972599311">
 									<PropertyList>
@@ -24,7 +24,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Player_DeathCry" ID="{182EDA50-CE2D-467C-93A8-F618EF40A95D}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+											<ObjectRef Name="Player_AngelDeathCry" ID="{D39E6344-F082-44F5-A68E-4AEFDB4C6756}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -32,17 +32,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Player_Death" ID="{12F9F74C-08B1-42FB-8532-1BFC1B88D0D7}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="PlayerTarget" ID="{F61851B2-1A22-4F40-B072-067B1BE9F8E7}">
-							<ChildrenList>
-								<Action Name="" ID="{56406C72-0209-4427-97A3-A3C55ECED81C}" ShortID="718036699">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="PlayerCry" ID="{3B26AC0A-8F25-4FEA-8FF9-258EB0FCFB48}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -106,6 +95,49 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Footsteps" ID="{6C0DDA4C-8BA8-40EB-85E1-3852C65756B9}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_TargetAngel" ID="{7BAD7656-0A35-4A2E-A076-7E1C7930189F}">
+							<ChildrenList>
+								<Action Name="" ID="{83A05EFC-CB44-4BF0-9687-B7D5B0934773}" ShortID="120950199">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Angel" ID="{B6B1F18E-1163-42B2-A340-06C599531DB6}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_TargetDevil" ID="{718C96EB-8E5E-4B0E-9AA2-6E509207884A}">
+							<ChildrenList>
+								<Action Name="" ID="{61DF54D2-A79D-49DB-958C-C9A84A6ABBD9}" ShortID="916435257">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Devil" ID="{DA698FB9-68F4-427C-BE12-1F16637EB606}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerDeath_Devil" ID="{94428FF8-1556-4909-BF07-57AE8A41549E}">
+							<ChildrenList>
+								<Action Name="" ID="{25954599-2B81-495A-A17D-4F6FED1E1C2C}" ShortID="879306772">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_DevilDeathCry" ID="{4598386E-BE75-4EE2-9697-D7F13356E01B}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3C30860B-5064-4772-8FA3-D4A177FB8D7A}" ShortID="348165545">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Death" ID="{12F9F74C-08B1-42FB-8532-1BFC1B88D0D7}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

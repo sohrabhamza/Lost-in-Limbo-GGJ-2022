@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3065066399">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1461661986">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -229,7 +229,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1656947812" Name="PlayerDeath" ObjectPath="\Events\Default Work Unit\Player\PlayerDeath" DurationType="OneShot" DurationMin="1.300131" DurationMax="1.736314">
+				<Event Id="2573493753" Name="Player_TargetAngel" ObjectPath="\Events\Default Work Unit\Player\Player_TargetAngel" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="616407712" Language="SFX">
+							<ShortName>Character\Voice\Player_Angel.wav</ShortName>
+							<Path>SFX/Character/Voice/Player_Angel_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3504896480" Name="Player_TargetDevil" ObjectPath="\Events\Default Work Unit\Player\Player_TargetDevil" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="591244741" Language="SFX">
+							<ShortName>Character\Voice\Player_Devil.wav</ShortName>
+							<Path>SFX/Character/Voice/Player_Devil_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2251509474" Name="PlayerDeath_Angel" ObjectPath="\Events\Default Work Unit\Player\PlayerDeath_Angel" DurationType="OneShot" DurationMin="1.55779" DurationMax="1.55779">
 					<IncludedMemoryFiles>
 						<File Id="89611164" Language="SFX">
 							<ShortName>Character\Death Scenario\Player_FallWater02.wav</ShortName>
@@ -251,10 +267,6 @@
 							<ShortName>Character\Voice\Player_AngelDeathCry.wav</ShortName>
 							<Path>SFX/Character/Voice/Player_AngelDeathCry_895F02AF.wem</Path>
 						</File>
-						<File Id="560798157" Language="SFX">
-							<ShortName>Character\Voice\Player_DevilDeathCry.wav</ShortName>
-							<Path>SFX/Character/Voice/Player_DevilDeathCry_441A87D3.wem</Path>
-						</File>
 						<File Id="703289118" Language="SFX">
 							<ShortName>Character\Death Scenario\Player_Stabbed03.wav</ShortName>
 							<Path>SFX/Character/Death Scenario/Player_Stabbed03_10C4C929.wem</Path>
@@ -274,16 +286,6 @@
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{0A5983F1-5C50-4EC8-BB07-8B82C2278B5A}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{41869962-DA1E-4284-A8B6-C8147334E94E}">
-							<Media>
-								<File Id="560798157"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{FFE2399F-FE7B-48B5-A492-8BCFFF5B5CAC}">
-							<Media>
-								<File Id="523477761"/>
-							</Media>
-						</SwitchContainer>
 						<SwitchContainer SwitchValue="{EAE0FE13-6155-4C73-8BE7-12E517EF32BE}">
 							<Media>
 								<File Id="831851199"/>
@@ -319,6 +321,46 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="3955923815" Name="PlayerDeath_Devil" ObjectPath="\Events\Default Work Unit\Player\PlayerDeath_Devil" DurationType="OneShot" DurationMin="1.447101" DurationMax="1.552326">
+					<IncludedMemoryFiles>
+						<File Id="89611164" Language="SFX">
+							<ShortName>Character\Death Scenario\Player_FallWater02.wav</ShortName>
+							<Path>SFX/Character/Death Scenario/Player_FallWater02_10C4C929.wem</Path>
+						</File>
+						<File Id="165674230" Language="SFX">
+							<ShortName>Character\Death Scenario\Player_FallWater03.wav</ShortName>
+							<Path>SFX/Character/Death Scenario/Player_FallWater03_10C4C929.wem</Path>
+						</File>
+						<File Id="231692806" Language="SFX">
+							<ShortName>Character\Death Scenario\Player_FallWater01.wav</ShortName>
+							<Path>SFX/Character/Death Scenario/Player_FallWater01_10C4C929.wem</Path>
+						</File>
+						<File Id="375181829" Language="SFX">
+							<ShortName>Character\Death Scenario\Player_Stabbed02.wav</ShortName>
+							<Path>SFX/Character/Death Scenario/Player_Stabbed02_10C4C929.wem</Path>
+						</File>
+						<File Id="560798157" Language="SFX">
+							<ShortName>Character\Voice\Player_DevilDeathCry.wav</ShortName>
+							<Path>SFX/Character/Voice/Player_DevilDeathCry_441A87D3.wem</Path>
+						</File>
+						<File Id="703289118" Language="SFX">
+							<ShortName>Character\Death Scenario\Player_Stabbed03.wav</ShortName>
+							<Path>SFX/Character/Death Scenario/Player_Stabbed03_10C4C929.wem</Path>
+						</File>
+						<File Id="831851199" Language="SFX">
+							<ShortName>Character\Death Scenario\Player_Burntup02.wav</ShortName>
+							<Path>SFX/Character/Death Scenario/Player_Burntup02_10C4C929.wem</Path>
+						</File>
+						<File Id="855162214" Language="SFX">
+							<ShortName>Character\Death Scenario\Player_Stabbed01.wav</ShortName>
+							<Path>SFX/Character/Death Scenario/Player_Stabbed01_10C4C929.wem</Path>
+						</File>
+						<File Id="954650356" Language="SFX">
+							<ShortName>Character\Death Scenario\Player_Burntup01.wav</ShortName>
+							<Path>SFX/Character/Death Scenario/Player_Burntup01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="846198821" Name="PlayerLand" ObjectPath="\Events\Default Work Unit\Player\PlayerLand" DurationType="OneShot" DurationMin="0.336681" DurationMax="0.867451">
 					<IncludedMemoryFiles>
@@ -422,31 +464,6 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="390724373" Name="PlayerTarget" ObjectPath="\Events\Default Work Unit\Player\PlayerTarget" DurationType="OneShot" DurationMin="1.336348" DurationMax="1.683693">
-					<IncludedMemoryFiles>
-						<File Id="591244741" Language="SFX">
-							<ShortName>Character\Voice\Player_Devil.wav</ShortName>
-							<Path>SFX/Character/Voice/Player_Devil_10C4C929.wem</Path>
-						</File>
-						<File Id="616407712" Language="SFX">
-							<ShortName>Character\Voice\Player_Angel.wav</ShortName>
-							<Path>SFX/Character/Voice/Player_Angel_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{BD16D4EE-888D-4B63-9E1D-5DC7E033A318}</DefaultSwitchValue>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{41869962-DA1E-4284-A8B6-C8147334E94E}">
-							<Media>
-								<File Id="591244741"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{FFE2399F-FE7B-48B5-A492-8BCFFF5B5CAC}">
-							<Media>
-								<File Id="616407712"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
-				</Event>
 				<Event Id="1959652875" Name="Water_BoxMove" ObjectPath="\Events\Default Work Unit\World Object\Box\Water_BoxMove" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="23273423" Language="SFX">
@@ -480,15 +497,6 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
-			<StateGroups>
-				<StateGroup Id="1069431850" Name="Player" ObjectPath="\States\Default Work Unit\Player" GUID="{D88583AC-D134-4408-99E4-4CC126D8C829}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Player\None" GUID="{BD16D4EE-888D-4B63-9E1D-5DC7E033A318}"/>
-						<State Id="954941472" Name="Angel" ObjectPath="\States\Default Work Unit\Player\Angel" GUID="{FFE2399F-FE7B-48B5-A492-8BCFFF5B5CAC}"/>
-						<State Id="697508553" Name="Devil" ObjectPath="\States\Default Work Unit\Player\Devil" GUID="{41869962-DA1E-4284-A8B6-C8147334E94E}"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{D8CAF166-49F6-44EA-BB67-0F869C76E12B}">
 					<Switches>

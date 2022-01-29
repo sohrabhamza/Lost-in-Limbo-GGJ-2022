@@ -52,7 +52,7 @@
 						<CurrentStateRef Name="None" ID="{22ACCD30-DB98-41F7-8485-0285D03F9784}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Grass" ID="{21789B18-5A52-4655-A05B-EC43E36CA4B2}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{0A5983F1-5C50-4EC8-BB07-8B82C2278B5A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
