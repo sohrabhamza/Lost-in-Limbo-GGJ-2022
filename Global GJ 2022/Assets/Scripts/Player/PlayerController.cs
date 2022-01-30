@@ -125,7 +125,6 @@ public class PlayerController : MonoBehaviour
 
         if (isGrounded != lastFrameGrounded && isGrounded && rb.velocity.y < -2)
         {
-            isEnabled = !isEnabled;
             if (isEnabled && allowDoubleJump)
             {
                 myAngelLanding.Post(gameObject);
@@ -133,7 +132,7 @@ public class PlayerController : MonoBehaviour
             else if (isEnabled && !allowDoubleJump)
             {
                 myDevilLanding.Post(gameObject);
-            };
+            }
             Debug.Log("landed");
         }
         lastFrameGrounded = isGrounded;

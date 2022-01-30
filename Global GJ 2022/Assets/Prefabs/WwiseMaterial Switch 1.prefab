@@ -106,7 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2583540141480661166}
   m_Layer: 0
-  m_Name: WwiseMaterial Switch
+  m_Name: WwiseMaterial Switch 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

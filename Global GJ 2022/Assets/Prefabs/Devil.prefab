@@ -109,7 +109,8 @@ GameObject:
   - component: {fileID: 8029495831591408804}
   - component: {fileID: 8029495831591408805}
   - component: {fileID: 7821349674471211338}
-  m_Layer: 0
+  - component: {fileID: 8133240711170379750}
+  m_Layer: 8
   m_Name: Devil Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,6 +217,22 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: ca4927cae56fa4bf38e820395eea291a, type: 2}
+--- !u!70 &8133240711170379750
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8029495831591408807}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1, y: 1}
+  m_Direction: 0
 --- !u!1 &8029495831828941598
 GameObject:
   m_ObjectHideFlags: 0
