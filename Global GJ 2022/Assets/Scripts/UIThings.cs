@@ -13,6 +13,7 @@ public class UIThings : MonoBehaviour
         {
             Destroy(destroyMe);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Debug.Log("Hello");
             // Application.Quit();
         }
     }
