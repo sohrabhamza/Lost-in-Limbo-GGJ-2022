@@ -12,8 +12,8 @@ public class UIThings : MonoBehaviour
         if (other.gameObject.layer == 6 || other.gameObject.layer == 7)
         {
             Destroy(destroyMe);
-            // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            Application.Quit();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            // Application.Quit();
         }
     }
 
