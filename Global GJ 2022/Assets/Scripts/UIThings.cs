@@ -16,4 +16,24 @@ public class UIThings : MonoBehaviour
             Application.Quit();
         }
     }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
