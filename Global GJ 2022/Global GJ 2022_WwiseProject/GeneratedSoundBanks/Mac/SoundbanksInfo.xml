@@ -19,7 +19,7 @@
 				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Cave"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="157004457">
+		<SoundBank Id="3161908922" Language="SFX" Hash="249399521">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -321,43 +321,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="552312194" Name="PlayerDeathCry_Angel" ObjectPath="\Events\Default Work Unit\Player\PlayerDeathCry_Angel" DurationType="OneShot" DurationMin="1.447101" DurationMax="1.552326">
+				<Event Id="552312194" Name="PlayerDeathCry_Angel" ObjectPath="\Events\Default Work Unit\Player\PlayerDeathCry_Angel" DurationType="OneShot" DurationMin="1.45779" DurationMax="1.45779">
 					<IncludedMemoryFiles>
-						<File Id="89611164" Language="SFX">
-							<ShortName>Character\Death Scenario\Player_FallWater02.wav</ShortName>
-							<Path>SFX/Character/Death Scenario/Player_FallWater02_10C4C929.wem</Path>
-						</File>
-						<File Id="165674230" Language="SFX">
-							<ShortName>Character\Death Scenario\Player_FallWater03.wav</ShortName>
-							<Path>SFX/Character/Death Scenario/Player_FallWater03_10C4C929.wem</Path>
-						</File>
-						<File Id="231692806" Language="SFX">
-							<ShortName>Character\Death Scenario\Player_FallWater01.wav</ShortName>
-							<Path>SFX/Character/Death Scenario/Player_FallWater01_10C4C929.wem</Path>
-						</File>
-						<File Id="375181829" Language="SFX">
-							<ShortName>Character\Death Scenario\Player_Stabbed02.wav</ShortName>
-							<Path>SFX/Character/Death Scenario/Player_Stabbed02_10C4C929.wem</Path>
-						</File>
-						<File Id="560798157" Language="SFX">
-							<ShortName>Character\Voice\Player_DevilDeathCry.wav</ShortName>
-							<Path>SFX/Character/Voice/Player_DevilDeathCry_441A87D3.wem</Path>
-						</File>
-						<File Id="703289118" Language="SFX">
-							<ShortName>Character\Death Scenario\Player_Stabbed03.wav</ShortName>
-							<Path>SFX/Character/Death Scenario/Player_Stabbed03_10C4C929.wem</Path>
-						</File>
-						<File Id="831851199" Language="SFX">
-							<ShortName>Character\Death Scenario\Player_Burntup02.wav</ShortName>
-							<Path>SFX/Character/Death Scenario/Player_Burntup02_10C4C929.wem</Path>
-						</File>
-						<File Id="855162214" Language="SFX">
-							<ShortName>Character\Death Scenario\Player_Stabbed01.wav</ShortName>
-							<Path>SFX/Character/Death Scenario/Player_Stabbed01_10C4C929.wem</Path>
-						</File>
-						<File Id="954650356" Language="SFX">
-							<ShortName>Character\Death Scenario\Player_Burntup01.wav</ShortName>
-							<Path>SFX/Character/Death Scenario/Player_Burntup01_10C4C929.wem</Path>
+						<File Id="523477761" Language="SFX">
+							<ShortName>Character\Voice\Player_AngelDeathCry.wav</ShortName>
+							<Path>SFX/Character/Voice/Player_AngelDeathCry_895F02AF.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
