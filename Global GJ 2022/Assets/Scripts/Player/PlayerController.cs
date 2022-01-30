@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool allowFloating = true;
 
     [Header("Wwise Events")]
-    public AK.Wwise.Event myFootstep;
     public AK.Wwise.Event myJump;
     public AK.Wwise.Event myLanding;
     public AK.Wwise.Event myDeath;
@@ -93,11 +92,6 @@ public class PlayerController : MonoBehaviour
             sprite.flipX = x < 0;
         }
         point.intensity = Mathf.Lerp(point.intensity, pointLightIntensity, Time.deltaTime * 15);    //Don't feel like stopping this when its near max; This should be fine. 
-    }
-
-    void Anim_myFootstep()
-    {
-        myFootstep.Post(gameObject);
     }
 
     // Called at fixed intervals

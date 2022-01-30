@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 8029495831591408806}
   - component: {fileID: 8029495831591408804}
   - component: {fileID: 8029495831591408805}
+  - component: {fileID: 7821349674471211338}
   m_Layer: 0
   m_Name: Devil Sprite
   m_TagString: Untagged
@@ -199,6 +200,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7821349674471211338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8029495831591408807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6cac9c671df1e4cb8b1c6b91997bdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8029495831828941598
 GameObject:
   m_ObjectHideFlags: 0

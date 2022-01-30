@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 2715309582131434222}
   - component: {fileID: 2715309582131434220}
   - component: {fileID: 2715309582131434221}
+  - component: {fileID: 8389399284319097901}
   m_Layer: 0
   m_Name: Angel Sprite
   m_TagString: Untagged
@@ -271,6 +272,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8389399284319097901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715309582131434223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6cac9c671df1e4cb8b1c6b91997bdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &2715309582201220035
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,10 +418,6 @@ MonoBehaviour:
   airControl: 1
   allowDoubleJump: 1
   allowFloating: 1
-  myFootstep:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: ad69d4ecdd644475da9c44482287ade6, type: 2}
   myJump:
     idInternal: 0
     valueGuidInternal: 
