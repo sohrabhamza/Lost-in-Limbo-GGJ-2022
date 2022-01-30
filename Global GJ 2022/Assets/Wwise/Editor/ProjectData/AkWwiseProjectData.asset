@@ -250,8 +250,8 @@ MonoBehaviour:
         guid: 6409949b0a76f541adf4706b9b1a4c59
       Path: Events\Default Work Unit\Ambience\Ambience_Cave
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 24.078947
+      minDuration: 24.078947
     - name: Ambience_Forest
       guid: 221cac19c5cda0418a3e21bdbab57740
       id: 1481642983
@@ -270,8 +270,8 @@ MonoBehaviour:
         guid: 221cac19c5cda0418a3e21bdbab57740
       Path: Events\Default Work Unit\Ambience\Ambience_Forest
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 24.078947
+      minDuration: 24.078947
     - name: Box
       guid: cfc7b6eb1c1fb04f9a3d217ff27ee9d5
       id: 546945280
@@ -594,8 +594,8 @@ MonoBehaviour:
         guid: 975a565ae787e44dad6c6fbce4ad3243
       Path: Events\Default Work Unit\Ambience\Play_ambience
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_MusicMain
       guid: 7cfae3e1e5094a4991a1a60d4dce7a2a
       id: 3170845728
@@ -1462,7 +1462,7 @@ MonoBehaviour:
     m_lastTime: -8585582347787549061
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 03000000050000000600000007000000090000000a0000000b0000000c00000010000000110000001200000014000000150000001600000017000000190000001b00000030000000
+  ExpandedWaapiItemIds: 0300000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000100000001100000012000000140000001600000017000000190000001b00000030000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
