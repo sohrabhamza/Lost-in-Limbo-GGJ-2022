@@ -348,7 +348,17 @@
 										<Action Name="" ID="{06321324-2F30-41D5-BCB2-076D5D2744E0}" ShortID="1073133289">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Water_Drain" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+													<ObjectRef Name="Water_Drained" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{00E1B097-C321-4A1F-B461-B075ED5BA186}" ShortID="490163217">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Water_DrainStop" ID="{8FB7CF65-D13D-4588-9362-77A6169DA1BD}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -362,7 +372,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Water_Drain" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+													<ObjectRef Name="Water_Drained" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

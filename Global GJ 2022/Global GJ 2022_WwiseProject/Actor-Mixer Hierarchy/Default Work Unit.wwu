@@ -1703,10 +1703,7 @@
 								<ActiveSource Name="Platform_Wood_Crumble_1" ID="{01F18C1C-EFFE-49D5-BE7D-A4BEFB7AF40B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Water_Drain" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" ShortID="153458367">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-							</PropertyList>
+						<Sound Name="Water_Drained" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" ShortID="153458367">
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="Fire Attenuation" ID="{7E6F757C-7D17-422F-8CD6-0BA1B7DCDEBF}" WorkUnitID="{F4723CF7-2013-4600-B99E-A2658E0F4297}"/>
@@ -1720,10 +1717,15 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Water_Drain" ID="{DFCD4B14-EBEB-4061-9D43-9C8AD460D154}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.01666666666667"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.18333333333333"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Object\Water_Drain.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="679097527"/>
+										<MediaID ID="1017235207"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -1746,6 +1748,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Water_DrainStop" ID="{330D3C5D-FD09-48B0-9CB2-67F3EB0C53E3}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.721739130434782"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.869565217391304"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.53913043478261"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Object\Water_DrainStop.wav</AudioFile>
 									<MediaIDList>
@@ -1876,6 +1884,35 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Box_DragStop" ID="{2F89BF57-181A-461F-953C-5C1497253BA1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Water_Drained_01" ID="{208F9FC2-5F26-4EDE-B851-9DEADDAFF14E}" ShortID="614925767">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Fire Attenuation" ID="{7E6F757C-7D17-422F-8CD6-0BA1B7DCDEBF}" WorkUnitID="{F4723CF7-2013-4600-B99E-A2658E0F4297}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Objects" ID="{03374B3D-B4E6-40A8-AF8E-AF68E9C15A9F}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Water_Drain" ID="{B98BB9AC-BE04-4649-85A6-07749C523C02}">
+									<Language>SFX</Language>
+									<AudioFile>Object\Water_Drain.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="679097527"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Water_Drain" ID="{B98BB9AC-BE04-4649-85A6-07749C523C02}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
