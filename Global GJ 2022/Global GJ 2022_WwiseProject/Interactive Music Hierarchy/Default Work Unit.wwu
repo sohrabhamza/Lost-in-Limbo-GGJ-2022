@@ -1265,6 +1265,174 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
+						<MusicSegment Name="Ambiance_Cave" ID="{F75286DD-E1C0-48C1-A4F3-7D8C4121AC89}" ShortID="892539025">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Ambiance_Cave" ID="{52C10112-9CAD-4A43-B5CF-AFA74AA91229}" ShortID="194642761">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiance_Cave" ID="{DD6ABB7C-3DAB-492C-AEF1-C320D45CA969}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiance_Cave.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="409593732"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{615ADBB8-7EC5-4593-949A-121D32E2EC4D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{16BD39A7-83B6-4212-9B5A-31EF165FDE2D}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ambiance_Cave" ID="{2EED7BF5-4C36-4AE3-910C-50787E3CA89D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ambiance_Cave" ID="{DD6ABB7C-3DAB-492C-AEF1-C320D45CA969}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{4B5AD1B3-D6D8-4C7C-B647-5386CE29B5D8}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{85A87796-6BA9-42F5-B800-57CEB58D2793}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="24000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="Ambiance_DarkForest" ID="{A3D5E1D7-7A82-4C84-B1A5-75A23CA8D694}" ShortID="161838574">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="25375"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Ambiance_DarkForest" ID="{6F3E013D-5F21-422F-9015-1CC510D8CE9E}" ShortID="259810312">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiance_DarkForest" ID="{E0EA9AEC-0AD8-444A-8CA4-DF5CB95C4ABB}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiance_DarkForest.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733703928"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C40D3A72-8520-46CA-A9D1-EEC8554C755D}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{BB3AB787-5747-4993-9562-67308B531EBE}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ambiance_DarkForest" ID="{97170347-7A3B-4F26-A6EB-63F535C635AD}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="25375"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ambiance_DarkForest" ID="{E0EA9AEC-0AD8-444A-8CA4-DF5CB95C4ABB}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{06C13489-7D99-4F63-841C-DBEFDE7CB6ED}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{BFDCDE2E-A740-4705-965B-12F71802515A}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="25375"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Bridge" ID="{6568E617-9940-4842-8C7D-007DDEA99139}" ShortID="587666537">
@@ -3522,6 +3690,287 @@
 											<SegmentRef Name="Bridge" ID="{6FFD1C23-DDA8-46BA-B430-AACE04149CDF}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Ambiance" ID="{8717F8FE-72AC-4914-9096-1C71F60170B0}" ShortID="668175928">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Ambiance_DarkForest" ID="{8B88E867-BB8A-4174-86E2-F4622A9993D6}" ShortID="593377391">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="25375"/>
+								<Property Name="Tempo" Type="Real64" Value="152"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambience" ID="{4DCB7C60-8636-473B-84A9-0736F76C40A0}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Ambiance_DarkForest" ID="{EB7CDE69-E746-4B49-B806-FABDAF180829}" ShortID="127109913">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiance_DarkForest" ID="{AE176B11-2F85-4CA9-AE3E-3805FF8C0379}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiance_DarkForest.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733703928"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Region" ID="{B7010CAC-E7BD-4BDC-B514-2BE5D7B61E1A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Cave" ID="{29ABDDFE-8265-4665-84E2-9DFBAB4C31DF}"/>
+												<CustomState Name="" ID="{892DA0EE-B2C9-4839-B80D-5A7E266C886C}" ShortID="17007804">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Forest" ID="{578497CA-E973-47FC-894D-8C0612A85EB2}"/>
+												<CustomState Name="" ID="{11D4006F-38F8-4D8C-AD88-DAF56ACE7B2D}" ShortID="255180114"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C7CADA96-758A-4987-BD9D-CA0EF1C03982}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{72AAE8A6-0C9E-40F7-BC4E-5BE72717BA95}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ambiance_DarkForest" ID="{2152238C-00F9-4A97-858B-83AB66DACEBF}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24078.947368421"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ambiance_DarkForest" ID="{AE176B11-2F85-4CA9-AE3E-3805FF8C0379}"/>
+																			<PropertyCurveList>
+																				<PropertyCurve PropertyName="Highpass">
+																					<Curve Name="" ID="{E5C87FB2-E833-4A6F-9C98-B21F780F924D}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24.07895</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Lowpass">
+																					<Curve Name="" ID="{99D88355-26D7-4C88-842D-DE9DD32EA7C7}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24.07895</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																				<PropertyCurve PropertyName="Volume">
+																					<Curve Name="" ID="{DD03FAF5-730A-4294-93CE-FDA010280DD1}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="3"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>24.07895</XPos>
+																								<YPos>0</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</PropertyCurve>
+																			</PropertyCurveList>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+								<MusicTrack Name="Ambiance_Cave" ID="{48E6C1E3-0BC5-4D4E-A41F-91828966A3BE}" ShortID="142648021">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{79E57303-3229-4767-9436-538BF1B7EDEC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music" ID="{0801287B-11A5-402E-A864-D6827FD26A25}" WorkUnitID="{8166E7F0-DD6D-4C74-93E6-3CFF98AD9D3F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiance_Cave" ID="{5C77360C-99C2-430A-8BD9-081CC90B5821}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiance_Cave.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="409593732"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Region" ID="{B7010CAC-E7BD-4BDC-B514-2BE5D7B61E1A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Cave" ID="{29ABDDFE-8265-4665-84E2-9DFBAB4C31DF}"/>
+												<CustomState Name="" ID="{F3B6303A-CE47-4714-A46C-FF0AF28A97B5}" ShortID="793204591"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Forest" ID="{578497CA-E973-47FC-894D-8C0612A85EB2}"/>
+												<CustomState Name="" ID="{7B5F4BC6-27DC-43E7-B02C-4A9FF40BE682}" ShortID="451388768">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A8E21329-57EC-4051-8751-DB8A46B7C54C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{F713D7FE-D680-41E4-BE7F-BB8A355B0D60}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Ambiance_Cave" ID="{10112FD5-B7B7-4231-AFDE-3C0D66466188}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Ambiance_Cave" ID="{5C77360C-99C2-430A-8BD9-081CC90B5821}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{C1458C74-C518-4FF9-B30F-9C87FDEEA76A}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{0421E31E-6870-4D7C-AB64-FD2CBB57C859}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="22000"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{D735254E-BB1F-4708-A5A4-04604363B245}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{BD3D8FC2-42B2-4754-BF88-A2F335D8BA70}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{5592CAC3-89D8-45DA-8109-5783D468AB08}" ShortID="697433552">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{4158D6F9-B675-4290-8AC1-3307BB50FBB9}" ShortID="584896850">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Ambiance_DarkForest" ID="{8B88E867-BB8A-4174-86E2-F4622A9993D6}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>
