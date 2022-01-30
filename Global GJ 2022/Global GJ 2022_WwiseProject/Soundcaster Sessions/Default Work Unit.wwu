@@ -6,12 +6,20 @@
 				<SoundcasterSession Name="Main" ID="{FEB749B9-3576-4925-BC98-A32042E96512}">
 					<ModuleList>
 						<Module>
+							<ObjectRef Name="Ambience_Cave" ID="{9B940964-760A-41F5-ADF4-706B9B1A4C59}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="PlatformWood_Crumble" ID="{E3D3366D-3CD1-4A16-999B-5202C0ADC957}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Player_DoubleJump" ID="{CB3344BB-A4D6-4BEF-A4D5-B412F2287673}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
 							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambience_Cave_Stop" ID="{8BECC3D2-B040-469F-A6A2-D74345AE29CA}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
+							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="FireBurning" ID="{B219AFA7-21A8-42C0-A8B2-564E2021505E}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}"/>
@@ -50,6 +58,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{BD16D4EE-888D-4B63-9E1D-5DC7E033A318}"/>
 						<CurrentStateRef Name="None" ID="{22ACCD30-DB98-41F7-8485-0285D03F9784}"/>
+						<CurrentStateRef Name="Forest" ID="{578497CA-E973-47FC-894D-8C0612A85EB2}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Concrete" ID="{0A5983F1-5C50-4EC8-BB07-8B82C2278B5A}"/>
