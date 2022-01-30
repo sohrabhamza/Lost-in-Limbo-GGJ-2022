@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	280814033	Lever_Engaged			\Default Work Unit\World Object\Lever\Lever_Engaged	
 	336764500	Box_Move			\Default Work Unit\World Object\Box\Box_Move	
+	552312194	PlayerDeathCry_Angel			\Default Work Unit\Player\PlayerDeathCry_Angel	
 	846198821	PlayerLand			\Default Work Unit\Player\PlayerLand	
 	979951458	Player_DoubleJump			\Default Work Unit\Player\Player_DoubleJump	
 	1015853698	PlatformStone_Crumble			\Default Work Unit\World Object\Platform\PlatformStone_Crumble	
@@ -8,10 +9,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	1305133589	Player_Jump			\Default Work Unit\Player\Player_Jump	
 	1354171449	Water_DrainStop			\Default Work Unit\World Object\Water\Water_DrainStop	
 	1481642983	Ambience_Forest			\Default Work Unit\Ambience\Ambience_Forest	
+	1656947812	PlayerDeath			\Default Work Unit\Player\PlayerDeath	
 	1730208058	Player_Footsteps			\Default Work Unit\Player\Player_Footsteps	
 	1892682730	FireBurning			\Default Work Unit\World Object\Fire\FireBurning	
 	1959652875	Water_BoxMove			\Default Work Unit\World Object\Box\Water_BoxMove	
-	2251509474	PlayerDeath_Angel			\Default Work Unit\Player\PlayerDeath_Angel	
 	2261947276	Box_Land			\Default Work Unit\World Object\Box\Box_Land	
 	2573493753	Player_TargetAngel			\Default Work Unit\Player\Player_TargetAngel	
 	3174681903	Box_Stop			\Default Work Unit\World Object\Box\Box_Stop	
@@ -19,7 +20,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3504896480	Player_TargetDevil			\Default Work Unit\Player\Player_TargetDevil	
 	3597471619	Ambience_Cave			\Default Work Unit\Ambience\Ambience_Cave	
 	3680590521	Lever_Activate			\Default Work Unit\World Object\Lever\Lever_Activate	
-	3955923815	PlayerDeath_Devil			\Default Work Unit\Player\PlayerDeath_Devil	
 	4271172065	Water_Drain			\Default Work Unit\World Object\Water\Water_Drain	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -58,7 +58,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	452080405	Fire_Extinguish	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Fire_Extinguish_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Fire_Extinguish		343844
 	480945929	Box_Drop02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Box_Drop02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Box_Drop\Box_Drop02		120144
 	518081296	Player_Footsteps_Concrete02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Footsteps\Player_Footsteps_Concrete02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Footsteps\Footsteps_Concrete\Player_Footsteps_Concrete02		72144
-	523477761	Player_AngelDeathCry	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Voice\Player_AngelDeathCry_895F02AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Player_AngelDeathCry		279960
 	542369364	Player_DoubleJump_Magic03	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Jump\Player_DoubleJump_Magic03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Jump\DoubleJumpMagic\Player_DoubleJump_Magic03		168144
 	560798157	Player_DevilDeathCry	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Voice\Player_DevilDeathCry_441A87D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Player_DevilDeathCry		258708
 	565194462	Player_Jump01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Jump\Player_Jump01_7BF06642.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Jump\Jump\Player_Jump01		149644
@@ -66,7 +65,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	616407712	Player_Angel	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Voice\Player_Angel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Voice\Player_Angel		288144
 	632396582	Player_DoubleJump02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Jump\Player_DoubleJump02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Jump\DoubleJump\Player_DoubleJump02		168144
 	640514918	Player_DoubleJump	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Jump\Player_DoubleJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Jump\DoubleJump\Player_DoubleJump		168144
-	679097527	Water_Drain	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Water_Drain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Water_Drain		2208144
 	703289118	Player_Stabbed03	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Death Scenario\Player_Stabbed03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Death Scenario\Player_Death\Stabbed\Player_Stabbed03		68144
 	706541304	Fire	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Fire_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Fire		4704144
 	731794385	Player_Jump02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Jump\Player_Jump02_B0394654.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Jump\Jump\Player_Jump02		149644
@@ -76,7 +74,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	831851199	Player_Burntup02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Death Scenario\Player_Burntup02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Death Scenario\Player_Death\Burn\Player_Burntup02		197744
 	849944759	Player_Footsteps_Wood01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Footsteps\Player_Footsteps_Wood01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Footsteps\Footsteps_Wood\Player_Footsteps_Wood01		120144
 	855162214	Player_Stabbed01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Death Scenario\Player_Stabbed01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Death Scenario\Player_Death\Stabbed\Player_Stabbed01		68144
-	856751408	Water_DrainStop	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Water_DrainStop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Water_DrainStop		576144
+	856751408	Water_DrainStop	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Water_DrainStop_FEB4E43D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Water_DrainStop		295656
 	863810165	Player_Footsteps_Concrete03	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Footsteps\Player_Footsteps_Concrete03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Footsteps\Footsteps_Concrete\Player_Footsteps_Concrete03		72144
 	866944144	Player_Footsteps_Water01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Footsteps\Player_Footsteps_Water01_30F1C52F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Footsteps\Footsteps_Water\Player_Footsteps_Water01		77376
 	932545782	Box_Drop03	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Box_Drop03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Box_Drop\Box_Drop03		120144
@@ -84,6 +82,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	954650356	Player_Burntup01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Death Scenario\Player_Burntup01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Death Scenario\Player_Death\Burn\Player_Burntup01		217844
 	1005851960	Box_Drag	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Box_Drag_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Box_Drag		2112144
 	1007428370	Box_Drop01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Box_Drop01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Box_Drop\Box_Drop01		120144
+	1017235207	Water_Drained	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Water_Drain_ED299347.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Water_Drained		419344
 	1057836965	Box_DragStop	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Object\Box_DragStop_BD2C9612.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Box_DragStop		54404
 	1061244245	Player_Footsteps_Water03	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Windows\SFX\Character\Footsteps\Player_Footsteps_Water03_4C2379E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Footsteps\Footsteps_Water\Player_Footsteps_Water03		74512
 

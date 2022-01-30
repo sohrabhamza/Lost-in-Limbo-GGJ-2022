@@ -19,7 +19,7 @@
 				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Cave"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="824656601">
+		<SoundBank Id="3161908922" Language="SFX" Hash="157004457">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -248,7 +248,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2251509474" Name="PlayerDeath_Angel" ObjectPath="\Events\Default Work Unit\Player\PlayerDeath_Angel" DurationType="OneShot" DurationMin="1.55779" DurationMax="1.55779">
+				<Event Id="1656947812" Name="PlayerDeath" ObjectPath="\Events\Default Work Unit\Player\PlayerDeath" DurationType="OneShot" DurationMin="0.315527" DurationMax="1.552326">
 					<IncludedMemoryFiles>
 						<File Id="89611164" Language="SFX">
 							<ShortName>Character\Death Scenario\Player_FallWater02.wav</ShortName>
@@ -265,10 +265,6 @@
 						<File Id="375181829" Language="SFX">
 							<ShortName>Character\Death Scenario\Player_Stabbed02.wav</ShortName>
 							<Path>SFX/Character/Death Scenario/Player_Stabbed02_10C4C929.wem</Path>
-						</File>
-						<File Id="523477761" Language="SFX">
-							<ShortName>Character\Voice\Player_AngelDeathCry.wav</ShortName>
-							<Path>SFX/Character/Voice/Player_AngelDeathCry_895F02AF.wem</Path>
 						</File>
 						<File Id="703289118" Language="SFX">
 							<ShortName>Character\Death Scenario\Player_Stabbed03.wav</ShortName>
@@ -325,7 +321,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3955923815" Name="PlayerDeath_Devil" ObjectPath="\Events\Default Work Unit\Player\PlayerDeath_Devil" DurationType="OneShot" DurationMin="1.447101" DurationMax="1.552326">
+				<Event Id="552312194" Name="PlayerDeathCry_Angel" ObjectPath="\Events\Default Work Unit\Player\PlayerDeathCry_Angel" DurationType="OneShot" DurationMin="1.447101" DurationMax="1.552326">
 					<IncludedMemoryFiles>
 						<File Id="89611164" Language="SFX">
 							<ShortName>Character\Death Scenario\Player_FallWater02.wav</ShortName>
@@ -483,19 +479,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4271172065" Name="Water_Drain" ObjectPath="\Events\Default Work Unit\World Object\Water\Water_Drain" MaxAttenuation="35." DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="679097527" Language="SFX">
-							<ShortName>Object\Water_Drain.wav</ShortName>
-							<Path>SFX/Object/Water_Drain_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1354171449" Name="Water_DrainStop" ObjectPath="\Events\Default Work Unit\World Object\Water\Water_DrainStop" MaxAttenuation="35." DurationType="OneShot" DurationMin="3." DurationMax="3.">
+				<Event Id="4271172065" Name="Water_Drain" ObjectPath="\Events\Default Work Unit\World Object\Water\Water_Drain" MaxAttenuation="35." DurationType="OneShot" DurationMin="2.53913" DurationMax="2.53913">
 					<IncludedMemoryFiles>
 						<File Id="856751408" Language="SFX">
 							<ShortName>Object\Water_DrainStop.wav</ShortName>
-							<Path>SFX/Object/Water_DrainStop_10C4C929.wem</Path>
+							<Path>SFX/Object/Water_DrainStop_FEB4E43D.wem</Path>
+						</File>
+						<File Id="1017235207" Language="SFX">
+							<ShortName>Object\Water_Drain.wav</ShortName>
+							<Path>SFX/Object/Water_Drain_ED299347.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1354171449" Name="Water_DrainStop" ObjectPath="\Events\Default Work Unit\World Object\Water\Water_DrainStop" MaxAttenuation="35." DurationType="OneShot" DurationMin="1.53913" DurationMax="1.53913">
+					<IncludedMemoryFiles>
+						<File Id="856751408" Language="SFX">
+							<ShortName>Object\Water_DrainStop.wav</ShortName>
+							<Path>SFX/Object/Water_DrainStop_FEB4E43D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -512,7 +512,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="4085584745">
+		<SoundBank Id="3991942870" Language="SFX" Hash="2423662431">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
