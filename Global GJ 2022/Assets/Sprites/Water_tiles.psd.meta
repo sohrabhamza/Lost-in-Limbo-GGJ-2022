@@ -1,0 +1,2004 @@
+fileFormatVersion: 2
+guid: c83f0c2b13e33634caafd24fcc2207ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3570886940855412533
+    second: Water_tiles_0
+  - first:
+      213: 2145340870897476747
+    second: Water_tiles_1
+  - first:
+      213: -8063011973506982240
+    second: Water_tiles_2
+  - first:
+      213: -1090424225540955490
+    second: Water_tiles_3
+  - first:
+      213: -5479916462233299606
+    second: Water_tiles_4
+  - first:
+      213: -8037985700646384175
+    second: Water_tiles_5
+  - first:
+      213: -4210860804073851454
+    second: Water_tiles_6
+  - first:
+      213: 3771332546493432738
+    second: Water_tiles_7
+  - first:
+      213: 2710174410699179637
+    second: Water_tiles_8
+  - first:
+      213: -3627297056610528438
+    second: Water_tiles_9
+  - first:
+      213: 5967077904770362816
+    second: Water_tiles_10
+  - first:
+      213: 4053395957710490764
+    second: Water_tiles_11
+  - first:
+      213: 5771356568612194773
+    second: Water_tiles_12
+  - first:
+      213: 8712186981113483419
+    second: Water_tiles_13
+  - first:
+      213: -2250428433923624549
+    second: Water_tiles_14
+  - first:
+      213: 1658379031460922771
+    second: Water_tiles_15
+  - first:
+      213: -1113282275012417283
+    second: Water_tiles_16
+  - first:
+      213: -3005062946787972304
+    second: Water_tiles_17
+  - first:
+      213: -4582194400608403347
+    second: Water_tiles_18
+  - first:
+      213: -1761892791982115168
+    second: Water_tiles_19
+  - first:
+      213: -4826272551278120630
+    second: Water_tiles_20
+  - first:
+      213: -9026645861594685249
+    second: Water_tiles_21
+  - first:
+      213: -5004762347208473958
+    second: Water_tiles_22
+  - first:
+      213: -350559861235529483
+    second: Water_tiles_23
+  - first:
+      213: -1619054494253994616
+    second: Water_tiles_24
+  - first:
+      213: -6440077339225911742
+    second: Water_tiles_25
+  - first:
+      213: -6428605068040619415
+    second: Water_tiles_26
+  - first:
+      213: -3097744303714354375
+    second: Water_tiles_27
+  - first:
+      213: -18603541556858495
+    second: Water_tiles_28
+  - first:
+      213: -4683588102600818800
+    second: Water_tiles_29
+  - first:
+      213: -2712111941528983872
+    second: Water_tiles_30
+  - first:
+      213: 8716210775712824702
+    second: Water_tiles_31
+  - first:
+      213: 8771341515276718374
+    second: Water_tiles_32
+  - first:
+      213: -4585189984767660178
+    second: Water_tiles_33
+  - first:
+      213: -3730835336094962416
+    second: Water_tiles_34
+  - first:
+      213: -3378935837880401235
+    second: Water_tiles_35
+  - first:
+      213: -4965330244821194984
+    second: Water_tiles_36
+  - first:
+      213: -7175041569719473147
+    second: Water_tiles_37
+  - first:
+      213: 2244456312534595122
+    second: Water_tiles_38
+  - first:
+      213: -993608301918186542
+    second: Water_tiles_39
+  - first:
+      213: -1981875520373601080
+    second: Water_tiles_40
+  - first:
+      213: 1902150514136870503
+    second: Water_tiles_41
+  - first:
+      213: -2024937807275996861
+    second: Water_tiles_42
+  - first:
+      213: 5491912681313838376
+    second: Water_tiles_43
+  - first:
+      213: -629170390179236449
+    second: Water_tiles_44
+  - first:
+      213: 7857266003663436899
+    second: Water_tiles_45
+  - first:
+      213: 972933734579381782
+    second: Water_tiles_46
+  - first:
+      213: -7880448031578098483
+    second: Water_tiles_47
+  - first:
+      213: 4994790808225739313
+    second: Water_tiles_48
+  - first:
+      213: -5316033948891579705
+    second: Water_tiles_49
+  - first:
+      213: -3136096922248124289
+    second: Water_tiles_50
+  - first:
+      213: -5086371474002274486
+    second: Water_tiles_51
+  - first:
+      213: -8297421892560036679
+    second: Water_tiles_52
+  - first:
+      213: -1146509593824723716
+    second: Water_tiles_53
+  - first:
+      213: -4805821544551919970
+    second: Water_tiles_54
+  - first:
+      213: -7157692170308578371
+    second: Water_tiles_55
+  - first:
+      213: -1579822866260717903
+    second: Water_tiles_56
+  - first:
+      213: -5669176227792460618
+    second: Water_tiles_57
+  - first:
+      213: 7592641675152954295
+    second: Water_tiles_58
+  - first:
+      213: -6427576175872304049
+    second: Water_tiles_59
+  - first:
+      213: 2066907635829841987
+    second: Water_tiles_60
+  - first:
+      213: 9050387058505826252
+    second: Water_tiles_61
+  - first:
+      213: 984148977379713100
+    second: Water_tiles_62
+  - first:
+      213: 7488413468228486884
+    second: Water_tiles_63
+  - first:
+      213: -3468875408469954054
+    second: Water_tiles_64
+  - first:
+      213: 4676059758346774045
+    second: Water_tiles_65
+  - first:
+      213: 3720599795525071738
+    second: Water_tiles_66
+  - first:
+      213: -2933093307614312627
+    second: Water_tiles_67
+  - first:
+      213: -424355898031100181
+    second: Water_tiles_68
+  - first:
+      213: 1082729867702766651
+    second: Water_tiles_69
+  - first:
+      213: 3725419367603067238
+    second: Water_tiles_70
+  - first:
+      213: 3035550044336710802
+    second: Water_tiles_71
+  - first:
+      213: -3438640760335077870
+    second: Water_tiles_72
+  - first:
+      213: 3939713765016037015
+    second: Water_tiles_73
+  - first:
+      213: -3755366706173800928
+    second: Water_tiles_74
+  - first:
+      213: -7855797471164667964
+    second: Water_tiles_75
+  - first:
+      213: -3935945722682552632
+    second: Water_tiles_76
+  - first:
+      213: -8306086854638871948
+    second: Water_tiles_77
+  - first:
+      213: 7554009858279926772
+    second: Water_tiles_78
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 127
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 905
+        width: 129
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc85b352f39a17ec0800000000000000
+      internalID: -3570886940855412533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 905
+        width: 129
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84a8f3d728c5cd10800000000000000
+      internalID: 2145340870897476747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 905
+        width: 128
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae156b645d6a1090800000000000000
+      internalID: -8063011973506982240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 905
+        width: 128
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92a626b1f80ed0f0800000000000000
+      internalID: -1090424225540955490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 905
+        width: 129
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65d4cde20d63f3b0800000000000000
+      internalID: -5479916462233299606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 775
+        width: 130
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd8d43a796537090800000000000000
+      internalID: -8037985700646384175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 775
+        width: 129
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5ff86a8640095c0800000000000000
+      internalID: -4210860804073851454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 774
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a34c9b38f6765430800000000000000
+      internalID: 3771332546493432738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 774
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576041574497c9520800000000000000
+      internalID: 2710174410699179637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 774
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43d8e59b8049adc0800000000000000
+      internalID: -3627297056610528438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 638
+        width: 129
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd6bec4db15fc250800000000000000
+      internalID: 5967077904770362816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 642
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c8651d52e804830800000000000000
+      internalID: 4053395957710490764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 642
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d94f30a83af71050800000000000000
+      internalID: 5771356568612194773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 642
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b905d0276e7e7e870800000000000000
+      internalID: 8712186981113483419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 642
+        width: 128
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b913b8b334fd4c0e0800000000000000
+      internalID: -2250428433923624549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 642
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3954f2151feb30710800000000000000
+      internalID: 1658379031460922771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 495
+        width: 113
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df865275ba3dc80f0800000000000000
+      internalID: -1113282275012417283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 609
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ba301eb2fdb46d0800000000000000
+      internalID: -3005062946787972304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 495
+        width: 128
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60c3fb5876c860c0800000000000000
+      internalID: -4582194400608403347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 609
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6b59137df7c87e0800000000000000
+      internalID: -1761892791982115168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 495
+        width: 93
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4179df6fa2a50db0800000000000000
+      internalID: -4826272551278120630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 609
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb026620a69eab280800000000000000
+      internalID: -9026645861594685249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 603
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92836d59238b8ab0800000000000000
+      internalID: -5004762347208473958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 495
+        width: 112
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8cb8ed9af822bf0800000000000000
+      internalID: -350559861235529483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 609
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dadfdf386f789e0800000000000000
+      internalID: -1619054494253994616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 495
+        width: 128
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e856de7cf30a6a0800000000000000
+      internalID: -6440077339225911742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 609
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ab92630c109c6a0800000000000000
+      internalID: -6428605068040619415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 495
+        width: 93
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bbd14e7f99205d0800000000000000
+      internalID: -3097744303714354375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 609
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18170f17d28edbff0800000000000000
+      internalID: -18603541556858495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 603
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f7b367f6d800fb0800000000000000
+      internalID: -4683588102600818800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 597
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6e11efe84ac5ad0800000000000000
+      internalID: -2712111941528983872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 595
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d7bc1258336f870800000000000000
+      internalID: 8716210775712824702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 597
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62194b5b2a01ab970800000000000000
+      internalID: 8771341515276718374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 595
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fae3290022e50c0800000000000000
+      internalID: -4585189984767660178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 577
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01da5945709693cc0800000000000000
+      internalID: -3730835336094962416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 577
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da24d4002cb9b11d0800000000000000
+      internalID: -3378935837880401235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 554
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817ede4237a971bb0800000000000000
+      internalID: -4965330244821194984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 554
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ca53415b12d6c90800000000000000
+      internalID: -7175041569719473147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 520
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f186ef19e52f10800000000000000
+      internalID: 2244456312534595122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 520
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d39946838ef532f0800000000000000
+      internalID: -993608301918186542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 438
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccc613f6b6fe74e0800000000000000
+      internalID: -1981875520373601080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 364
+        width: 110
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e647880dbc56a10800000000000000
+      internalID: 1902150514136870503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 364
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3494e09fac9f5e3e0800000000000000
+      internalID: -2024937807275996861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 364
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825ac2b7c71373c40800000000000000
+      internalID: 5491912681313838376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 438
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f953c261ddcb447f0800000000000000
+      internalID: -629170390179236449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 364
+        width: 111
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cbc1efccd9a0d60800000000000000
+      internalID: 7857266003663436899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 364
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6162997a31e808d00800000000000000
+      internalID: 972933734579381782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 364
+        width: 113
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc47cd6844603a290800000000000000
+      internalID: -7880448031578098483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 330
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1327eabc6cf015540800000000000000
+      internalID: 4994790808225739313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 278
+        width: 101
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca766ef947a936b0800000000000000
+      internalID: -5316033948891579705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 255
+        width: 128
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78643807785a74d0800000000000000
+      internalID: -3136096922248124289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 266
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a471a68d7149969b0800000000000000
+      internalID: -5086371474002274486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 331
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcd86610c2a9dc80800000000000000
+      internalID: -8297421892560036679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 330
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcff705997c610f0800000000000000
+      internalID: -1146509593824723716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 267
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e401f74ca4e4db0800000000000000
+      internalID: -4805821544551919970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_55
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 255
+        width: 128
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db39929e4e4caac90800000000000000
+      internalID: -7157692170308578371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_56
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 266
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be8d703977531ae0800000000000000
+      internalID: -1579822866260717903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_57
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 331
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b46755e14a0351b0800000000000000
+      internalID: -5669176227792460618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 304
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b39152406b7e5960800000000000000
+      internalID: 7592641675152954295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_59
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 304
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c1e56d589acc6a0800000000000000
+      internalID: -6427576175872304049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_60
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 280
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3402e293b812fac10800000000000000
+      internalID: 2066907635829841987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_61
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 280
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf3806241f699d70800000000000000
+      internalID: 9050387058505826252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_62
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 267
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4028cad74668ad00800000000000000
+      internalID: 984148977379713100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_63
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 255
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e68201cf503ce760800000000000000
+      internalID: 7488413468228486884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_64
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 263
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af17f04e1341cdfc0800000000000000
+      internalID: -3468875408469954054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_65
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 265
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1622cc4393b4e040800000000000000
+      internalID: 4676059758346774045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_66
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 255
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73b9ab2dc932a330800000000000000
+      internalID: 3720599795525071738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_67
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 263
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47c29a4d2f8b47d0800000000000000
+      internalID: -2933093307614312627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_68
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 264
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beea38f1f826c1af0800000000000000
+      internalID: -424355898031100181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_69
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 256
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c01200411a60f00800000000000000
+      internalID: 1082729867702766651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_70
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 250
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669575d3d2953b330800000000000000
+      internalID: 3725419367603067238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_71
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 247
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2946c9aaea0702a20800000000000000
+      internalID: 3035550044336710802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_72
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 256
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e6c0a727e7740d0800000000000000
+      internalID: -3438640760335077870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_73
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 250
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7966f78bbccaca630800000000000000
+      internalID: 3939713765016037015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_74
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 247
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e8e25a0e142ebc0800000000000000
+      internalID: -3755366706173800928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_75
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 248
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c761df52d99af290800000000000000
+      internalID: -7855797471164667964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 247
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cec9400836b069c0800000000000000
+      internalID: -3935945722682552632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_77
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 248
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a55b3630adabc80800000000000000
+      internalID: -8306086854638871948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_tiles_78
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 247
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbe29871fb35d860800000000000000
+      internalID: 7554009858279926772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
     {
         // Determines ground and ceiling collisions
         // isGrounded = false;
-        // ceilingHit = false;
+        ceilingHit = false;
 
         // foreach (Transform groundCheck in groundChecks)
         // {
@@ -120,7 +120,7 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D raycastHit2D = Physics2D.BoxCast(myCollider.bounds.center, new Vector3(myCollider.bounds.size.x - 0.1f, myCollider.bounds.size.y), 0f, Vector2.down, groundCheckDistance, playerLayer);
         isGrounded = raycastHit2D.collider != null;
 
-        if (isGrounded != lastFrameGrounded && isGrounded)
+        if (isGrounded != lastFrameGrounded && isGrounded && rb.velocity.y > 0)
         {
             myLanding.Post(gameObject);
             Debug.Log("landed");
@@ -221,7 +221,7 @@ public class PlayerController : MonoBehaviour
             coyoteTimeRN = coyoteTime;
             readyFirstJump = false;
 
-           myJump.Post(gameObject);
+            myJump.Post(gameObject);
         }
     }
 
