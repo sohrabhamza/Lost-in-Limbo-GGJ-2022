@@ -55,7 +55,7 @@ TextureImporter:
     second: Water_tiles_16
   - first:
       213: -3005062946787972304
-    second: Water_tiles_17
+    second: Fire_Orange
   - first:
       213: -4582194400608403347
     second: Water_tiles_18
@@ -1523,6 +1523,27 @@ TextureImporter:
       bones: []
       spriteID: ed27de2fc65a7bcb0800000000000000
       internalID: -4848224586490350882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Orange
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 234
+        width: 390
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 131, y: 130, z: 131, w: 130}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ba301eb2fdb46d0800000000000000
+      internalID: -3005062946787972304
       vertices: []
       indices: 
       edges: []
