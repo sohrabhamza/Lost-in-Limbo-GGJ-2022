@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID LEVER_ENGAGED = 280814033U;
         static const AkUniqueID PLATFORMSTONE_CRUMBLE = 1015853698U;
         static const AkUniqueID PLATFORMWOOD_CRUMBLE = 1203897778U;
+        static const AkUniqueID PLAY_AMBIENCE = 278617630U;
         static const AkUniqueID PLAY_MUSICMAIN = 3170845728U;
         static const AkUniqueID PLAY_MUSICMENU = 3221870102U;
         static const AkUniqueID PLAYER_DOUBLEJUMP = 979951458U;
@@ -31,8 +32,8 @@ namespace AK
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
         static const AkUniqueID PLAYER_TARGETANGEL = 2573493753U;
         static const AkUniqueID PLAYER_TARGETDEVIL = 3504896480U;
-        static const AkUniqueID PLAYERDEATH_ANGEL = 2251509474U;
-        static const AkUniqueID PLAYERDEATH_DEVIL = 3955923815U;
+        static const AkUniqueID PLAYERDEATH = 1656947812U;
+        static const AkUniqueID PLAYERDEATHCRY_ANGEL = 552312194U;
         static const AkUniqueID PLAYERLAND = 846198821U;
         static const AkUniqueID WATER_BOXMOVE = 1959652875U;
         static const AkUniqueID WATER_DRAIN = 4271172065U;
@@ -66,6 +67,18 @@ namespace AK
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace PLAYER
+
+        namespace REGION
+        {
+            static const AkUniqueID GROUP = 1374134669U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID FOREST = 491961918U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace REGION
 
     } // namespace STATES
 

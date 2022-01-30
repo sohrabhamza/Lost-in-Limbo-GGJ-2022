@@ -16,18 +16,8 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="PlayerDeath_Angel" ID="{106F14FE-0968-475D-9472-0D3008AEF605}">
+						<Event Name="PlayerDeath" ID="{106F14FE-0968-475D-9472-0D3008AEF605}">
 							<ChildrenList>
-								<Action Name="" ID="{EE1BA868-C422-4F46-901E-8B400BC23941}" ShortID="972599311">
-									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Player_AngelDeathCry" ID="{D39E6344-F082-44F5-A68E-4AEFDB4C6756}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{D8F5ADCE-2CF4-425F-826E-C76E59F13875}" ShortID="771237686">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -122,7 +112,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="PlayerDeath_Devil" ID="{94428FF8-1556-4909-BF07-57AE8A41549E}">
+						<Event Name="PlayerDeathCry_Angel" ID="{94428FF8-1556-4909-BF07-57AE8A41549E}">
 							<ChildrenList>
 								<Action Name="" ID="{25954599-2B81-495A-A17D-4F6FED1E1C2C}" ShortID="879306772">
 									<PropertyList>
@@ -143,6 +133,27 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="PlayerDeathCry_Devil" ID="{BEB62430-D09D-4D7E-98EB-F681A423EAE1}">
+							<ChildrenList>
+								<Action Name="" ID="{DB5B7B8D-7C71-4AD8-A8DF-9AA4233A2C40}" ShortID="727631888">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_DevilDeathCry" ID="{4598386E-BE75-4EE2-9697-D7F13356E01B}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C5EBF470-5F11-4839-A934-7EB4D3FA6C5E}" ShortID="1021921983">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Death" ID="{12F9F74C-08B1-42FB-8532-1BFC1B88D0D7}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{BE85A09A-5EE4-46E0-A951-B0DA473404D6}" ShortID="55726435">
@@ -155,7 +166,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Intro" ID="{ACD15516-1838-4D6E-B20A-B0026819EFE7}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
+											<ObjectRef Name="Main_01" ID="{1E179D9B-8B32-48B5-AE0D-57F68936EC84}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -348,7 +359,17 @@
 										<Action Name="" ID="{06321324-2F30-41D5-BCB2-076D5D2744E0}" ShortID="1073133289">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Water_Drain" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+													<ObjectRef Name="Water_Drained" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{00E1B097-C321-4A1F-B461-B075ED5BA186}" ShortID="490163217">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Water_DrainStop" ID="{8FB7CF65-D13D-4588-9362-77A6169DA1BD}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -362,7 +383,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Water_Drain" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+													<ObjectRef Name="Water_Drained" ID="{335C6422-8FEA-4313-9C31-DE0D9D3638BE}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
