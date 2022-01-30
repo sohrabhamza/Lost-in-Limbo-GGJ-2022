@@ -5,13 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{1329AB84-BDA7-4CE7-869E-37461B09645C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="PlayerLand" ID="{A1E1F2FA-5D0E-414F-923C-680D8B9EA561}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerDevil_Land" ID="{A1E1F2FA-5D0E-414F-923C-680D8B9EA561}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience_Forest" ID="{19AC1C22-CDC5-41A0-8A3E-21BDBAB57740}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience_Cave" ID="{9B940964-760A-41F5-ADF4-706B9B1A4C59}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FireBurning" ID="{B219AFA7-21A8-42C0-A8B2-564E2021505E}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lever_Activate" ID="{CE45F8BF-4BCE-42CE-89B3-CAA7C87EB139}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Box_Land" ID="{57A49ABA-77D6-4343-9625-E749376CF8BE}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player_Footsteps" ID="{7E50EFC5-1C48-43AC-B7C2-C37665D1C0C2}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerAngel_Footsteps" ID="{7E50EFC5-1C48-43AC-B7C2-C37665D1C0C2}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlatformStone_Crumble" ID="{3FD0B311-F12B-44CD-8AC8-F2B3091650C5}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Box_Move" ID="{DD095DB7-896B-4646-A49D-136E7A797A57}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayerDeath" ID="{106F14FE-0968-475D-9472-0D3008AEF605}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
@@ -21,11 +21,14 @@
 						<ObjectRef Name="Water_Drain" ID="{A6469F9B-A5E7-49E6-B6ED-19144DD440B2}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlatformWood_Crumble" ID="{E3D3366D-3CD1-4A16-999B-5202C0ADC957}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_TargetAngel" ID="{7BAD7656-0A35-4A2E-A076-7E1C7930189F}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerDevil_Footsteps" ID="{B37C58A7-78A5-4ABE-96E9-37163BA8A337}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_TargetDevil" ID="{718C96EB-8E5E-4B0E-9AA2-6E509207884A}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Box_Stop" ID="{8F3399F4-7C46-4B6C-960C-65DB4FDA4959}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_DoubleJump" ID="{CB3344BB-A4D6-4BEF-A4D5-B412F2287673}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Water_BoxMove" ID="{A3888277-AE05-4C40-A669-59C78E1878B5}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_Jump" ID="{B96055B6-7A0B-4CDD-A682-AC60CEE58F7E}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerDeathCry_Devil" ID="{BEB62430-D09D-4D7E-98EB-F681A423EAE1}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ambience" ID="{5A565A97-87E7-4DE4-AD6C-6FBCE4AD3243}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Extinguished" ID="{AC79D8FF-7CB1-4FB6-9FAF-91313D01189D}" WorkUnitID="{53EAFA08-3680-4E13-8264-FA1B2275D791}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

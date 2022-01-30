@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8ed7a83a8ed40ad92b7363452f3aaf, type: 3}
+  m_Name: 56026797-69C1-417A-94C0-228969DF29BD
+  m_EditorClassIdentifier: 
+  objectName: Water_A
+  id: 1999829346
+  guid: 56026797-69C1-417A-94C0-228969DF29BD
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: b2e75ab8e4b764a908e9f8616a7680e2, type: 2}

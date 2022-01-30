@@ -19,6 +19,13 @@
 						<State Name="Devil" ID="{41869962-DA1E-4284-A8B6-C8147334E94E}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Region" ID="{B7010CAC-E7BD-4BDC-B514-2BE5D7B61E1A}">
+					<ChildrenList>
+						<State Name="None" ID="{BBA388F9-9946-4CA0-91EF-280BD104EAF3}"/>
+						<State Name="Forest" ID="{578497CA-E973-47FC-894D-8C0612A85EB2}"/>
+						<State Name="Cave" ID="{29ABDDFE-8265-4665-84E2-9DFBAB4C31DF}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

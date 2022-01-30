@@ -225,7 +225,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a2b1c7fd93cdd41d29c933df152e974d, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: d5153f9f221d1433b96b6b8f28ed9b17, type: 2}
   valueIdInternal: 0
   groupIdInternal: 0
   valueGuidInternal: 
@@ -417,7 +417,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: bafebbddd4b234ee4b78dd4e3b6529a8, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 36997ca6239df428cbadf77c82a3ce0c, type: 2}
   valueIdInternal: 0
   groupIdInternal: 0
   valueGuidInternal: 
@@ -705,7 +705,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5162e6886a5de45eba38748bd9c0776a, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: db2bd909e9b4b4b1a9c0cec0839ce092, type: 2}
   valueIdInternal: 0
   groupIdInternal: 0
   valueGuidInternal: 
@@ -801,7 +801,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: eb6b25abcefc442b58c21331ac4e4852, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 8f7aaa8dbcf994714b74246f31b83e6a, type: 2}
   valueIdInternal: 0
   groupIdInternal: 0
   valueGuidInternal: 

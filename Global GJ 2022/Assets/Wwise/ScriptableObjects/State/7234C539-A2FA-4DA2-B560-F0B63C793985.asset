@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Level_1
   id: 1290008369
   guid: 7234C539-A2FA-4DA2-B560-F0B63C793985
-  WwiseStateGroupReference: {fileID: 0}
+  WwiseStateGroupReference: {fileID: 11400000, guid: 517440ee8700a4d828b8bed5c3013058, type: 2}

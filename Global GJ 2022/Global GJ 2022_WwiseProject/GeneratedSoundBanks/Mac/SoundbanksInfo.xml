@@ -19,7 +19,7 @@
 				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Cave"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3604557657">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4211159425">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -124,7 +124,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="278617630" Name="Play_ambience" ObjectPath="\Events\Default Work Unit\Ambience\Play_ambience" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="278617630" Name="Play_ambience" ObjectPath="\Events\Default Work Unit\Ambience\Play_ambience" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="409593732" Language="SFX">
+							<ShortName>Ambiance_Cave.wav</ShortName>
+							<Path>SFX/Ambiance_Cave_D79FB2B7.wem</Path>
+						</File>
+						<File Id="733703928" Language="SFX">
+							<ShortName>Ambiance_DarkForest.wav</ShortName>
+							<Path>SFX/Ambiance_DarkForest_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="979951458" Name="Player_DoubleJump" ObjectPath="\Events\Default Work Unit\Player\Player_DoubleJump" DurationType="OneShot" DurationMin="0.879536" DurationMax="1.102431">
 					<IncludedMemoryFiles>
 						<File Id="38864511" Language="SFX">
@@ -153,7 +164,39 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1730208058" Name="Player_Footsteps" ObjectPath="\Events\Default Work Unit\Player\Player_Footsteps" DurationType="OneShot" DurationMin="0.256681" DurationMax="0.787451">
+				<Event Id="1305133589" Name="Player_Jump" ObjectPath="\Events\Default Work Unit\Player\Player_Jump" DurationType="OneShot" DurationMin="0.618012" DurationMax="0.981032">
+					<IncludedMemoryFiles>
+						<File Id="229704442" Language="SFX">
+							<ShortName>Character\Jump\Player_Jump03.wav</ShortName>
+							<Path>SFX/Character/Jump/Player_Jump03_010FE536.wem</Path>
+						</File>
+						<File Id="565194462" Language="SFX">
+							<ShortName>Character\Jump\Player_Jump01.wav</ShortName>
+							<Path>SFX/Character/Jump/Player_Jump01_7BF06642.wem</Path>
+						</File>
+						<File Id="731794385" Language="SFX">
+							<ShortName>Character\Jump\Player_Jump02.wav</ShortName>
+							<Path>SFX/Character/Jump/Player_Jump02_B0394654.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2573493753" Name="Player_TargetAngel" ObjectPath="\Events\Default Work Unit\Player\Player_TargetAngel" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="616407712" Language="SFX">
+							<ShortName>Character\Voice\Player_Angel.wav</ShortName>
+							<Path>SFX/Character/Voice/Player_Angel_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3504896480" Name="Player_TargetDevil" ObjectPath="\Events\Default Work Unit\Player\Player_TargetDevil" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="591244741" Language="SFX">
+							<ShortName>Character\Voice\Player_Devil.wav</ShortName>
+							<Path>SFX/Character/Voice/Player_Devil_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2874269273" Name="PlayerAngel_Footsteps" ObjectPath="\Events\Default Work Unit\Player\PlayerAngel_Footsteps" DurationType="OneShot" DurationMin="0.256681" DurationMax="0.787451">
 					<IncludedMemoryFiles>
 						<File Id="83448871" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Fire01.wav</ShortName>
@@ -216,38 +259,44 @@
 							<Path>SFX/Character/Footsteps/Player_Footsteps_Water03_4C2379E6.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1305133589" Name="Player_Jump" ObjectPath="\Events\Default Work Unit\Player\Player_Jump" DurationType="OneShot" DurationMin="0.618012" DurationMax="0.981032">
-					<IncludedMemoryFiles>
-						<File Id="229704442" Language="SFX">
-							<ShortName>Character\Jump\Player_Jump03.wav</ShortName>
-							<Path>SFX/Character/Jump/Player_Jump03_010FE536.wem</Path>
-						</File>
-						<File Id="565194462" Language="SFX">
-							<ShortName>Character\Jump\Player_Jump01.wav</ShortName>
-							<Path>SFX/Character/Jump/Player_Jump01_7BF06642.wem</Path>
-						</File>
-						<File Id="731794385" Language="SFX">
-							<ShortName>Character\Jump\Player_Jump02.wav</ShortName>
-							<Path>SFX/Character/Jump/Player_Jump02_B0394654.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2573493753" Name="Player_TargetAngel" ObjectPath="\Events\Default Work Unit\Player\Player_TargetAngel" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
-					<IncludedMemoryFiles>
-						<File Id="616407712" Language="SFX">
-							<ShortName>Character\Voice\Player_Angel.wav</ShortName>
-							<Path>SFX/Character/Voice/Player_Angel_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3504896480" Name="Player_TargetDevil" ObjectPath="\Events\Default Work Unit\Player\Player_TargetDevil" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
-					<IncludedMemoryFiles>
-						<File Id="591244741" Language="SFX">
-							<ShortName>Character\Voice\Player_Devil.wav</ShortName>
-							<Path>SFX/Character/Voice/Player_Devil_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{F393F1BF-8618-4458-BEB2-C5929F4FA069}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{78630011-7331-4D38-A10E-E969A952DDD7}">
+							<Media>
+								<File Id="83448871"/>
+								<File Id="371435255"/>
+								<File Id="768539150"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4CEE9F2F-9C85-4227-8CE7-EFAD57A5CF1A}">
+							<Media>
+								<File Id="250510183"/>
+								<File Id="407521923"/>
+								<File Id="785083429"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DE6F3A80-1709-4B11-84AB-0E7D1D940878}">
+							<Media>
+								<File Id="122933092"/>
+								<File Id="124467238"/>
+								<File Id="849944759"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{56026797-69C1-417A-94C0-228969DF29BD}">
+							<Media>
+								<File Id="109428132"/>
+								<File Id="866944144"/>
+								<File Id="1061244245"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F393F1BF-8618-4458-BEB2-C5929F4FA069}">
+							<Media>
+								<File Id="221168830"/>
+								<File Id="518081296"/>
+								<File Id="863810165"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1656947812" Name="PlayerDeath" ObjectPath="\Events\Default Work Unit\Player\PlayerDeath" DurationType="OneShot" DurationMin="0.315527" DurationMax="1.552326">
 					<IncludedMemoryFiles>
@@ -330,7 +379,79 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="846198821" Name="PlayerLand" ObjectPath="\Events\Default Work Unit\Player\PlayerLand" DurationType="OneShot" DurationMin="0.336681" DurationMax="0.867451">
+				<Event Id="2256829703" Name="PlayerDeathCry_Devil" ObjectPath="\Events\Default Work Unit\Player\PlayerDeathCry_Devil" DurationType="OneShot" DurationMin="1.347101" DurationMax="1.347101">
+					<IncludedMemoryFiles>
+						<File Id="560798157" Language="SFX">
+							<ShortName>Character\Voice\Player_DevilDeathCry.wav</ShortName>
+							<Path>SFX/Character/Voice/Player_DevilDeathCry_441A87D3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="970781328" Name="PlayerDevil_Footsteps" ObjectPath="\Events\Default Work Unit\Player\PlayerDevil_Footsteps" DurationType="OneShot" DurationMin="0.256681" DurationMax="0.787451">
+					<IncludedMemoryFiles>
+						<File Id="83448871" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Fire01.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire01_1883D32B.wem</Path>
+						</File>
+						<File Id="109428132" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Water02.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Water02_259D6D5C.wem</Path>
+						</File>
+						<File Id="122933092" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Wood03.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Wood03_10C4C929.wem</Path>
+						</File>
+						<File Id="124467238" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Wood02.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Wood02_10C4C929.wem</Path>
+						</File>
+						<File Id="221168830" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Concrete01.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Concrete01_10C4C929.wem</Path>
+						</File>
+						<File Id="250510183" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Grass03.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Grass03_10C4C929.wem</Path>
+						</File>
+						<File Id="371435255" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Fire03.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire03_B87BF4DB.wem</Path>
+						</File>
+						<File Id="407521923" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Grass01.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Grass01_10C4C929.wem</Path>
+						</File>
+						<File Id="518081296" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Concrete02.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Concrete02_10C4C929.wem</Path>
+						</File>
+						<File Id="768539150" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Fire02.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Fire02_50F30B8A.wem</Path>
+						</File>
+						<File Id="785083429" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Grass02.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Grass02_10C4C929.wem</Path>
+						</File>
+						<File Id="849944759" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Wood01.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Wood01_10C4C929.wem</Path>
+						</File>
+						<File Id="863810165" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Concrete03.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Concrete03_10C4C929.wem</Path>
+						</File>
+						<File Id="866944144" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Water01.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Water01_30F1C52F.wem</Path>
+						</File>
+						<File Id="1061244245" Language="SFX">
+							<ShortName>Character\Footsteps\Player_Footsteps_Water03.wav</ShortName>
+							<Path>SFX/Character/Footsteps/Player_Footsteps_Water03_4C2379E6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="173479700" Name="PlayerDevil_Land" ObjectPath="\Events\Default Work Unit\Player\PlayerDevil_Land" DurationType="OneShot" DurationMin="0.336681" DurationMax="0.867451">
 					<IncludedMemoryFiles>
 						<File Id="83448871" Language="SFX">
 							<ShortName>Character\Footsteps\Player_Footsteps_Fire01.wav</ShortName>
@@ -479,6 +600,15 @@
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="3540735322" Name="Material_A" ObjectPath="\Switches\Default Work Unit\Material_A" GUID="{2D309CF9-B68B-4DFE-976E-20C112DD3170}">
+					<Switches>
+						<Switch Id="1113155261" Name="Fire_A" ObjectPath="\Switches\Default Work Unit\Material_A\Fire_A" GUID="{78630011-7331-4D38-A10E-E969A952DDD7}"/>
+						<Switch Id="1999829346" Name="Water_A" ObjectPath="\Switches\Default Work Unit\Material_A\Water_A" GUID="{56026797-69C1-417A-94C0-228969DF29BD}"/>
+						<Switch Id="3273515501" Name="Grass_A" ObjectPath="\Switches\Default Work Unit\Material_A\Grass_A" GUID="{4CEE9F2F-9C85-4227-8CE7-EFAD57A5CF1A}"/>
+						<Switch Id="996963488" Name="Concrete_A" ObjectPath="\Switches\Default Work Unit\Material_A\Concrete_A" GUID="{F393F1BF-8618-4458-BEB2-C5929F4FA069}"/>
+						<Switch Id="1217219538" Name="Wood_A" ObjectPath="\Switches\Default Work Unit\Material_A\Wood_A" GUID="{DE6F3A80-1709-4B11-84AB-0E7D1D940878}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{D8CAF166-49F6-44EA-BB67-0F869C76E12B}">
 					<Switches>
 						<Switch Id="2678880713" Name="Fire" ObjectPath="\Switches\Default Work Unit\Material\Fire" GUID="{EAE0FE13-6155-4C73-8BE7-12E517EF32BE}"/>

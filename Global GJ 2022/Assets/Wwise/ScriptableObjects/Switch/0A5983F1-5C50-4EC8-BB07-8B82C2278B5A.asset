@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Concrete
   id: 841620460
   guid: 0A5983F1-5C50-4EC8-BB07-8B82C2278B5A
-  WwiseSwitchGroupReference: {fileID: 0}
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: b712f90b06e294dffba788cf284d1eb6, type: 2}

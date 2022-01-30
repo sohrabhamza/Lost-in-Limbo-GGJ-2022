@@ -282,22 +282,26 @@ MonoBehaviour:
   airControl: 1
   allowDoubleJump: 0
   allowFloating: 0
-  myFootstep:
+  myAngelFootstep:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: ad69d4ecdd644475da9c44482287ade6, type: 2}
+  myDevilFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ca4927cae56fa4bf38e820395eea291a, type: 2}
   myJump:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a9892ee8701b6492bad389d6fa19452d, type: 2}
-  myLanding:
+  myAngelLanding:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 01fad3269fa534e618f2cf75a68e0013, type: 2}
+  myDevilLanding:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c1b8b2563a590450fb508b98ace34ec2, type: 2}
-  myDeath:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8c39d14f41b1347cabca1704f0672e3d, type: 2}
   myDevilCry:
     idInternal: 0
     valueGuidInternal: 
@@ -306,6 +310,14 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: f0fadd262b6d44347ba8193e484700ef, type: 2}
+  myDevilDeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24dc9487802cd442386c1ad36e195385, type: 2}
+  myAngelDeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8c39d14f41b1347cabca1704f0672e3d, type: 2}
   myDoubleJump:
     idInternal: 0
     valueGuidInternal: 
