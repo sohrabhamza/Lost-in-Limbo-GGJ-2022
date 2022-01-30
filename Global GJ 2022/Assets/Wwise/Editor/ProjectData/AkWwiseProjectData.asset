@@ -312,7 +312,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ba9aa457d67743439625e749376cf8be
       Path: Events/Default Work Unit/World Object/Box/Box_Land
-      maxAttenuation: 10
+      maxAttenuation: 30
       maxDuration: 0.625
       minDuration: 0.625
     - name: Box_Move
@@ -401,7 +401,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ffd879acb17cb64f9faf91313d01189d
       Path: Events/Default Work Unit/World Object/Fire/Fire_Extinguished
-      maxAttenuation: 10
+      maxAttenuation: 30
       maxDuration: 1.790104
       minDuration: 1.790104
     - name: FireBurning
@@ -424,7 +424,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a7af19b2a821c042a8b2564e2021505e
       Path: Events/Default Work Unit/World Object/Fire/FireBurning
-      maxAttenuation: 10
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
     - name: Lever
@@ -550,7 +550,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 11b3d03f2bf1cd448ac8f2b3091650c5
       Path: Events/Default Work Unit/World Object/Platform/PlatformStone_Crumble
-      maxAttenuation: 10
+      maxAttenuation: 30
       maxDuration: 3.13521
       minDuration: 2.636387
     - name: PlatformWood_Crumble
@@ -573,7 +573,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6d36d3e3d13c164a999b5202c0adc957
       Path: Events/Default Work Unit/World Object/Platform/PlatformWood_Crumble
-      maxAttenuation: 10
+      maxAttenuation: 30
       maxDuration: 2.678882
       minDuration: 2.678882
     - name: Play_MusicMain
@@ -856,7 +856,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9b9f46a6e7a5e649b6ed19144dd440b2
       Path: Events/Default Work Unit/World Object/Water/Water_Drain
-      maxAttenuation: 10
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
     - name: Water_DrainStop
@@ -879,7 +879,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a7db01081c8e9a49a6dd9c116e3198a5
       Path: Events/Default Work Unit/World Object/Water/Water_DrainStop
-      maxAttenuation: 10
+      maxAttenuation: 30
       maxDuration: 3
       minDuration: 3
     - name: World Object
@@ -1218,7 +1218,7 @@ MonoBehaviour:
     m_lastTime: -8585582988864775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000c0000000d0000000e000000130000001500000017000000190000001c000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000b0000000c000000130000001500000017000000190000001c0000002800000029000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
