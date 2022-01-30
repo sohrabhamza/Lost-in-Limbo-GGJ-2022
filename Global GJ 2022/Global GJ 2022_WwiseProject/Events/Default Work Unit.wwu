@@ -445,7 +445,7 @@
 								<Action Name="" ID="{A380719E-2EB0-4A29-BCE4-9CA5AA1EFFB1}" ShortID="410644888">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ambiance_DarkForest" ID="{0EC22777-4783-48E4-B3A5-551E70D5B7A8}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+											<ObjectRef Name="Ambiance_DarkForest" ID="{8B88E867-BB8A-4174-86E2-F4622A9993D6}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -456,7 +456,7 @@
 								<Action Name="" ID="{A42E5C63-F882-4106-A317-EE7EDC2C8825}" ShortID="231411406">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ambiance_Cave" ID="{A1BDED9E-9520-48DE-BFF6-C0AA727C0869}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+											<ObjectRef Name="Ambiance_DarkForest" ID="{8B88E867-BB8A-4174-86E2-F4622A9993D6}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -467,7 +467,36 @@
 								<Action Name="" ID="{3E906511-017B-4D60-818B-CEC6267F231B}" ShortID="794676191">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ambience" ID="{6CE56A78-D2F6-435D-A57A-07D84318C2D9}" WorkUnitID="{15C8F867-F232-4C31-A185-141F9E222FAE}"/>
+											<ObjectRef Name="Ambiance" ID="{8717F8FE-72AC-4914-9096-1C71F60170B0}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Cave_Stop" ID="{8BECC3D2-B040-469F-A6A2-D74345AE29CA}">
+							<ChildrenList>
+								<Action Name="" ID="{C38A79D6-B158-4DAA-8734-4D47D7C49F6D}" ShortID="894426980">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance_DarkForest" ID="{8B88E867-BB8A-4174-86E2-F4622A9993D6}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Forest_Stop" ID="{56D497B2-7B6C-4678-AF67-1BB72166CF79}">
+							<ChildrenList>
+								<Action Name="" ID="{0285C645-1DE3-4E1F-B752-C12674E79787}" ShortID="259131062">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambiance_DarkForest" ID="{8B88E867-BB8A-4174-86E2-F4622A9993D6}" WorkUnitID="{F67825B2-9F1C-48EE-B325-C96DBE3957CC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
