@@ -29,12 +29,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool allowFloating = true;
 
     [Header("Wwise Events")]
-    public AK.Wwise.Event myFootstep;
+    public AK.Wwise.Event myAngelFootstep;
+    public AK.Wwise.Event myDevilFootstep;
     public AK.Wwise.Event myJump;
-    public AK.Wwise.Event myLanding;
-    public AK.Wwise.Event myDeath;
+    public AK.Wwise.Event myAngelLanding;
+    public AK.Wwise.Event myDevilLanding;
     public AK.Wwise.Event myDevilCry;
     public AK.Wwise.Event myAngelCry;
+    public AK.Wwise.Event myDevilDeath;
+    public AK.Wwise.Event myAngelDeath;
     public AK.Wwise.Event myDoubleJump;
 
     // private fields
@@ -97,7 +100,7 @@ public class PlayerController : MonoBehaviour
 
     void Anim_myFootstep()
     {
-        myFootstep.Post(gameObject);
+        // play footsteps;
     }
 
     // Called at fixed intervals
@@ -105,7 +108,7 @@ public class PlayerController : MonoBehaviour
     {
         // Determines ground and ceiling collisions
         // isGrounded = false;
-        // ceilingHit = false;
+        ceilingHit = false;
 
         // foreach (Transform groundCheck in groundChecks)
         // {
@@ -120,9 +123,17 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D raycastHit2D = Physics2D.BoxCast(myCollider.bounds.center, new Vector3(myCollider.bounds.size.x - 0.1f, myCollider.bounds.size.y), 0f, Vector2.down, groundCheckDistance, playerLayer);
         isGrounded = raycastHit2D.collider != null;
 
-        if (isGrounded != lastFrameGrounded && isGrounded)
+        if (isGrounded != lastFrameGrounded && isGrounded && rb.velocity.y < -2)
         {
-            myLanding.Post(gameObject);
+            isEnabled = !isEnabled;
+            if (isEnabled && allowDoubleJump)
+            {
+                myAngelLanding.Post(gameObject);
+            }
+            else if (isEnabled && !allowDoubleJump)
+            {
+                myDevilLanding.Post(gameObject);
+            };
             Debug.Log("landed");
         }
         lastFrameGrounded = isGrounded;
@@ -138,7 +149,8 @@ public class PlayerController : MonoBehaviour
 
     void PerformAnimation()
     {
-        animator.SetFloat("Horizontal", Mathf.Abs(Mathf.Clamp(rb.velocity.x * 2, -1, 1)));
+        int roundedVel = Mathf.Abs(Mathf.Clamp(Mathf.RoundToInt(rb.velocity.x), -1, 1));
+        animator.SetFloat("Horizontal", Mathf.Abs(Mathf.Clamp(Input.GetAxis("Horizontal") * 2 * roundedVel, -1, 1)));
         animator.SetFloat("Vertical", rb.velocity.y);
         animator.SetBool("isGrounded", isGrounded);
     }
@@ -221,7 +233,7 @@ public class PlayerController : MonoBehaviour
             coyoteTimeRN = coyoteTime;
             readyFirstJump = false;
 
-           myJump.Post(gameObject);
+            myJump.Post(gameObject);
         }
     }
 

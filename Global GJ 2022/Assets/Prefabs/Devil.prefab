@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145241983824304710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.6115999, z: -10}
+  m_LocalPosition: {x: 0, y: -4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1644850072269958401}
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_Follow: {fileID: 8029495831828941596}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 2.37
+    OrthographicSize: 4
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 8029495831591408806}
   - component: {fileID: 8029495831591408804}
   - component: {fileID: 8029495831591408805}
+  - component: {fileID: 7821349674471211338}
   m_Layer: 0
   m_Name: Devil Sprite
   m_TagString: Untagged
@@ -199,6 +200,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7821349674471211338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8029495831591408807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6cac9c671df1e4cb8b1c6b91997bdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8029495831828941598
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,22 +282,26 @@ MonoBehaviour:
   airControl: 1
   allowDoubleJump: 0
   allowFloating: 0
-  myFootstep:
+  myAngelFootstep:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: ad69d4ecdd644475da9c44482287ade6, type: 2}
+  myDevilFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ca4927cae56fa4bf38e820395eea291a, type: 2}
   myJump:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a9892ee8701b6492bad389d6fa19452d, type: 2}
-  myLanding:
+  myAngelLanding:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 01fad3269fa534e618f2cf75a68e0013, type: 2}
+  myDevilLanding:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c1b8b2563a590450fb508b98ace34ec2, type: 2}
-  myDeath:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8c39d14f41b1347cabca1704f0672e3d, type: 2}
   myDevilCry:
     idInternal: 0
     valueGuidInternal: 
@@ -293,6 +310,14 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: f0fadd262b6d44347ba8193e484700ef, type: 2}
+  myDevilDeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24dc9487802cd442386c1ad36e195385, type: 2}
+  myAngelDeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8c39d14f41b1347cabca1704f0672e3d, type: 2}
   myDoubleJump:
     idInternal: 0
     valueGuidInternal: 
@@ -595,7 +620,7 @@ MonoBehaviour:
   m_ZDamping: 1
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
-  m_ScreenY: 0.8
+  m_ScreenY: 0.5
   m_CameraDistance: 10
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0

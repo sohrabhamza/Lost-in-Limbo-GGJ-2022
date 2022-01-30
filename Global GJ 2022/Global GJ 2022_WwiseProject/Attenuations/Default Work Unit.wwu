@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Fire Attenuation" ID="{7E6F757C-7D17-422F-8CD6-0BA1B7DCDEBF}" ShortID="209081496">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="10"/>
+						<Property Name="RadiusMax" Type="Real64" Value="35"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,17 +21,22 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>0.91146</XPos>
-											<YPos>-0</YPos>
+											<XPos>3.19011</XPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>5.98958</XPos>
-											<YPos>-11.3747</YPos>
+											<XPos>20.553365</XPos>
+											<YPos>-2.88003</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>34.9986</XPos>
+											<YPos>-200</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>35</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -58,12 +63,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>6.02865</XPos>
-											<YPos>24</YPos>
+											<XPos>17.591168</XPos>
+											<YPos>43</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>35</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>

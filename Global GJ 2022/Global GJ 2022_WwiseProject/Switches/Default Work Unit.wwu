@@ -12,6 +12,15 @@
 						<Switch Name="Wood" ID="{006DFE91-06F8-49A9-8EE9-1B05600C1272}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Material_A" ID="{2D309CF9-B68B-4DFE-976E-20C112DD3170}">
+					<ChildrenList>
+						<Switch Name="Fire_A" ID="{78630011-7331-4D38-A10E-E969A952DDD7}"/>
+						<Switch Name="Water_A" ID="{56026797-69C1-417A-94C0-228969DF29BD}"/>
+						<Switch Name="Grass_A" ID="{4CEE9F2F-9C85-4227-8CE7-EFAD57A5CF1A}"/>
+						<Switch Name="Concrete_A" ID="{F393F1BF-8618-4458-BEB2-C5929F4FA069}"/>
+						<Switch Name="Wood_A" ID="{DE6F3A80-1709-4B11-84AB-0E7D1D940878}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -62,12 +62,4 @@ public class Lever : MonoBehaviour
 
         lastState = state;
     }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.collider.tag == "Player")
-        {
-            LeverPushed.Post(gameObject);
-        }
-    }
 }

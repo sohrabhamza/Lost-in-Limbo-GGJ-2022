@@ -7,6 +7,11 @@ public class Door : MonoBehaviour
     [SerializeField] float openDistance;
     [SerializeField] float openSpeed;
     Vector2 defaultDoorPosition;
+    enum OpenDirection
+    {
+        x, y
+    }
+    [SerializeField] OpenDirection openDirection = OpenDirection.y;
     bool state;
 
     private void Start()
@@ -16,7 +21,8 @@ public class Door : MonoBehaviour
 
     private void Update()
     {
-        transform.localPosition = new Vector2(transform.localPosition.x, Mathf.Lerp(transform.localPosition.y, defaultDoorPosition.y + (state ? openDistance : 0), Time.deltaTime * openSpeed));
+        transform.localPosition = new Vector2(Mathf.Lerp(transform.localPosition.x, defaultDoorPosition.x + (state && openDirection == OpenDirection.x ? openDistance : 0), Time.deltaTime * openSpeed),
+        Mathf.Lerp(transform.localPosition.y, defaultDoorPosition.y + (state && openDirection == OpenDirection.y ? openDistance : 0), Time.deltaTime * openSpeed));
     }
 
     public void ChangeState()
