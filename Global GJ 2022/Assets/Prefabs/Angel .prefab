@@ -200,43 +200,43 @@ MonoBehaviour:
   myAngelFootstep:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a16c0214b91da43598f4d2009b50c754, type: 2}
   myDevilFootstep:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: ca4927cae56fa4bf38e820395eea291a, type: 2}
   myJump:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a9892ee8701b6492bad389d6fa19452d, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 38aa2be876aff4958894fe62a089dedd, type: 2}
   myAngelLanding:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 01fad3269fa534e618f2cf75a68e0013, type: 2}
   myDevilLanding:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: dc0100ba3220d4d97ab2641bc74d5617, type: 2}
   myDevilCry:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 2761a1f9eb2fb4c1d867a85a6ec96540, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: f25a44f1f20f04307861fa0eb0ecbed2, type: 2}
   myAngelCry:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f0fadd262b6d44347ba8193e484700ef, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: ec517a322aac94d0f8b7f134c6adb5a0, type: 2}
   myDevilDeath:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2c98666449b4b4a5e86c7f57bdc2a7a6, type: 2}
   myAngelDeath:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: b00c846377e09464caa310ca645493ad, type: 2}
   myDoubleJump:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: c3f4fc97e3aec40858fcc4652103eb2e, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: ca648dffe50154b3489e6507541e20cc, type: 2}
 --- !u!50 &7139464301815596748
 Rigidbody2D:
   serializedVersion: 4
@@ -585,7 +585,7 @@ MonoBehaviour:
   myFootstep:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a16c0214b91da43598f4d2009b50c754, type: 2}
 --- !u!1 &7139464302900411376
 GameObject:
   m_ObjectHideFlags: 0
