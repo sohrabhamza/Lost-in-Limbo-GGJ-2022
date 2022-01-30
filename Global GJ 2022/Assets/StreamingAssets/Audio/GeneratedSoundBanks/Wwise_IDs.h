@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID LEVER_ENGAGED = 280814033U;
         static const AkUniqueID PLATFORMSTONE_CRUMBLE = 1015853698U;
         static const AkUniqueID PLATFORMWOOD_CRUMBLE = 1203897778U;
+        static const AkUniqueID PLAY_AMBIENCE = 278617630U;
         static const AkUniqueID PLAY_MUSICMAIN = 3170845728U;
         static const AkUniqueID PLAY_MUSICMENU = 3221870102U;
         static const AkUniqueID PLAYER_DOUBLEJUMP = 979951458U;
@@ -66,6 +67,18 @@ namespace AK
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace PLAYER
+
+        namespace REGION
+        {
+            static const AkUniqueID GROUP = 1374134669U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID FOREST = 491961918U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace REGION
 
     } // namespace STATES
 

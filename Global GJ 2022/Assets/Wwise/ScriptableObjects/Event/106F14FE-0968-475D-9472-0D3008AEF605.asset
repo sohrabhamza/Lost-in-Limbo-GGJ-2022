@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 735647aca00804efdbfd9b630500f971, type: 3}
   m_Name: 106F14FE-0968-475D-9472-0D3008AEF605
   m_EditorClassIdentifier: 
-  objectName: PlayerDeath_Angel
-  id: 2251509474
+  objectName: PlayerDeath
+  id: 1656947812
   guid: 106F14FE-0968-475D-9472-0D3008AEF605
