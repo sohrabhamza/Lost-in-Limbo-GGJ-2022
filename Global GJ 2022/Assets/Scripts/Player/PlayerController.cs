@@ -114,10 +114,10 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D raycastHit2D = Physics2D.BoxCast(myCollider.bounds.center, new Vector3(myCollider.bounds.size.x - 0.1f, myCollider.bounds.size.y), 0f, Vector2.down, groundCheckDistance, playerLayer);
         isGrounded = raycastHit2D.collider != null;
 
-        if (isGrounded != lastFrameGrounded && isGrounded && rb.velocity.y > 0)
+        if (isGrounded != lastFrameGrounded && isGrounded && rb.velocity.y < -2)
         {
             myLanding.Post(gameObject);
-            Debug.Log("landed");
+            Debug.Log("landed" + rb.velocity.y);
         }
         lastFrameGrounded = isGrounded;
 
@@ -132,12 +132,13 @@ public class PlayerController : MonoBehaviour
 
     void PerformAnimation()
     {
-        animator.SetFloat("Horizontal", Mathf.Abs(Mathf.Clamp(rb.velocity.x * 2, -1, 1)));
+        int roundedVel = Mathf.Abs(Mathf.Clamp(Mathf.RoundToInt(rb.velocity.x), -1, 1));
+        animator.SetFloat("Horizontal", Mathf.Abs(Input.GetAxis("Horizontal") * 2 * roundedVel));
         animator.SetFloat("Vertical", rb.velocity.y);
         animator.SetBool("isGrounded", isGrounded);
     }
 
-    void MyInput()  //Input should be taken in update
+    void MyInput()  //Input should be taken in update 
     {
         if (isEnabled)
         {
