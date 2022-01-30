@@ -213,7 +213,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 08faea538036134e8264fa1b2275d791
     GuidInternal: 
-    m_lastTime: -8585580644384775808
+    m_lastTime: -8585580534704775808
     List:
     - name: Ambience
       guid: 5a27c3b560abc04e93babe156b651919
@@ -250,6 +250,26 @@ MonoBehaviour:
         guid: 6409949b0a76f541adf4706b9b1a4c59
       Path: Events/Default Work Unit/Ambience/Ambience_Cave
       maxAttenuation: 0
+      maxDuration: 24.078947
+      minDuration: 24.078947
+    - name: Ambience_Cave_Stop
+      guid: d2c3ec8b40b09f46a6a2d74345ae29ca
+      id: 3808359918
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 08faea538036134e8264fa1b2275d791
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 5a27c3b560abc04e93babe156b651919
+      - ElementName: Ambience_Cave_Stop
+        ObjectType: 3
+        guid: d2c3ec8b40b09f46a6a2d74345ae29ca
+      Path: Events/Default Work Unit/Ambience/Ambience_Cave_Stop
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Ambience_Forest
@@ -269,6 +289,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 221cac19c5cda0418a3e21bdbab57740
       Path: Events/Default Work Unit/Ambience/Ambience_Forest
+      maxAttenuation: 0
+      maxDuration: 24.078947
+      minDuration: 24.078947
+    - name: Ambience_Forest_Stop
+      guid: b297d4566c7b7846af671bb72166cf79
+      id: 1773936802
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 08faea538036134e8264fa1b2275d791
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: 5a27c3b560abc04e93babe156b651919
+      - ElementName: Ambience_Forest_Stop
+        ObjectType: 3
+        guid: b297d4566c7b7846af671bb72166cf79
+      Path: Events/Default Work Unit/Ambience/Ambience_Forest_Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1462,7 +1502,7 @@ MonoBehaviour:
     m_lastTime: -8585582988864775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000090000000a0000000c0000000d0000000e00000010000000110000001200000015000000190000001a0000003100000036000000390000003c0000003f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

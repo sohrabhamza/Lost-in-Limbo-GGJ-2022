@@ -19,21 +19,29 @@
 				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Cave"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4211159425">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1315868718">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3597471619" Name="Ambience_Cave" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Cave" DurationType="Infinite">
+				<Event Id="3597471619" Name="Ambience_Cave" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Cave" DurationType="OneShot" DurationMin="24.078947" DurationMax="24.078947">
 					<IncludedMemoryFiles>
 						<File Id="409593732" Language="SFX">
 							<ShortName>Ambiance_Cave.wav</ShortName>
 							<Path>SFX/Ambiance_Cave_D79FB2B7.wem</Path>
 						</File>
+						<File Id="733703928" Language="SFX">
+							<ShortName>Ambiance_DarkForest.wav</ShortName>
+							<Path>SFX/Ambiance_DarkForest_D79FB2B7.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1481642983" Name="Ambience_Forest" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Forest" DurationType="Infinite">
+				<Event Id="1481642983" Name="Ambience_Forest" ObjectPath="\Events\Default Work Unit\Ambience\Ambience_Forest" DurationType="OneShot" DurationMin="24.078947" DurationMax="24.078947">
 					<IncludedMemoryFiles>
+						<File Id="409593732" Language="SFX">
+							<ShortName>Ambiance_Cave.wav</ShortName>
+							<Path>SFX/Ambiance_Cave_D79FB2B7.wem</Path>
+						</File>
 						<File Id="733703928" Language="SFX">
 							<ShortName>Ambiance_DarkForest.wav</ShortName>
 							<Path>SFX/Ambiance_DarkForest_D79FB2B7.wem</Path>
@@ -590,15 +598,6 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
-			<StateGroups>
-				<StateGroup Id="1374134669" Name="Region" ObjectPath="\States\Default Work Unit\Region" GUID="{B7010CAC-E7BD-4BDC-B514-2BE5D7B61E1A}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Region\None" GUID="{BBA388F9-9946-4CA0-91EF-280BD104EAF3}"/>
-						<State Id="491961918" Name="Forest" ObjectPath="\States\Default Work Unit\Region\Forest" GUID="{578497CA-E973-47FC-894D-8C0612A85EB2}"/>
-						<State Id="4122393694" Name="Cave" ObjectPath="\States\Default Work Unit\Region\Cave" GUID="{29ABDDFE-8265-4665-84E2-9DFBAB4C31DF}"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="3540735322" Name="Material_A" ObjectPath="\Switches\Default Work Unit\Material_A" GUID="{2D309CF9-B68B-4DFE-976E-20C112DD3170}">
 					<Switches>

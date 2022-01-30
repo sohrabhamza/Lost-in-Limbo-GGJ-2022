@@ -49,6 +49,10 @@ State	ID	Name	State Group			Notes
 	748895195	None	Region			
 	4122393694	Cave	Region			
 
+Custom State	ID	Name	State Group	Owner		Notes
+	17007804	Cave	Region	\Interactive Music Hierarchy\Default Work Unit\Ambiance\Ambiance_DarkForest\Ambiance_DarkForest		
+	451388768	Forest	Region	\Interactive Music Hierarchy\Default Work Unit\Ambiance\Ambiance_DarkForest\Ambiance_Cave		
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23273423	BoxWaterSlush	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Object\BoxWaterSlush_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\BoxWaterSlush		240144
 	23537241	LeverPushEnd	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Object\LeverPushEnd_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\LeverPushEnd		66044
@@ -70,7 +74,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	371435255	Player_Footsteps_Fire03	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Character\Footsteps\Player_Footsteps_Fire03_B87BF4DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Devil_Footsteps\Footsteps_Fire\Player_Footsteps_Fire03		91348
 	375181829	Player_Stabbed02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Character\Death Scenario\Player_Stabbed02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Death Scenario\Player_Death\Stabbed\Player_Stabbed02		68144
 	407521923	Player_Footsteps_Grass01	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Character\Footsteps\Player_Footsteps_Grass01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Devil_Footsteps\Footsteps_Grass\Player_Footsteps_Grass01		62344
-	409593732	Ambiance_Cave	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Ambiance_Cave_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Ambiance_Cave		4608144
+	409593732	Ambiance_Cave	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Ambiance_Cave_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Ambiance\Ambiance_DarkForest\Ambiance_Cave		4608144
 	414548511	Box_DragStart	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Object\Box_DragStop_89F84D3D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Box_DragStart		59888
 	452080405	Fire_Extinguish	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Object\Fire_Extinguish_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Fire_Extinguish		343844
 	480945929	Box_Drop02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Object\Box_Drop02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Box_Drop\Box_Drop02		120144
@@ -86,7 +90,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	703289118	Player_Stabbed03	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Character\Death Scenario\Player_Stabbed03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Death Scenario\Player_Death\Stabbed\Player_Stabbed03		68144
 	706541304	Fire	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Object\Fire_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Object\Fire		4704144
 	731794385	Player_Jump02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Character\Jump\Player_Jump02_B0394654.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Jump\Jump\Player_Jump02		149644
-	733703928	Ambiance_DarkForest	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Ambiance_DarkForest_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Ambiance_DarkForest		4872144
+	733703928	Ambiance_DarkForest	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Ambiance_DarkForest_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Ambiance\Ambiance_DarkForest\Ambiance_DarkForest		4872144
 	768539150	Player_Footsteps_Fire02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Character\Footsteps\Player_Footsteps_Fire02_50F30B8A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Devil_Footsteps\Footsteps_Fire\Player_Footsteps_Fire02		73020
 	785083429	Player_Footsteps_Grass02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Character\Footsteps\Player_Footsteps_Grass02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\Devil_Footsteps\Footsteps_Grass\Player_Footsteps_Grass02		62344
 	831851199	Player_Burntup02	Y:\Documents\GGJ-2022\Global GJ 2022\Global GJ 2022_WwiseProject\.cache\Mac\SFX\Character\Death Scenario\Player_Burntup02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Death Scenario\Player_Death\Burn\Player_Burntup02		197744
